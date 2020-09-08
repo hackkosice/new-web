@@ -15,7 +15,13 @@ homepage_banner:
   button2:
     label: Read more
     link: /hk20
-    
+
+thank_you_banner:
+  bgImage: images/bg/hk-team.png
+  subtitle: |
+    26 projects. 32 hours of live stream.
+  title: "Thank you"
+
 homepage_features:
   title: "More than a hackathon!"
   featureItem:
@@ -115,10 +121,11 @@ partners_sponsors:
     - id: challengerocket
 ---
 
-{{< section type="banner" config="homepage_banner" >}}
-Come and build your wildest ideas in 24 hours, surrounded with great designers, entrepreneurs, ideators and hyped atmosphere.
-    
-Hack Kosice 2020 is taking place on **5—6 September**, **online** and in **hubs** worldwide.
+{{< section type="banner" config="thank_you_banner" >}}
+
+for an amazing weekend full of innovative ideas, creative projects and you, **hackers**!
+
+Hope you enjoyed Hack Kosice as we did. See you on **Hack Kosice 2021**.
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
