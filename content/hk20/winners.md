@@ -33,7 +33,7 @@ winners:
   title: Winning teams
   numbering: false
   serviceItem:
-    - title: easy nákup
+    - title: MoneyWorks
       badges:
         - text: Overall winner of Hack Kosice 2019
           type: warning
