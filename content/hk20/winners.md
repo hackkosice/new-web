@@ -162,10 +162,6 @@ Hack Kosice 2020 was slightly different than the previous year. Due to the coron
 
 {{< section class="text-center pt-0" >}}
 
-{{< section type="sideimg" config="prezident" >}}
-We are happy, that the **President of the Slovak Republic**, Andrej Kiska, took the patronage over Hack Kosice 2019.
-{{< /section >}}
-
 ## Hack Kosice - more than a hackathon
 
 <div class="col-lg-6 mt-5 d-inline-block">
