@@ -85,19 +85,17 @@ winners:
         Team: 
         - [Kamil Iwanowski](https://devpost.com/kamiliwanowski75)
         - [Mateusz Mazurkiewicz](https://devpost.com/mateusz-a-mazurkiewicz)
-      image: images/bg/it_valley.jpg
-    - title: košice hack token - KHT
+      image: images/winners/assets.png
+    - title: Visma Assistant Challenge
       button:
         label: See on Devpost
-        link: https://devpost.com/software/kosice-hack-token
+        link: https://devpost.com/software/visma-assistant-challenge
       content: |
-        **Winners of Blockchain for Students Challenge by Decent**
+        **Winners of Best use of Google Cloud**
         
         Team:
-        - [Peter Ridilla](https://devpost.com/pridilla)
-        - [Matej Tarca](https://devpost.com/matejtarca)
-        - [Michal Masrna](https://devpost.com/michalmasrna1)
-      image: images/bg/decent.jpg
+        - [Matei Stan](https://devpost.com/mateistan)
+      image: images/winners/Visma_Assitant_Challenge.png
     - title: LinguaStream
       button:
         label: See on Devpost
