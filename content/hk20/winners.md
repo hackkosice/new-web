@@ -96,31 +96,19 @@ winners:
         Team:
         - [Matei Stan](https://devpost.com/mateistan)
       image: images/winners/Visma_Assitant_Challenge.png
-    - title: LinguaStream
+    - title: LesionAI
       button:
         label: See on Devpost
-        link: https://devpost.com/software/linguastream
+        link: https://devpost.com/software/lesionai
       content: |
-        **Winners of Translation Challenge by T-Systems**
+        **Second Place**
         
         Team:
-        - [Apurv Mishra](https://devpost.com/apurvmishra99)
-        - [Oleksii Chernyshov](https://devpost.com/ochernyshov)
-        - [Kostiantyn Miniailo](https://devpost.com/kos99m)
-      image: images/bg/lingua_stream.jpg
-    - title: QKey
-      button:
-        label: See on Devpost
-        link: https://devpost.com/software/qkey
-      content: |     
-        **Winners of Machine Learning Challenge by VSL Software**
-        
-        Team:
-        - [Balaji Nagaraj Kumar](https://devpost.com/balaji9300)
-        - [Dāvis Kūma](https://devpost.com/daviskuma1)
-        - [Jorik Schellekens](https://devpost.com/joriksch)
-        - Sudha Rani Ravindran
-      image: images/bg/qkey.jpg
+        - [Gadodia](https://devpost.com/vgadodia)
+        - [Vinchhi](https://devpost.com/NandVinchhi)
+        - [Muntaser Syed](https://devpost.com/jemsbhai)
+        - [Ebtesam Haque](https://devpost.com/ebtesam686)
+      image: images/winners/LesionAI.png
     - title: coViz19
       button:
         label: See on Devpost
