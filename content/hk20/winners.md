@@ -127,16 +127,16 @@ winners:
 counter1:
   counterItem :
     - title : "Registrations"
-      count : "551"
+      count : "739"
       unit : ""
     - title : "Countries"
       count : "45"
       unit : ""
     - title : "Attendees"
-      count : "162"
+      count : "149"
       unit : ""
-    - title : "Sponsors"
-      count : "27"
+    - title : "Partners"
+      count : "37+"
       unit : ""
       
 testimonial1:
