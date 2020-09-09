@@ -1,10 +1,10 @@
 ---
-title: Challenges
+title: Winners
 date: 2020-08-15T11:46:13+00:00
-description: Challenges for HK 2020!
+description: Winners of HK 2020!
 menu:
   main:
-    name: Challenges
+    name: Winners
     parent: hk20
     weight: 19
 use_sections: true
@@ -12,13 +12,14 @@ use_sections: true
 hardware:
   numbering: false
   serviceItem:
-    - title: Regular Investing for Gen-Z by Tatra Banka
+    - title: MoneyWorks
       content: |
-        Create easy and intuitive feature that helps with investing to funds using regular deposits, which can be changed by the user. Create onboarding, motivation to invest and well-arranged infographics about the status of user's portfolio.
+        **Challenge:** Regular Investing for Gen-Z by Tatra Banka
         
-        Our current solution is more used by experienced investors and older generation, whilst new start-ups especially target Generation Z.
+        Our easy-to-use platform offers a clear explanation for generation Z how and where to invest their money. On top of it, we focus on investments, that the young generation cares most about - green energy, social issues, and environmental problems. We offer a number of funds to invest such as the Global Clean Energy Fund and Women's Empowerment ETF.The investing experience is streamlined - the user sets up their preferences and their monthly contribution to their portfolio.
+ 
       
-      image: images/sponsors/tatra_banka.png
+      image: images/sponsors/tatrabanka.png
 
     - title: Digitalization in Healthcare by Siemens Healthineers
       content: |
