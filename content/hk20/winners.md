@@ -112,9 +112,6 @@ winners:
       button:
         label: See on Devpost
         link: https://devpost.com/software/qkey
-      badges:
-        - text: Overall third place at Hack Kosice 2019
-          type: primary
       content: |     
         **Winners of Machine Learning Challenge by VSL Software**
         
