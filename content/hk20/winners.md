@@ -11,7 +11,7 @@ use_sections: true
 
 venue_promo:
   title: 'Venue: Promiseo studio'
-  image: images/winners/Studio.jpg
+  image: images/winners/Studio.JPG
   format: "1080x720 q80 jpg"
 
 
