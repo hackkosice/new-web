@@ -185,14 +185,12 @@ We are happy, that the **President of the Slovak Republic**, Andrej Kiska, took 
 {{< /section >}}
 
 
-
 {{< section type="counter" config="counter1" / >}}
 
-
+{{< section type="sideimg" config="prezident" >}}
+We are happy, that the **President of the Slovak Republic**, Andrej Kiska, took the patronage over Hack Kosice 2019.
+{{< /section >}}
 
 
 {{< section type="services" config="winners" / >}}
-
-{{< section type="testimonial" config="testimonial1" / >}}
-
 
