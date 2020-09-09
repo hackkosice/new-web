@@ -10,9 +10,15 @@ menu:
 use_sections: true
 
 venue_promo:
-  title: 'Venue: Promiseo studio'
-  image: images/winners/moneyworks.png
-  format: "1080x720 q80 jpg"
+  title: 'Venue: Kasárne Kulturpark'
+  image: images/kasarne_kulturpark.jpg
+  format: "1080x720 q60 jpg"
+  #link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
+  button:
+    enable: true
+    label: See on Google Maps
+    link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
+
 
 prezident:
   title: 'Patronage'
