@@ -90,6 +90,9 @@ winners:
       button:
         label: See on Devpost
         link: https://devpost.com/software/visma-assistant-challenge
+      badges:
+        - text: Overall runner-ups of Hack Kosice 2019
+          type: secondary
       content: |
         **Winners of Best use of Google Cloud**
         
@@ -124,31 +127,6 @@ winners:
         - [Nicase Camerlynck](https://devpost.com/nicase)
         - [atmarc Marc Amorós](https://devpost.com/atmarc)
       image: images/winners/coviz.png
-    - title: Decent Life
-      button:
-        label: See on Devpost
-        link: https://devpost.com/software/decent-life
-      content: |
-        **Winners of Best use of Google Cloud Platform Challenge by Google Cloud Platform**
-        
-        Team:
-        - [Maurice Yap](https://devpost.com/mauriceyap)
-        - [Tiger-Cross](https://devpost.com/Tiger-Cross)
-        - [Gerald Low](https://devpost.com/geraldlow7)
-        - [Jonas](https://devpost.com/jonas-scholz123)
-      image: images/bg/decent_life.jpg
-    - title: Florence
-      button:
-        label: See on Devpost
-        link: https://devpost.com/software/florence-8nfqil
-      content: |
-        **Winners of Best Domain Registered with Domain.com Challenge by Domain.com**
-        
-        Team:
-        - [Jakub Suchánek](https://devpost.com/suchanekj)
-        - [Paul Wernicke](https://devpost.com/paulwernicke)
-        - [HSaddiq](https://devpost.com/HSaddiq)
-      image: images/bg/florence.jpg
 counter1:
   counterItem :
     - title : "Registrations"
