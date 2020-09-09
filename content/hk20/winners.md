@@ -16,7 +16,7 @@ hardware:
       content: |
         **Challenge:** Regular Investing for Gen-Z by Tatra Banka
         
-        Our easy-to-use platform offers a clear explanation for generation Z how and where to invest their money. On top of it, we focus on investments, that the young generation cares most about - green energy, social issues, and environmental problems. We offer a number of funds to invest such as the Global Clean Energy Fund and Women's Empowerment ETF.The investing experience is streamlined - the user sets up their preferences and their monthly contribution to their portfolio.
+        Our easy-to-use platform offers a clear explanation for generation Z how and where to invest their money. On top of it, we focus on investments, that the young generation cares most about - green energy, social issues, and environmental problems. We offer a number of funds to invest such as the Global Clean Energy Fund and Women's Empowerment ETF.The investing experience is streamlined- the user sets up their preferences and their monthly contribution to their portfolio.
  
       
       image: images/winners/moneyworks.png
