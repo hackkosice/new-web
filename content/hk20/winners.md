@@ -166,7 +166,7 @@ Hack Kosice 2020 was slightly different than the previous year. Due to the coron
 
 <div class="col-lg-6 mt-5 d-inline-block">
   <div class="aspect-16-9">
-    <iframe src="https://www.youtube.com/watch?v=zMV-ekKdvP4&ab_channel=HackKosice" frameborder="0" allowfullscreen="true" class="aspect-box"></iframe>
+    <iframe src="https://www.youtube.com/embed/b4oVTWkvXyk" frameborder="0" allowfullscreen="true" class="aspect-box"></iframe>
   </div>
 </div>
 
