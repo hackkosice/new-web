@@ -75,21 +75,16 @@ winners:
          - [Patrik Koscelansky](https://devpost.com/PatrikKoscelansky)
          - [Samuel Pitonak](https://devpost.com/sampittko)
       image: images/winners/Visma_Assitant.png
-    - title: SafeBeat
+    - title: Data visualisation and insight into UPJS assets challenge
       button:
         label: See on Devpost
-        link: https://devpost.com/software/safebeat
-      badges:
-        - text: Overall runner-ups of Hack Kosice 2019
-          type: secondary
+        link: https://devpost.com/software/data-visualisation-and-insight-into-upjs-assets-challenge
       content: |
-        **Winners of Best Yougsters Challenge by IT Valley Košice**
+        **Winners of Assets Challenge by UPJS**
         
         Team: 
-        - [arunkumar](https://devpost.com/nurahsia)
-        - [Aishwarya Manjunath Shetty](https://devpost.com/aishetty)
-        - [Rachitha Gali](https://devpost.com/rachithaash)
-        - [Leon Mlodzian](https://devpost.com/LeonMlodzian)
+        - [Kamil Iwanowski](https://devpost.com/kamiliwanowski75)
+        - [Mateusz Mazurkiewicz](https://devpost.com/mateusz-a-mazurkiewicz)
       image: images/bg/it_valley.jpg
     - title: košice hack token - KHT
       button:
