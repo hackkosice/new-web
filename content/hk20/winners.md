@@ -62,16 +62,19 @@ winners:
         - [Victor-Alexandru Papa](https://devpost.com/victorpapa)
         - [Jorik Schellekens](https://devpost.com/joriksch)
       image: images/winners/Infectiness.png
-    - title: Moneasy
+    - title: Visma Assistant
       button:
         label: See on Devpost
-        link: https://devpost.com/software/moneasy
+        link: https://devpost.com/software/visma-assistant
       content: |
-        **Winners of UX/UI Money Management Challenge by Tatra Banka**
+        **Winners of Visma Assistant Challenge by Visma**
+        **&**
+        **Best Domain Registered with Domain.com** 
         
         Team:
-         - [Daniel Breiner](https://devpost.com/DanielBreiner)
-      image: images/bg/moneasy.jpg
+         - [Patrik Koscelansky](https://devpost.com/PatrikKoscelansky)
+         - [Samuel Pitonak](https://devpost.com/sampittko)
+      image: images/winners/Visma_Assitant.png
     - title: SafeBeat
       button:
         label: See on Devpost
