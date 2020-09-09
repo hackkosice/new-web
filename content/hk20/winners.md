@@ -1,88 +1,237 @@
 ---
 title: Winners
-date: 2020-08-15T11:46:13+00:00
-description: Winners of HK 2020!
+date: 2020-07-06T11:46:13+00:00
+description: Winners of HK20
 menu:
   main:
-    name: Winners
+    name: Challenges
     parent: hk20
     weight: 19
 use_sections: true
 
-hardware:
+venue_promo:
+  title: 'Venue: Kasárne Kulturpark'
+  image: images/kasarne_kulturpark.jpg
+  format: "1080x720 q60 jpg"
+  #link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
+  button:
+    enable: true
+    label: See on Google Maps
+    link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
+    
+prezident:
+  title: 'Patronage'
+  image: images/bg/prezident.jpg
+  format: "400x267 q60 jpg"
+  #link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
+  button:
+    enable: false
+    label: See on Google Maps
+    link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
+    
+winners:
+  title: Winning teams
   numbering: false
   serviceItem:
-    - title: MoneyWorks
+    - title: easy nákup
+      badges:
+        - text: Overall winner of Hack Kosice 2019
+          type: warning
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/weinvestin-tech
       content: |
-        **Challenge:** Regular Investing for Gen-Z by Tatra Banka
+        **Winner of Regular Investing for Gen-Z by TatraBanka**
         
-        Our easy-to-use platform offers a clear explanation for generation Z how and where to invest their money. On top of it, we focus on investments, that the young generation cares most about - green energy, social issues, and environmental problems. We offer a number of funds to invest such as the Global Clean Energy Fund and Women's Empowerment ETF.The investing experience is streamlined- the user sets up their preferences and their monthly contribution to their portfolio.
- 
-      
+        Team:
+        - [Simonas Mulevičius](https://devpost.com/muleviciussimonas)
+        - [Mykolas Krupauskas](https://devpost.com/MKrupauskas)
+        - [Justas Janickas](https://devpost.com/jj487)
+        - [Vytas Mulevicius](https://devpost.com/vytasmulevicius)
       image: images/winners/moneyworks.png
-
-    - title: Digitalization in Healthcare by Siemens Healthineers
+    - title: Medify
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/medify
       content: |
-        The challenge is to create application that helps directly patients and doctors or healthcare providers like insurance companies etc.  Examples of the application could be AI based decision system to predict Covid-19 new cases, detection of cancers on CT/Xray images. Application might improve flow of payments for healthcare reimbursements. You are free to choose the area where you would like to improve the Digitalization in Healthcare.
-
-
-      image: images/sponsors/siemens_transparent.png
-
-    - title: Visma Assistant by Visma
+        **Winners of Efficient and Faster Care Challenge by mediworx software solutions, a.s.**
+        
+        Team:
+        - [Andrew Kvapil](https://devpost.com/viluon)
+        - [Ichtil](https://devpost.com/Ichtil)
+      image: images/bg/medify.jpg
+    - title: Moneasy
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/moneasy
       content: |
+        **Winners of UX/UI Money Management Challenge by Tatra Banka**
         
-        **Idea:** 
-        Help our newcomers and colleagues to reach out to the information they need quicker and flexible via AI Voice Assistant. As a newcomer it's difficult to handle all information from the very beginning, so to keep on track you need a smart assistant to help you out. And because we're Google positive, we'd be happy if you'll use Google as a preferred platform. Other preferred integrations are Google Calendar, Slack, etc. 
-        
-        **What we would like to see as the end result:** 
-        We need an administrative dashboard where the girls from back-office can add common questions and answers to them, they should be able to set events which you want to attend. We would like to have the ability to talk to the Visma Assistant via Google Assistant and also we would like to use it inside our Slack.       
-        
-        **Sample:**
-        My first days in the company. It is difficult for me to know which events I need to attend, when I need to fill my working hours form and so on. But lucky me, in the company we have a Virtual Assistant to help with these everyday tasks.  I heard from a colleague that we have traditional breakfasts each month, but I have  no event in my calendar. I also heard from a colleague that our Virtual Assistant knows everything about these types of events, and can invite me to them. So I am going to ask it about the event:
-          
-        
-          - Hello Visma Assistant.
-          - Hello Peter. Welcome to Visma. How can I help you?
-          - I would like to attend Visma traditional breakfast.
-          - Visma traditional breakfast is every month on 2nd Tuesday from 7:30 to 8:30. Do you want me to add it to your calendar?
-          - Yes please.
-          - Okay, Visma traditional breakfast event added to your calendar.
-          - Thank you.
-
-      image: images/sponsors/visma.png
-
-    - title: Machine Learning in healthcare by VSL
+        Team:
+         - [Daniel Breiner](https://devpost.com/DanielBreiner)
+      image: images/bg/moneasy.jpg
+    - title: SafeBeat
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/safebeat
+      badges:
+        - text: Overall runner-ups of Hack Kosice 2019
+          type: secondary
       content: |
-        We decided to organize a challenge connected to healthcare and machine learning. Our concept is to let you develop your own ideas in your own way. You can choose a topic from healthcare, the choice is yours (e.g. ECG classification, CT image recognition, recommender system for therapy, prediction of health problems, COVID-19, etc.). We expect an interesting solution from the machine learning view. Projects finished with graphical UI will be appreciated, too.
-        We expect:
+        **Winners of Best Yougsters Challenge by IT Valley Košice**
         
-          - processing and analysis of data
-          - getting key information from data
-          - use of machine learning algorithms in apps
-          - unique ideas in coding
-          
-          Good luck!
-
-
-
-      image: images/sponsors/vsl.png
-
-    - title: Assets challenge by UPJŠ
+        Team: 
+        - [arunkumar](https://devpost.com/nurahsia)
+        - [Aishwarya Manjunath Shetty](https://devpost.com/aishetty)
+        - [Rachitha Gali](https://devpost.com/rachithaash)
+        - [Leon Mlodzian](https://devpost.com/LeonMlodzian)
+      image: images/bg/it_valley.jpg
+    - title: košice hack token - KHT
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/kosice-hack-token
       content: |
-        Cybersecurity plays an important role in companies. In order for companies to have an overview of cyber threats and attacks targeting their computer network, it is necessary to effectively evaluate the obtained data. Feel free to use this one-week dataset from real computer networks in the Czech Republic containing over 500 million security alerts. 
-
-      image: images/sponsors/upjs.png
-
-
+        **Winners of Blockchain for Students Challenge by Decent**
+        
+        Team:
+        - [Peter Ridilla](https://devpost.com/pridilla)
+        - [Matej Tarca](https://devpost.com/matejtarca)
+        - [Michal Masrna](https://devpost.com/michalmasrna1)
+      image: images/bg/decent.jpg
+    - title: LinguaStream
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/linguastream
+      content: |
+        **Winners of Translation Challenge by T-Systems**
+        
+        Team:
+        - [Apurv Mishra](https://devpost.com/apurvmishra99)
+        - [Oleksii Chernyshov](https://devpost.com/ochernyshov)
+        - [Kostiantyn Miniailo](https://devpost.com/kos99m)
+      image: images/bg/lingua_stream.jpg
+    - title: QKey
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/qkey
+      badges:
+        - text: Overall third place at Hack Kosice 2019
+          type: primary
+      content: |     
+        **Winners of Machine Learning Challenge by VSL Software**
+        
+        Team:
+        - [Balaji Nagaraj Kumar](https://devpost.com/balaji9300)
+        - [Dāvis Kūma](https://devpost.com/daviskuma1)
+        - [Jorik Schellekens](https://devpost.com/joriksch)
+        - Sudha Rani Ravindran
+      image: images/bg/qkey.jpg
+    - title: KEnRoute
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/kenroute
+      content: |
+        **Winners of Kosice City Challenge by Kosice Region**
+        
+        Team:
+        - [Adam Radvan](https://devpost.com/karrzo)
+        - [Daniel](https://devpost.com/danzatt)
+        - [Michal Slavik](https://devpost.com/slavik786)
+        - [martinkrsak3](https://devpost.com/martinkrsak3)
+      image: images/bg/kenroute.jpg
+    - title: Decent Life
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/decent-life
+      content: |
+        **Winners of Best use of Google Cloud Platform Challenge by Google Cloud Platform**
+        
+        Team:
+        - [Maurice Yap](https://devpost.com/mauriceyap)
+        - [Tiger-Cross](https://devpost.com/Tiger-Cross)
+        - [Gerald Low](https://devpost.com/geraldlow7)
+        - [Jonas](https://devpost.com/jonas-scholz123)
+      image: images/bg/decent_life.jpg
+    - title: Florence
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/florence-8nfqil
+      content: |
+        **Winners of Best Domain Registered with Domain.com Challenge by Domain.com**
+        
+        Team:
+        - [Jakub Suchánek](https://devpost.com/suchanekj)
+        - [Paul Wernicke](https://devpost.com/paulwernicke)
+        - [HSaddiq](https://devpost.com/HSaddiq)
+      image: images/bg/florence.jpg
+counter1:
+  counterItem :
+    - title : "Registrations"
+      count : "551"
+      unit : ""
+    - title : "Countries"
+      count : "45"
+      unit : ""
+    - title : "Attendees"
+      count : "162"
+      unit : ""
+    - title : "Sponsors"
+      count : "27"
+      unit : ""
+      
+testimonial1:
+  title : "What they said about Hack Kosice 2019"
+  content : "Hack Kosice 2019 hosted many hackers, sponsors, partners and friends. Here is what some of them said about the event."
+  testimonialItem:
+      - name : "Aaron"
+        image : images/institutions/mlhsquared.png
+        location : "Major League Hacking"
+        content : “I have attended more than 50 hackathons worldwide and Hack Kosice is among the best events I have been to. Despite it being the first edition of Hack Kosice, the event felt really well put together and the production quality was absolutely top notch.”
+      - name : "Mediworx - software solutions a.s."
+        image : images/institutions/mediworxsquared.jpg
+        location : "Platinum sponsor"
+        content : “We are really happy that we could participate with all of you. It was definitely a great weekend with a lot of positive energy. As the first-timers in organization, it was done on very high level - you are professionals :-) Many thanks to all of you, honestly best event we took part on for a long time :-)”
 ---
 
-{{< section class="pb-0" >}}
-# Challenges for Hack Kosice 2020
+{{< section >}}
+<blockquote class="blockquote">
 
-**Hey hackers! The following challenges are available for this year:**
+Hack Kosice 2019 was the first international student hackathon in Central Europe, with the support of [Major League Hacking](https://mlh.io/), bringing together the most creative minds from 45 countries.
+
+</blockquote>
 {{< /section >}}
 
-{{< section type="fit-services" config="hardware" / >}}
+{{< section class="text-center pt-0" >}}
 
+## Hack Kosice 2019 — Official Aftermovie
+
+<div class="col-lg-6 mt-5 d-inline-block">
+  <div class="aspect-16-9">
+    <iframe src="https://www.youtube.com/embed/b4oVTWkvXyk" frameborder="0" allowfullscreen="true" class="aspect-box"></iframe>
+  </div>
+</div>
+
+{{< /section >}}
+
+
+{{< section type="sideimg" config="venue_promo" >}}
+- **Capacity:** 150 hackers
+- **Rooms:** 2 hacking spaces 
+- Strong ethernet and wi-fi connection for all
+- Reliable electricity, light and sound equipment
+{{< /section >}}
+
+
+
+{{< section type="counter" config="counter1" / >}}
+
+{{< section type="sideimg" config="prezident" >}}
+We are happy, that the **President of the Slovak Republic**, Andrej Kiska, took the patronage over Hack Kosice 2019.
+{{< /section >}}
+
+
+{{< section type="services" config="winners" / >}}
+
+{{< section type="testimonial" config="testimonial1" / >}}
 
 
