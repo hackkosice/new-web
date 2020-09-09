@@ -125,14 +125,14 @@ winners:
         - Sudha Rani Ravindran
       image: images/bg/qkey.jpg
     - title: coViz19
-      badges:
-        - text: Overall third place at Hack Kosice 2020
-          type: primary
       button:
         label: See on Devpost
         link: https://devpost.com/software/epiviz
+      badges:
+        - text: Overall third place at Hack Kosice 2019
+          type: primary
       content: |
-        **Overall Third Place**
+        **Third Place**
         
         Team:
         - [Pau Escofet](https://devpost.com/pauescofet)
