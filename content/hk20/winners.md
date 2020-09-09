@@ -136,7 +136,7 @@ counter1:
       count : "149"
       unit : ""
     - title : "Partners"
-      count : "37+"
+      count : "37"
       unit : ""
       
 testimonial1:
