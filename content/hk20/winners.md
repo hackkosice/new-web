@@ -69,7 +69,7 @@ hardware:
 
     - title: Assets challenge by UPJŠ
       content: |
-        Cybersecurity plays an important role in companies. In order for companies to have an overview of cyber threats and attacks targeting their computer network, it is necessary to effectively evaluate the obtained data. Feel free to use this one-week dataset from real computer networks in the Czech Republic containing over 500 million security alerts. Help us build a solution to protect companies against cyber threats via their visualization, forecasting or profiling or other methods.
+        Cybersecurity plays an important role in companies. In order for companies to have an overview of cyber threats and attacks targeting their computer network, it is necessary to effectively evaluate the obtained data. Feel free to use this one-week dataset from real computer networks in the Czech Republic containing over 500 million security alerts. 
 
       image: images/sponsors/upjs.png
 
