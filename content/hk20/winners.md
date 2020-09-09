@@ -49,17 +49,19 @@ winners:
         - [Justas Janickas](https://devpost.com/jj487)
         - [Vytas Mulevicius](https://devpost.com/vytasmulevicius)
       image: images/winners/moneyworks.png
-    - title: Medify
+    - title: Infectiness
       button:
         label: See on Devpost
-        link: https://devpost.com/software/medify
+        link: https://devpost.com/software/infectiness
       content: |
-        **Winners of Efficient and Faster Care Challenge by mediworx software solutions, a.s.**
+        **Winners of Digitalization in Healthcare by Siemens Healthineers**       
+        **&**
+        **Winners of Machine Learning in Healthcare Challenge by VSL** 
         
         Team:
-        - [Andrew Kvapil](https://devpost.com/viluon)
-        - [Ichtil](https://devpost.com/Ichtil)
-      image: images/bg/medify.jpg
+        - [Victor-Alexandru Papa](https://devpost.com/victorpapa)
+        - [Jorik Schellekens](https://devpost.com/joriksch)
+      image: images/winners/Infectiness.png
     - title: Moneasy
       button:
         label: See on Devpost
