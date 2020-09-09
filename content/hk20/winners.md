@@ -10,15 +10,10 @@ menu:
 use_sections: true
 
 venue_promo:
-  title: 'Venue: Kasárne Kulturpark'
-  image: images/kasarne_kulturpark.jpg
-  format: "1080x720 q60 jpg"
-  #link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
-  button:
-    enable: true
-    label: See on Google Maps
-    link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
-    
+  title: 'Venue: Promiseo studio'
+  image: images/winners/Studio.jpg
+  format: "1080x720 q80 jpg"
+
 prezident:
   title: 'Patronage'
   image: images/bg/prezident.jpg
@@ -35,7 +30,7 @@ winners:
   serviceItem:
     - title: MoneyWorks
       badges:
-        - text: Overall winner of Hack Kosice 2019
+        - text: Overall winner of Hack Kosice 2020
           type: warning
       button:
         label: See on Devpost
@@ -90,9 +85,6 @@ winners:
       button:
         label: See on Devpost
         link: https://devpost.com/software/visma-assistant-challenge
-      badges:
-        - text: Overall runner-ups of Hack Kosice 2019
-          type: secondary
       content: |
         **Winners of Best use of Google Cloud**
         
@@ -103,6 +95,9 @@ winners:
       button:
         label: See on Devpost
         link: https://devpost.com/software/lesionai
+      badges:
+        - text: Overall runner-up of Hack Kosice 2020
+          type: secondary
       content: |
         **Second Place**
         
@@ -149,7 +144,8 @@ testimonial1:
       - name : "Aaron"
         image : images/institutions/mlhsquared.png
         location : "Major League Hacking"
-        content : “I have attended more than 50 hackathons worldwide and Hack Kosice is among the best events I have been to. Despite it being the first edition of Hack Kosice, the event felt really well put together and the production quality was absolutely top notch.”
+        content : “I have attended more than 50 hackathons worldwide and Hack Kosice is among the best events I have been to. Despite it being the 
+        edition of Hack Kosice, the event felt really well put together and the production quality was absolutely top notch.”
       - name : "Mediworx - software solutions a.s."
         image : images/institutions/mediworxsquared.jpg
         location : "Platinum sponsor"
@@ -159,18 +155,18 @@ testimonial1:
 {{< section >}}
 <blockquote class="blockquote">
 
-Hack Kosice 2019 was the first international student hackathon in Central Europe, with the support of [Major League Hacking](https://mlh.io/), bringing together the most creative minds from 45 countries.
+Hack Kosice 2020 was slightly different than the previous year. Due to the coronavirus pandemic we decided to postpone the hackathon from March to September and after profound consideration chose to host the hackathon online. We hosted 32 hours non-stop Youtube livestream which included opening ceremony, workshops by our sponsors, fun with Hack Kosice activities such as Evening poetry, Kosice tour or Midnight Pizza. Additionally, we used swapcards platform to connect hackers with mentors and recruiters. By doing so we managed to deliver the participants the best experience. Thank you and see you at Hack Kosice 2021!
 
 </blockquote>
 {{< /section >}}
 
 {{< section class="text-center pt-0" >}}
 
-## Hack Kosice 2019 — Official Aftermovie
+## Hack Kosice - more than a hackathon
 
 <div class="col-lg-6 mt-5 d-inline-block">
   <div class="aspect-16-9">
-    <iframe src="https://www.youtube.com/embed/b4oVTWkvXyk" frameborder="0" allowfullscreen="true" class="aspect-box"></iframe>
+    <iframe src="https://www.youtube.com/watch?v=zMV-ekKdvP4&ab_channel=HackKosice" frameborder="0" allowfullscreen="true" class="aspect-box"></iframe>
   </div>
 </div>
 
@@ -178,19 +174,17 @@ Hack Kosice 2019 was the first international student hackathon in Central Europe
 
 
 {{< section type="sideimg" config="venue_promo" >}}
-- **Capacity:** 150 hackers
-- **Rooms:** 2 hacking spaces 
-- Strong ethernet and wi-fi connection for all
-- Reliable electricity, light and sound equipment
+- Professional film-making studio
+- Green screen scenes
+- 7 tech team members available 24/7
+- Close to the city center
 {{< /section >}}
 
 
 
 {{< section type="counter" config="counter1" / >}}
 
-{{< section type="sideimg" config="prezident" >}}
-We are happy, that the **President of the Slovak Republic**, Andrej Kiska, took the patronage over Hack Kosice 2019.
-{{< /section >}}
+
 
 
 {{< section type="services" config="winners" / >}}
