@@ -10,8 +10,8 @@ homepage_banner:
     250 Hackers. 24 Hours. <span class="d-block d-sm-inline" style="margin-bottom: 0;"></span>1 Spirit.
   title: "Hack Kosice 2020"
   button:
-    label: Apply
-    link: "https://apply.hackkosice.com/"
+    label: Watch live now!
+    link: "https://youtu.be/BIuhS1qvHjs"
   button2:
     label: Read more
     link: /hk20
@@ -84,6 +84,7 @@ silver_sponsors:
     - id: telekom
     - id: software_ag
     - id: global_logic
+    - id: vacuum
 bronze_sponsors:
   title: "Bronze Sponsors"
   color: orange
@@ -117,7 +118,7 @@ partners_sponsors:
 {{< section type="banner" config="homepage_banner" >}}
 Come and build your wildest ideas in 24 hours, surrounded with great designers, entrepreneurs, ideators and hyped atmosphere.
     
-Hack Kosice 2020 will take place on **5—6 September**, **online** and in **hubs** worldwide.
+Hack Kosice 2020 is taking place on **5—6 September**, **online** and in **hubs** worldwide.
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}

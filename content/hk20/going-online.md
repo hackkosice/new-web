@@ -24,7 +24,6 @@ It is in our best interest to **ensure the safety of every participant** and to 
 As a result, we can present you a revamped **Hack Kosice 2020**, which will:
 
 - be accessible for hackers from all around the world through its online platform and will enable you to network with Sponsors and other Hackers very easily
-- enable participants to connect and meet within casual "hacking hubs" anywhere in the world, and thus bring the true spirit of HK to every city
 - bring the first-hand feeling of the hackathon through  a 24 hour live stream filled with Speeches, Workshops, Fun Activities, Live HK Cam, and many more
 - bring you fantastic challenges from our Sponsors to challenge your innovativeness and bright thinking
 - deliver various perks such as swag, food vouchers and more to truly mirror the spirit of on-site hackathon

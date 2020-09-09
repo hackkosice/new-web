@@ -89,6 +89,11 @@ sponsors:
     name: Sparring
     url: https://sparring.io/
     logo: images/sponsors/sparring.png
+  - id: vacuum
+    tier: bronze
+    name: VacuumLabs
+    url: https://www.vacuumlabs.com
+    logo: images/sponsors/vacuum.png
   - id: fontech
     tier: medial
     name: Fontech
