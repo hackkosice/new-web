@@ -19,7 +19,7 @@ homepage_banner:
 thank_you_banner:
   bgImage: images/bg/hk-team.png
   subtitle: |
-    26 projects. 32 hours of live stream.
+    26 projects. 32 hours of live stream. 149 hackers.
   title: "Thank you"
 
 homepage_features:
@@ -123,7 +123,11 @@ partners_sponsors:
 
 {{< section type="banner" config="thank_you_banner" >}}
 
-for an amazing weekend full of innovative ideas, creative projects and you, **hackers**!
+for an amazing weekend full of innovative ideas, creative projects, and you, **hackers**!
+
+Hack Kosice 2020 happened on 5. - 6.9.2020 in an online form, where hackers could
+
+experience many workshops, activities a lot of challenges, and attractive prizes.
 
 Hope you enjoyed Hack Kosice as we did. See you on **Hack Kosice 2021**.
 {{< /section >}}
