@@ -101,6 +101,9 @@ winners:
       button:
         label: See on Devpost
         link: https://devpost.com/software/lesionai
+      badges:
+        - text: Overall runner-up of Hack Kosice 2020
+          type: secondary
       content: |
         **Second Place**
         
