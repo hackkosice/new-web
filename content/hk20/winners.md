@@ -95,9 +95,6 @@ winners:
       button:
         label: See on Devpost
         link: https://devpost.com/software/lesionai
-      badges:
-        - text: Overall runner-up of Hack Kosice 2020
-          type: secondary
       content: |
         **Second Place**
         
@@ -122,6 +119,7 @@ winners:
         - [Nicase Camerlynck](https://devpost.com/nicase)
         - [atmarc Marc Amorós](https://devpost.com/atmarc)
       image: images/winners/coviz.png
+      
 counter1:
   counterItem :
     - title : "Registrations"
