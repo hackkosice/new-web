@@ -175,17 +175,15 @@ Hack Kosice 2020 was slightly different than the previous year. Due to the coron
 
 
 {{< section type="sideimg" config="venue_promo" >}}
-- **Capacity:** 150 hackers
-- **Rooms:** 2 hacking spaces 
-- Strong ethernet and wi-fi connection for all
-- Reliable electricity, light and sound equipment
+- Professional film-making studio
+- Green screen scenes
+- 7 tech team members available 24/7
+- Close to the city center
 {{< /section >}}
 
 {{< section type="counter" config="counter1" / >}}
 
-{{< section type="sideimg" config="prezident" >}}
-We are happy, that the **President of the Slovak Republic**, Andrej Kiska, took the patronage over Hack Kosice 2019.
-{{< /section >}}
+
 
 
 {{< section type="services" config="winners" / >}}
