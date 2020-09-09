@@ -4,7 +4,7 @@ date: 2020-07-06T11:46:13+00:00
 description: Winners of HK20
 menu:
   main:
-    name: Challenges
+    name: Winners
     parent: hk20
     weight: 19
 use_sections: true
@@ -124,19 +124,21 @@ winners:
         - [Jorik Schellekens](https://devpost.com/joriksch)
         - Sudha Rani Ravindran
       image: images/bg/qkey.jpg
-    - title: KEnRoute
+    - title: coViz19
+      badges:
+        - text: Overall third place at Hack Kosice 2020
+          type: primary
       button:
         label: See on Devpost
-        link: https://devpost.com/software/kenroute
+        link: https://devpost.com/software/epiviz
       content: |
-        **Winners of Kosice City Challenge by Kosice Region**
+        **Overall Third Place**
         
         Team:
-        - [Adam Radvan](https://devpost.com/karrzo)
-        - [Daniel](https://devpost.com/danzatt)
-        - [Michal Slavik](https://devpost.com/slavik786)
-        - [martinkrsak3](https://devpost.com/martinkrsak3)
-      image: images/bg/kenroute.jpg
+        - [Pau Escofet](https://devpost.com/pauescofet)
+        - [Nicase Camerlynck](https://devpost.com/nicase)
+        - [atmarc Marc Amorós](https://devpost.com/atmarc)
+      image: images/winners/coviz.png
     - title: Decent Life
       button:
         label: See on Devpost
