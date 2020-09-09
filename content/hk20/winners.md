@@ -148,8 +148,7 @@ testimonial1:
       - name : "Aaron"
         image : images/institutions/mlhsquared.png
         location : "Major League Hacking"
-        content : “I have attended more than 50 hackathons worldwide and Hack Kosice is among the best events I have been to. Despite it being the 
-        edition of Hack Kosice, the event felt really well put together and the production quality was absolutely top notch.”
+        content : “I have attended more than 50 hackathons worldwide and Hack Kosice is among the best events I have been t”
       - name : "Mediworx - software solutions a.s."
         image : images/institutions/mediworxsquared.jpg
         location : "Platinum sponsor"
