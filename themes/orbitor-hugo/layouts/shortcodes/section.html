@@ -31,9 +31,9 @@
 <!-- Slider -->
 {{- else if eq $type "banner" -}}
 {{- $image := partial "get-image.html" .bgimage -}}
-{{- $image = $image.Resize "1920x q80 jpg" -}}
+{{- $image = $image.Resize "1920x q90 jpg" -}}
 <link rel="preload" as="image" href="{{ $image.RelPermalink }}" />
-<section class="banner d-flex align-items-center"
+<section class="banner d-flex align-items-center{{ with .class }} {{ . }}{{ end }}"
     style="background-image: url('{{ $image.RelPermalink }}');{{ with $.Get "style" }} {{ . | safeCSS }}{{ end }}">
     <div class="container">
         <div class="row">
@@ -59,7 +59,7 @@
 
 <!-- banner feature -->
 {{- else if eq $type "bannerFeature" -}}
-<section class="section about" {{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
+<section class="section about{{ with .class }} {{ . }}{{ end }}" {{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
     <div class="container">
         <div class="row">
             {{ range .featureitem }}
@@ -123,7 +123,7 @@
                 <div class="cta-content bg-white p-5 rounded">
                     <h3 class="mb-4">{{ .title | markdownify }}</h3>
                     {{ if .button.enable }}
-                    <p class="mb-30">{{ .content | markdownify }}</p>
+                    <p class="mb-30">{{ $.Inner | markdownify }}</p>
                     {{ with .button }}
                     <a href="{{ .link | relURL }}" class="btn btn-main">{{ .label }}<i
                             class="ti-angle-right ml-2"></i></a>
@@ -455,7 +455,7 @@
 {{- else if eq $type "services" -}}
 {{- $services_img_format := "640x360 q60 jpg" -}}
 {{- $numbering := or (not (isset . "numbering")) (.numbering) -}}
-<section class="section">
+<section class="section"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         {{ with .title }}
         <h2 class="text-md mb-5">{{ . }}</h2>
@@ -602,7 +602,7 @@
         <div class="row">
             <div class="col-lg-10 mb-5 content">
                 <h2 class="mb-4">{{ .title | markdownify }}</h2>
-                <p>{{ .content | markdownify }}</p>
+                <p>{{ $.Inner | markdownify }}</p>
                 {{ with .button }}
                 <a href="{{ .link | relURL }}" class="btn btn-main btn-round">{{ .label }}</a>
                 {{ end }}

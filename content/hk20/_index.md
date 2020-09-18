@@ -1,7 +1,10 @@
 ---
 title: Hack Kosice 2020
-date: 2020-08-25
-description: Hack Kosice 2020 will take place on 5—6 September, online and in hubs worldwide.
+bgImage: images/events/hk20/studio2_crop.jpg
+date: 2020-09-17
+description: Hack Kosice 2020 took place on 5—6 September 2020 as an online hackathon, where hackers benefited from workshops, mentoring from professionals, sponsors’ challenges, and attractive prizes.
+aliases:
+  - /hk20/winners/
 menu:
   main:
     weight: 10
@@ -10,6 +13,10 @@ menu:
 use_sections: true
 layout: single
 
+sideimg1:
+  title: Hack Kosice 2020
+  image: images/events/hk20/team4_crop.jpg
+  format: "540x290 q80 jpg"
 onlineHackathon:
   title: 'Online Hackathon'
   image: images/online-hackathon.png
@@ -18,19 +25,29 @@ onlineHackathon:
     enable: true
     label: Online platform
     link: "https://www.swapcard.com/"
-homepage_cta:
-  title: "What is a hackathon?"
-  background: images/hk19_opening_crop.jpg
-  content: A hackathon is a creative and social 24-hour event where students come together in small teams to share ideas and build something new and exciting, alongside a whole bunch of like-minded people. You learn immensely with the help of mentors, interact with companies and have fun! Hackathons are very beginner friendly and open to students passionate about innovations, technology, engineering, entrepreneurship, design, or more!
+counter1:
+  counterItem :
+    - title : "Registrations"
+      count : "739"
+      unit : ""
+    - title : "Attendees"
+      count : "149"
+      unit : ""
+    - title : "Project submissions"
+      count : "27"
+      unit : ""
+    - title : "Partners"
+      count : "37"
+      unit : ""
+cta:
+  title: What next?
+  background: images/events/hk20/studio1_crop.jpg
+  button:
+    enable: true
+    label: I am interested
+    link: /hk20/startup-track/
 online_platform:
   title: Online platform
-  content: |
-    To maximise your experience, you will have access to an **online platform** connecting all hackers, sponsors, mentors, speakers and organisers. You'll get your invitation as well as more information about this by email once you [apply and get accepted](http://apply.hackkosice.com/dashboard) to Hack Kosice 2020.
-    
-    *Update 1 September: Apologise to all who accidentally received an invitation to our out-of-date Slack workspace, it will not be used and this is now fixed.*
-  button: 
-    label: Go to Swapcard
-    link: https://app.swapcard.com/event/hack-kosice-2020-1/
   serviceItem:
     - title: AI Networking and personalised in-app experience
       icon: ti-layout-grid2
@@ -40,7 +57,7 @@ online_platform:
       icon: ti-video-camera
     - title: Group Chats and Q&As for live sesions
       icon: ti-comments
-    - title: "[Download the app](https://www.swapcard.com/app/swapcard/) and don't miss a thing"
+    - title: "[Downloadable app](https://www.swapcard.com/app/swapcard/) with push notifications"
       icon: ti-mobile
 hubs:
   columns:
@@ -151,61 +168,168 @@ faq:
         [Major League Hacking (MLH)](https://mlh.io/), our partner, is the official student hackathon league. Each year, they power over [200 weekend-long invention competitions](http://mlh.io/events) that inspire innovation, cultivate communities and teach computer science skills to more than **65,000 students** around the world. MLH is an engaged and passionate maker community, consisting of the next generation of technology leaders and entrepreneurs.
         
         </details>
+
+winners:
+  title: Winning teams
+  numbering: false
+  serviceItem:
+    - title: MoneyWorks
+      badges:
+        - text: Overall winner of Hack Kosice 2020
+          type: warning
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/weinvestin-tech
+      content: |
+        **Winner of Regular Investing for Gen-Z by TatraBanka**
+        
+        Team:
+        - [Simonas Mulevičius](https://devpost.com/muleviciussimonas)
+        - [Mykolas Krupauskas](https://devpost.com/MKrupauskas)
+        - [Justas Janickas](https://devpost.com/jj487)
+        - [Vytas Mulevicius](https://devpost.com/vytasmulevicius)
+      image: images/winners/moneyworks.png
+    - title: Infectiness
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/infectiness
+      content: |
+        **Winners of Digitalization in Healthcare by Siemens Healthineers**       
+        **&**
+        **Winners of Machine Learning in Healthcare Challenge by VSL** 
+        
+        Team:
+        - [Victor-Alexandru Papa](https://devpost.com/victorpapa)
+        - [Jorik Schellekens](https://devpost.com/joriksch)
+      image: images/winners/Infectiness.png
+    - title: Visma Assistant
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/visma-assistant
+      content: |
+        **Winners of Visma Assistant Challenge by Visma**
+        **&**
+        **Best Domain Registered with Domain.com** 
+        
+        Team:
+         - [Patrik Koscelansky](https://devpost.com/PatrikKoscelansky)
+         - [Samuel Pitonak](https://devpost.com/sampittko)
+      image: images/winners/Visma_Assitant.png
+    - title: Data visualisation and insight into UPJS assets challenge
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/data-visualisation-and-insight-into-upjs-assets-challenge
+      content: |
+        **Winners of Assets Challenge by UPJS**
+        
+        Team: 
+        - [Kamil Iwanowski](https://devpost.com/kamiliwanowski75)
+        - [Mateusz Mazurkiewicz](https://devpost.com/mateusz-a-mazurkiewicz)
+      image: images/winners/assets.png
+    - title: Visma Assistant Challenge
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/visma-assistant-challenge
+      content: |
+        **Winners of Best use of Google Cloud**
+        
+        Team:
+        - [Matei Stan](https://devpost.com/mateistan)
+      image: images/winners/Visma_Assitant_Challenge.png
+    - title: LesionAI
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/lesionai
+      badges:
+        - text: Overall runner-up of Hack Kosice 2020
+          type: secondary
+      content: |
+        **Second Place**
+        
+        Team:
+        - [Gadodia](https://devpost.com/vgadodia)
+        - [Vinchhi](https://devpost.com/NandVinchhi)
+        - [Muntaser Syed](https://devpost.com/jemsbhai)
+        - [Ebtesam Haque](https://devpost.com/ebtesam686)
+      image: images/winners/LesionAI.png
+    - title: coViz19
+      button:
+        label: See on Devpost
+        link: https://devpost.com/software/epiviz
+      badges:
+        - text: Overall third place at Hack Kosice 2019
+          type: primary
+      content: |
+        **Third Place**
+        
+        Team:
+        - [Pau Escofet](https://devpost.com/pauescofet)
+        - [Nicase Camerlynck](https://devpost.com/nicase)
+        - [atmarc Marc Amorós](https://devpost.com/atmarc)
+      image: images/winners/coviz.png
 ---
 
-{{< section >}}
-# HK20 is live!
+{{< section type="sideimg" config="sideimg1" >}}
+<blockquote class="blockquote">
 
-There is a 32-hour non-stop stream with every minute packed with awesome content!<br/>[Join us on Swapcard](https://app.swapcard.com/event/hack-kosice-2020-1) if you are attending.
+Hack Kosice 2020 took place on 5—6 September 2020 as an **online hackathon**, where hackers benefited from workshops, mentoring from professionals, sponsors' challenges, and attractive prizes.
 
-<div class="col-lg-6 d-inline-block text-center">
+</blockquote>
+{{< /section >}}
+
+{{< section class="bg-light pt-0" >}}
+This year was slightly different than the previous year. Due to the coronavirus pandemic we decided to [postpone]({{< ref `/hk20/corona-official-reschedule` >}}) the hackathon from March to September and after profound consideration chose to host the hackathon [online]({{< ref `/hk20/going-online` >}}). We hosted a non-stop **32-hour live stream** on Youtube which included the opening ceremony, workshops by our sponsors, fun with Hack Kosice activities such as evening poetry, Kosice tour or cooking a midnight pizza. Additionally, we used [Swapcard](https://www.swapcard.com/virtual-events/) to connect hackers with mentors, recruiters and organisers, and bring everyone the best possible experience. The [best projects](#winners) were awarded prizes.
+
+Watch the keynote & opening ceremony by Katka and Pavol below. More videos from the stream coming soon. Hope to see you at Hack Kosice 2021!
+
+<div class="col d-inline-block text-center">
   <div class="aspect-16-9">
-    <iframe src="https://www.youtube.com/embed/BIuhS1qvHjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="aspect-box"></iframe>
+    <iframe src="https://www.youtube.com/embed/q1ioqAXAQAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="aspect-box"></iframe>
   </div>
 </div>
 {{< /section >}}
 
-{{< section class="pt-0" >}}
-# Going Online
+{{< section type="counter" config="counter1" / >}}
 
-Our team has worked tirelessly to come up with ways to provide a safe hacking environment, while maintaining high levels of engagement for all. Due to Covid-19, unfortunately, we had to **cancel all on-site participation** in our amazing venue, so **do not travel** to the venue in Kosice (updated as of 20 August). [Read the official statement.]({{< ref `hk20/going-online` >}})
-
-### Challenges
-
-Our sponsors prepared amazing challenges for you to tackle and win prizes.
-
-{{< button link="hk20/challenges" label="See the challenges" style="btn-solid-border" >}}
-{{< /section >}}
-
-{{< section type="sideimg" config="onlineHackathon" >}}
-* You can participate from the comfort of your home
-* Watch (and participate in!) the live stream
-* 1-on-1 networking with others
-* Just register on our online platform
-{{< /section >}}
-
-{{< section type="cta" config="homepage_cta" / >}}
-
-{{< section type="solutions" config="online_platform" id="online-platform" class="bg-light" / >}}
-
-<!-- {{< section type="column-list" config="hubs" id="hubs" class="pb-0" / >}} -->
-
-{{< section class="pb-0" >}}
-## Where do hackers come from?
+{{< section >}}
+## Where did hackers come from?
 
 <span class="badge bg-wine-berry text-white text-sm mb-1">Hack Kosice 2019</span>&nbsp;<span class="badge bg-flamingo text-white text-sm mb-1">New at Hack Kosice 2020</span>
 
 <img src="{{< static `images/hk20/map-01.svg` >}}" class="img-fluid no-shadow" alt="Countries where hackers come from" style="margin-top: -5%; margin-bottom: -5%;">
 {{< /section >}}
 
-{{< section type="column-list" config="faq" id="faq" class="pb-0" / >}}
+{{< section type="cta" config="cta" >}}
+Hackers from **58 countries** worked on **27 projects** in teams, of which **7** were **awarded**.
 
-{{< section class="pt-0" >}}
-If you can't find an answer, please [let us know]({{< ref `contact` >}}) — it might help others, too.
+Hack Kosice is looking to support teams willing to continue working on their projects and deploy their application for broader use.
 {{< /section >}}
 
-{{< section class="pt-0" >}}
+<!-- {{< section type="solutions" config="online_platform" id="online-platform" class="bg-light" >}}
+ We connected hackers, sponsors, mentors, speakers and organisers on [Swapcard](https://www.swapcard.com/virtual-events/), a dedicated platform for online events.
+{{< /section >}} -->
+
+{{< section class="bg-light" >}}
 ## Schedule
 
 <iframe src="https://app.swapcard.com/widget/event/hack-kosice-2020-1/plannings/RXZlbnRWaWV3XzQ4NzU5?showActions=true" style="border: none; margin: 0px; width: 100%; display: block; height: 60vh;"></iframe>
 {{< /section >}}
+
+<!-- {{< section type="column-list" config="hubs" id="hubs" class="pb-0" / >}} -->
+
+<!-- {{< section type="column-list" config="faq" id="faq" class="pb-0" / >}} -->
+
+<!-- {{< section class="pt-0" >}}
+If you can't find an answer, please [let us know]({{< ref `contact` >}}) — it might help others, too. 
+{{< /section >}} -->
+
+{{< section type="services" config="winners" id="winners" / >}}
+
+{{< section class="pt-0" >}}
+<blockquote class="blockquote">
+
+Congratulations to all winners! See [Devpost](https://hackkosice-2020.devpost.com/project-gallery) for all submissions.
+
+</blockquote>
+{{< /section >}}
+

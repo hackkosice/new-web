@@ -268,8 +268,6 @@ casestudy1:
               Commodi voluptas, deleniti distinctio quam totam vitae."
 solutions1:
   title : "Industry Leading Managed <br>Services & Staffing Solutions"
-  content : "Quos recusandae dolore, consequuntur nemo hic nisi perferendis. Vel praesentium magnam architecto delectus
-            blanditiis doloremque, deleniti aperiam ab adipisci!"
   serviceItem:
     - title : "Flexible Engagement <br>Models"
       icon : "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
@@ -412,7 +410,9 @@ We organise events for computer enthusiasts
 
 {{< section type="casestudy" config="casestudy1" / >}}
 
-{{< section type="solutions" config="solutions1" / >}}
+{{< section type="solutions" config="solutions1" >}}
+Quos recusandae dolore, consequuntur nemo hic nisi perferendis. Vel praesentium magnam architecto delectus blanditiis doloremque, deleniti aperiam ab adipisci!
+{{< /section >}}
 
 {{< section type="smallcta" config="smallcta1" / >}}
 

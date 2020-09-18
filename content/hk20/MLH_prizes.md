@@ -6,7 +6,7 @@ menu:
   main:
     name: MLH Prizes
     parent: hk20
-    weight: 19
+    weight: 15
 use_sections: true
 
 hardware:

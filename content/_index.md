@@ -1,7 +1,7 @@
 ---
 title: Hack Kosice
-date: 2020-08-15T11:46:13+00:00
-description: Come and build your wildest ideas in 24 hours, surrounded with great designers, entrepreneurs, ideators and hyped atmosphere. Hack Kosice 2020 will take place on 5—6 September, online and in hubs worldwide.
+date: 2020-09-17T11:46:13+00:00
+description: Come and build your wildest ideas in 24 hours, surrounded with great designers, entrepreneurs, ideators and hyped atmosphere. Hack Kosice is an annual hackathon and a community of talents.
 use_sections: true
 
 homepage_banner:
@@ -20,10 +20,14 @@ thank_you_banner:
   bgImage: images/bg/hk-team.png
   subtitle: |
     26 projects. 32 hours of live stream. 149 hackers.
-  title: "Thank you"
+  title: Thank you
+  button:
+    label: Read more
+    link: /hk20
 
 homepage_features:
   title: "More than a hackathon!"
+  class: bg-light
   featureItem:
     - icon: "ti-light-bulb" # here we use themify icon pack: https://themify.me/themify-icons
       title: "Lectures in Schools"
@@ -32,12 +36,11 @@ homepage_features:
       title: "Local Events"
       content: "We host seasonal MLH Localhost hackathons and workshops. [Read more](/opportunities)."
     - icon: "ti-headphone-alt" # here we use themify icon pack: https://themify.me/themify-icons
-      title: "Podcast"
+      title: "Podcasts"
       content: "Listen to the Hack Kosice podcast [on Spotify](https://open.spotify.com/show/5OlocKsS6FFFW7KxKQeK52?si=IpwhjAE4S3uP7Z5K6llIPA). We discuss tech and interview motivating entrepreneurs."
 homepage_cta:
   title: "What is a hackathon?"
   background: images/bg/background2.png
-  content: "A hackathon is a focused 24-hour event where students come together in small teams to share ideas and build something new and exciting, alongside a whole bunch of like-minded people. You learn immensely with the help of mentors, interact with companies and have fun! Hackathons are very beginner friendly!"
   button:
     enable: true
     label: Read more
@@ -78,6 +81,7 @@ platinum_sponsors:
 gold_sponsors:
   title: "Gold Sponsors"
   color: gold
+  bigger: true
   sponsors:
     - id: tatra_banka
     - id: vsl
@@ -122,19 +126,18 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
+### for an amazing weekend full of innovative ideas, creative projects, and you, hackers! {class="mb-4"}
 
-for an amazing weekend full of innovative ideas, creative projects, and you, **hackers**!
+Hack Kosice 2020 took place on 5—6 September 2020 as an **online hackathon**, where hackers benefited from **workshops**, **mentoring** from professionals, sponsors' **challenges**, and attractive prizes.
 
-Hack Kosice 2020 happened on 5. - 6.9.2020 in an online form, where hackers could
-
-experience many workshops, activities a lot of challenges, and attractive prizes.
-
-Hope you enjoyed Hack Kosice as we did. See you on **Hack Kosice 2021**.
+Hope you enjoyed Hack Kosice as we did. See you at Hack Kosice 2021!
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
 
-{{< section type="cta" config="homepage_cta" / >}}
+{{< section type="cta" config="homepage_cta" >}}
+A hackathon is a focused 24-hour event where students come together in small teams to share ideas and build something new and exciting, alongside a whole bunch of like-minded people. You learn immensely with the help of mentors, interact with companies and have fun! Hackathons are very beginner friendly!
+{{< /section >}}
 
 {{< section type="counter" config="homepage_numbers" / >}}
 
