@@ -19,15 +19,6 @@ hardware:
         **Prize:**
         Domain.com Backpacks
       
-      
-
-    - title: Best UiPath Automation Hack
-      content: |
-        Build an automation hack using UiPath! Each winning team member will receive a UiPath Branded Backpack.
-        
-        **Prize:**
-        UiPath/MLH Branded Backpack
-
 
     - title: Best use of Google Cloud
       content: |
@@ -36,41 +27,6 @@ hardware:
         
         **Prize:** 
         Google Home Mini
-        
- 
-
-    - title: Best use of Microsoft Azure
-      content: |
-        Leverage all of the amazing services available on Microsoft Azure in your hack this weekend to win security keys for you and your team.
-        
-        **Prize:**
-        YubiKey 5 Security Keys
-
-
-    - title: Best Beginner Hackers
-      content: |
-        Our best team of beginners will take home arduino starter kits to continue hacking on at future events. Teams must be at least 50% first time hackers to be eligible.
-        
-        **Prize:**
-        Arduino Starter Kits
-        
-        
-    - title: Best Jugaad (or Most Awesomely Useless Hack)
-      content: |
-        The most useless, silly, and creative hack will take home arduino starter kits too!
-        
-        **Prize:**
-        Arduino Starter Kits
-        
-    - title: Most Creative Radar Hack
-      content: |
-        
-        Build the most creative hack using Radar's SDKs and APIs for geofencing, location search, and geocoding. Some ideas for location-aware projects include: a delivery tracker, campus building locator, and a Find my Friends clone. Winning team members will be eligible to win a Tile Sticker Smart Tracker and a chance to be featured by Radar.
-        
-        **Prize:** 
-        Tile Sticker Smart Tracker & a chance be featured by Radar
-
-
 ---
 
 {{< section class="pb-0" >}}
