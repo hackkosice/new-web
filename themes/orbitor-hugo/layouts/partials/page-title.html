@@ -1,5 +1,5 @@
 {{ $image := partial "get-image.html" (cond (isset .Params "bgimage") .Params.BgImage "images/bg/background.jpg") }}
-{{ if gt $image.Width 1920 }}{{ $image = $image.Resize "1920x" }}{{ end }}
+{{ if gt $image.Width 1920 }}{{ $image = $image.Resize "1920x q90" }}{{ end }}
 {{ $image = $image.Filter (images.Gamma 0.5) (images.Brightness -20) }}
 <!--  (images.Brightness -5) (images.GaussianBlur 1) (images.Colorize 338 65 10) -->
 <section class="page-title bg-cover" style="background-image: url('{{ $image.RelPermalink }}');">
