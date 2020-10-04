@@ -624,7 +624,7 @@
 
 <!-- small cta -->
 {{- else if eq $type "smallcta" -}}
-<section class="cta-2 bg-light{{ with .class }} {{ . }}{{ end }}">
+<section class="cta-2 bg-light{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="cta-block py-5">
             <div class="row align-items-center ">

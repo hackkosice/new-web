@@ -140,6 +140,10 @@ mam_zaujem:
 # Prednášky v školách
 
 V snahe pomôcť zvýšiť záujem o informačné technológie medzi mladými ľuďmi, ako aj zlepšiť kvalitu neformálneho vzdelávania na školách, sme sa rozhodli spustiť náš pilotný projekt odborných prednášok. Ich cieľom je interaktívne vzdelávať slovenských stredoškolákov, ukázať im koľko možností sa skrýva v oblasti IT, ako aj vzbudiť v nich väčší záujem o hlbšie angažovanie sa v tomto smere.
+
+<div class="alert alert-warning" role="alert">
+  S programom pre školský rok 2020/2021 začneme koncom októbra. Neváhajte <a href="#contact">napísať nám</a> v prípade záujmu.
+</div>
 {{< /section >}}
 
 {{< section type="services" config="prednasky" / >}}
@@ -148,6 +152,6 @@ V snahe pomôcť zvýšiť záujem o informačné technológie medzi mladými ľ
 
 {{< section type="team" config="prednasajuci" / >}}
 
-{{< section type="smallcta" config="mam_zaujem" / >}}
+{{< section type="smallcta" config="mam_zaujem" id="contact" / >}}
 
 {{< section type="testimonial" config="testimonial1" / >}}
