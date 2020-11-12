@@ -8,7 +8,7 @@ New website for Hack Kosice using Hugo.
 
 ### Editing live
 
-When you want to make changes to the live website, you can either use Git (for developers mostly), or edit the contents directly in GitHub. All changes on the `master` branch will be automatically tested for correctness, built and deployed to [dev.hackkosice.com](https://dev.hackkosice.com/). The process may take 1-3 minutes, and you can [check the build status on CircleCI](https://app.circleci.com/pipelines/github/hackkosice/new-web). You can check when the website was last built in the footer.
+When you want to make changes to the live website, you can either use Git (for developers mostly), or edit the contents directly in GitHub. All changes on the `master` branch will be automatically tested for correctness, built and deployed to [dev.hackkosice.com/master](https://dev.hackkosice.com/master), or substitute master with any branch name. The update should take at most couple of seconds. You can check when the website was last built in the footer.
 
 ### Local installation
 
@@ -16,9 +16,9 @@ If you prefer developing locally (you can preview any changes immediately and wi
 
 1.  [Install Hugo extended](https://gohugo.io/getting-started/installing/)
 2.  `git clone git@github.com:hackkosice/new-web`
-3.  `hugo server -DF` (`-DF` is to include drafts and posts dated in the future) or `hugo -DF` to just build the website (to the `public` directory)
+3.  `hugo server -DF` to start a local server (`-DF` is to include drafts and posts dated in the future) or just `hugo -DF` to build the website (to the `public` directory)
 
-If you are developing locally, running `hugo server` command will reload these changes automatically and immediately.
+If you are developing locally, running `hugo server` will rebuild on any file changes, reflecting updates automatically and immediately.
 
 ### Contributing
 
