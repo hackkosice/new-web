@@ -20,7 +20,7 @@ thank_you_banner:
   bgImage: images/bg/hk-team.png
   subtitle: |
     26 projects. 32 hours of live stream. 149 hackers.
-  title: Thank you
+  title: New Localhost Event
   button:
     label: Read more
     link: /hk20
