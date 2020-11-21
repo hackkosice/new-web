@@ -13,27 +13,6 @@ use_sections: true
 articles-list1:
   title: 'Stories about Hack Kosice in press'
   articles:
-    - date: 2020-10-08
-      title: '5 študentských projektov, ktoré pomáhajú meniť veci okolo nás k lepšiemu'
-      subtitle: 'RedBull'
-      image: images/press/articles/redbull.jpg
-      button: 
-        label: Read
-        link: https://www.redbull.com/sk-sk/studentsky-projekt-hack-kosice-red-bull-basement-startup
-    - date: 2020-10-04
-      title: 'Virtuálny hackathon'
-      subtitle: 'Quark'
-      image: images/press/articles/quark2.jpg
-      button: 
-        label: Read
-        link: https://www.quark.sk/virtualny-hackathon/
-    - date: 2020-09-04
-      title: 'Hack Kosice 2020'
-      subtitle: 'Quark'
-      image: images/press/articles/quark1.jpg
-      button: 
-        label: Read
-        link: https://www.quark.sk/hack-kosice/
     - date: 2020-08-11
       title: '#NXT | Partia študentov zogranizovala v Košiciach prvý medzinárodný hackathon, tento rok chystajú jeho prvú hybridnú verziu v strednej Európe'
       subtitle: 'Fun rádio'
