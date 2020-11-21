@@ -2,13 +2,19 @@
   "name": "new-web",
   "version": "1.0.0",
   "description": "Hack Kosice website",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hackkosice/new-web.git"
+  },
+  "private": true,
   "dependencies": {},
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "autoprefixer": "^9.8.6",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.0.2",
     "cssnano": "^4.1.10",
-    "postcss-cli": "^7.1.1",
-    "postcss-csso": "^4.0.0",
+    "postcss": "^8.1.8",
+    "postcss-cli": "^8.3.0",
+    "postcss-csso": "^5.0.0",
     "postcss-import-url": "^5.1.0"
   },
   "scripts": {
