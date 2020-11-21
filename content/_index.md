@@ -17,7 +17,7 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/localhost.png
+  bgImage: images/bg/hk-team.png
   subtitle: |
     Hack Kosice is more than a hackathon
   title: New Localhost
