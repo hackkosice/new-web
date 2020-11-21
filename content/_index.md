@@ -20,7 +20,7 @@ thank_you_banner:
   bgImage: images/bg/hk-team.png
   subtitle: |
     26 projects. 32 hours of live stream. 149 hackers.
-  title: New Localhost Event
+  title: New Localhost
   button:
     label: Read more
     link: /hk20
@@ -126,7 +126,7 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### for an amazing weekend full of innovative ideas, creative projects, and you, hackers! {class="mb-4"}
+### Program your own language in less than an hour! {class="mb-4"}
 
 Hack Kosice 2020 took place on 5—6 September 2020 as an **online hackathon**, where hackers benefited from **workshops**, **mentoring** from professionals, sponsors' **challenges**, and attractive prizes.
 
