@@ -17,13 +17,13 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/hk-team.png
+  bgImage: images/bg/localhost.png
   subtitle: |
-    26 projects. 32 hours of live stream. 149 hackers.
-  title: Thank you
+    Hack Kosice is more than a hackathon
+  title: New Localhost
   button:
-    label: Read more
-    link: /hk20
+    label: All Events
+    link: /opportunities
 
 homepage_features:
   title: "More than a hackathon!"
@@ -126,11 +126,11 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### for an amazing weekend full of innovative ideas, creative projects, and you, hackers! {class="mb-4"}
+### Program your own language in less than an hour! {class="mb-4"}
 
-Hack Kosice 2020 took place on 5—6 September 2020 as an **online hackathon**, where hackers benefited from **workshops**, **mentoring** from professionals, sponsors' **challenges**, and attractive prizes.
+Join our **new workshop** and learn how to program your own language. Dominik will get you through the very basics, you will only need a **computer**, **internet connection** and a **good mood**. The rest is up to us!
 
-Hope you enjoyed Hack Kosice as we did. See you at Hack Kosice 2021!
+Signing in here: https://zoom.us/j/96637836216
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
