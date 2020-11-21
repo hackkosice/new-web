@@ -10,7 +10,7 @@
         "source": "/lh-2020/zoom",
         "destination": "https://zoom.us/j/96637836216",
         "type": 302
-      },
+      }
     ],
     "public": "public",
     "ignore": [
