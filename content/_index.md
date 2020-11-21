@@ -130,7 +130,7 @@ partners_sponsors:
 
 Join our **new workshop** and learn how to program your own language. Dominik will get you through the very basics, you will only need a **computer**, **internet connection** and a **good mood**. The rest is up to us!
 
-Signing in here: https://zoom.us/j/96637836216
+Signing in here: http://cutt.ly/lhd-2020
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
