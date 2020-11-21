@@ -1,5 +1,12 @@
 {
   "hosting": {
+    "redirects": [
+      {
+        "source": "/apply",
+        "destination": "https://apply.hackkosice.com",
+        "type": 302
+      }
+    ],
     "public": "public",
     "ignore": [
       "firebase.json",
