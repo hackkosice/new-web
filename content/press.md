@@ -34,7 +34,6 @@ articles-list1:
       button: 
         label: Read
         link: https://www.quark.sk/hack-kosice/
-
     - date: 2020-08-11
       title: '#NXT | Partia študentov zogranizovala v Košiciach prvý medzinárodný hackathon, tento rok chystajú jeho prvú hybridnú verziu v strednej Európe'
       subtitle: 'Fun rádio'
