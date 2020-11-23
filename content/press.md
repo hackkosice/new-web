@@ -20,6 +20,13 @@ articles-list1:
       button: 
         label: Read
         link: https://www.funradio.sk/clanok/44256-nxt-partia-studentov-zogranizovala-v-kosiciach-prvy-medzinarodny-hackathon-tento-rok-chystaju-jeho-prvu-hybridnu-verziu-v-strednej-europe/
+    - date: 2020-08-11
+      title: '#NXT | Partia študentov zogranizovala v Košiciach prvý medzinárodný hackathon, tento rok chystajú jeho prvú hybridnú verziu v strednej Európe'
+      subtitle: 'Fun rádio'
+      image: images/press/articles/funradio.jpg
+      button: 
+        label: Read
+        link: https://www.funradio.sk/clanok/44256-nxt-partia-studentov-zogranizovala-v-kosiciach-prvy-medzinarodny-hackathon-tento-rok-chystaju-jeho-prvu-hybridnu-verziu-v-strednej-europe/
     - date: 2020-01-20T09:47:00+01:00
       title: 'Medzinárodný hackathon svetovej úrovne sa vracia do Košíc'
       subtitle: 'StartitUp'
