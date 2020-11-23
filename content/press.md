@@ -16,21 +16,21 @@ articles-list1:
     - date: 2020-10-08
       title: '5 študentských projektov, ktoré pomáhajú meniť veci okolo nás k lepšiemu'
       subtitle: 'RedBull'
-      image: images/press/articles/redbull.jpg
+      image: images/press/articles/redbull.JPG
       button: 
         label: Read
         link: https://www.redbull.com/sk-sk/studentsky-projekt-hack-kosice-red-bull-basement-startup
     - date: 2020-10-04
       title: 'Virtuálny hackathon'
       subtitle: 'Quark'
-      image: images/press/articles/quark2.jpg
+      image: images/press/articles/quark2.JPG
       button: 
         label: Read
         link: https://www.quark.sk/virtualny-hackathon/
     - date: 2020-09-04
       title: 'Hack Kosice 2020'
       subtitle: 'Quark'
-      image: images/press/articles/quark1.jpg
+      image: images/press/articles/quark1.JPG
       button: 
         label: Read
         link: https://www.quark.sk/hack-kosice/
