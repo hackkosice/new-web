@@ -19,7 +19,7 @@ homepage_banner:
 thank_you_banner:
   bgImage: images/bg/hk-advent.png
   subtitle: |
-    HACK KOSICE IS MORE THAN JUST A HACKATHON.
+    HACK KOSICE IS MORE THAN JUST A HACKATHON
   title: HK Advent Coding
   button:
     label: All Events
@@ -128,9 +128,9 @@ partners_sponsors:
 {{< section type="banner" config="thank_you_banner" >}}
 ### Make your advent even more exciting than usual! {class="mb-4"}
 
-From 1st to 24th December, one **interesting problem** will be prepared for you each day **on the website xmas.hackkosice.com** - same principle as an **advent callendar**. It´s a THANK YOU for all your support, it means a world for us.
+From 1st to 24th December, one **interesting problem** will be prepared for you each day- same principle as an **advent callendar**. The key is not to compete but to have **as much fun as possible**!
 
-The key is not to compete but to have as much fun as possible!
+Come and join us on the website https://xmas.hackkosice.com/
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
