@@ -17,13 +17,13 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/hk-team.png
+  bgImage: images/bg/hk-advent.png
   subtitle: |
-    26 projects. 32 hours of live stream. 149 hackers.
-  title: Thank you
+    HACK KOSICE IS MORE THAN JUST A HACKATHON.
+  title: HK Advent Coding
   button:
-    label: Read more
-    link: /hk20
+    label: All Events
+    link: /opportunities
 
 homepage_features:
   title: "More than a hackathon!"
@@ -126,11 +126,11 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### for an amazing weekend full of innovative ideas, creative projects, and you, hackers! {class="mb-4"}
+### Make your advent even more exciting than usual! {class="mb-4"}
 
-Hack Kosice 2020 took place on 5—6 September 2020 as an **online hackathon**, where hackers benefited from **workshops**, **mentoring** from professionals, sponsors' **challenges**, and attractive prizes.
+From 1st to 24th December, one **interesting problem** will be prepared for you each day **on the website xmas.hackkosice.com** - same principle as an **advent callendar**. It´s a THANK YOU for all your support, it means a world for us.
 
-Hope you enjoyed Hack Kosice as we did. See you at Hack Kosice 2021!
+The key is not to compete but to have as much fun as possible!
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
