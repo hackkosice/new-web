@@ -22,6 +22,9 @@ thank_you_banner:
     Hack Kosice is more than a hackathon
   title: HK Advent Coding
   button:
+    label: Advent Coding
+    link: https://xmas.hackkosice.com/
+  button2:
     label: All Events
     link: /opportunities
 
