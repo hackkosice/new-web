@@ -19,7 +19,7 @@ homepage_banner:
 thank_you_banner:
   bgImage: images/bg/hk.advent.png
   subtitle: |
-    HACK KOSICE IS MORE THAN JUST A HACKATHON
+    Hack Kosice is more than a hackathon
   title: HK Advent Coding
   button:
     label: All Events

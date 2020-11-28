@@ -4,11 +4,14 @@
 
 New website for Hack Kosice using Hugo.
 
+
 ## Making changes
 
 ### Editing live
 
 When you want to make changes to the live website, you can either use Git (for developers mostly), or edit the contents directly in GitHub. All changes on the `master` branch will be automatically tested for correctness, built and deployed to [dev.hackkosice.com/master](https://dev.hackkosice.com/master), or substitute master with any branch name. The update should take at most couple of seconds. You can check when the website was last built in the footer.
+
+Once you merge the branch back to `master`, a full build (taking 2-3 minutes) will take place and upload the website to Firebase, making it accessible at [hackkosice.com](https://hackkosice.com).
 
 ### Local installation
 
@@ -23,6 +26,7 @@ If you are developing locally, running `hugo server` will rebuild on any file ch
 ### Contributing
 
 [GitHub issues](https://github.com/hackkosice/new-web/issues) shows all things that still *need to be done*. Please, take any issue and just do it 🙂
+
 
 ## Getting Started
 
@@ -137,6 +141,36 @@ If you want the same part/section/text to be included in multiple pages:
     ```markdown
     {{< include file="sample/included-file.md" >}}
     ```
+
+### Make more URLs point to the same content
+
+Add this to a page's metadata to make it available by redirecting to it from multiple URL addresses under hackkosice.com.
+
+```yaml
+aliases:
+  - /events/alternative-link
+```
+
+### External redirects
+
+If you want an URL to cause a redirect outside of hackkosice.com, modify `firebase.json`, find the `"redirects":` section, and add a rule in the following form.
+
+```json
+    "redirects": [
+      ...
+      {
+        "source": "/url",
+        "destination": "https://custom.domain.com/page",
+        "type": 302
+      }
+    ],
+```
+
+*Note 1: This only works on Firebase, i.e. you will have to wait for the [full build](#editing-live) of [hackkosice.com](https://hackkosice.com), and the redirects won't work under [dev.hackkosice.com](https://dev.hackkosice.com), so you can't test it inside a custom branch.*
+
+*Note 2: If you have loaded the page (presumably getting a "Page Not Found" error), you may need to force reload (or delete cache) in your browser after making this change to view the effect.
+
+
 ## Development advice
 
 - When adding script/style/font files, put it in the `assets` folder and use at least [Hugo's fingerprint](https://gohugo.io/hugo-pipes/fingerprint/) functionality to include the file's hash in its file name. This is important because **Firebase is set up to allow caching of all script/style/font files for up to 1 year**, therefore including a file without its fingerprint in the file name will result in the file almost never being updated on the client side.

@@ -1,5 +1,22 @@
 {
   "hosting": {
+    "redirects": [
+      {
+        "source": "/apply",
+        "destination": "https://apply.hackkosice.com",
+        "type": 302
+      },
+      {
+        "source": "/lh-2020/zoom",
+        "destination": "https://zoom.us/j/96637836216",
+        "type": 302
+      },
+      {
+        "source": "/feedback",
+        "destination": "https://forms.gle/mKarH1KnVJQyFges7",
+        "type": 302
+      }
+    ],
     "public": "public",
     "ignore": [
       "firebase.json",
