@@ -17,11 +17,14 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/localhost.png
+  bgImage: images/bg/hk.advent.png
   subtitle: |
     Hack Kosice is more than a hackathon
-  title: New Localhost
+  title: HK Advent Coding
   button:
+    label: Advent Coding
+    link: https://xmas.hackkosice.com/
+  button2:
     label: All Events
     link: /opportunities
 
@@ -126,11 +129,11 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### Program your own language in less than an hour! {class="mb-4"}
+### Make your advent even more exciting than usual! {class="mb-4"}
 
-Join our **new workshop** and learn how to program your own language. Dominik will get you through the very basics, you will only need a **computer**, **internet connection** and a **good mood**. The rest is up to us!
+From **1st to 24th December**, one **interesting problem** will be prepared for you each day- same principle as an **advent calendar**. The key here is not to compete but to have fun!
 
-Signing in here: http://cutt.ly/lh-2020
+Come and join us at [xmas.hackkosice.com](https://xmas.hackkosice.com/)
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
