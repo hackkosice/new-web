@@ -17,7 +17,7 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/hk-advent.png
+  bgImage: images/bg/hk.advent.png
   subtitle: |
     HACK KOSICE IS MORE THAN JUST A HACKATHON
   title: HK Advent Coding
