@@ -128,7 +128,7 @@ partners_sponsors:
 {{< section type="banner" config="thank_you_banner" >}}
 ### Make your advent even more exciting than usual! {class="mb-4"}
 
-From **1st to 24th December**, one **interesting problem** will be prepared for you each day- same principle as an **advent callendar**. The key is not to compete but to have fun!
+From **1st to 24th December**, one **interesting problem** will be prepared for you each day- same principle as an **advent callendar**. The key here is not to compete but to have fun!
 
 Come and join us on the website https://xmas.hackkosice.com/
 {{< /section >}}
