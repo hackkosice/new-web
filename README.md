@@ -17,9 +17,10 @@ Once you merge the branch back to `master`, a full build (taking 2-3 minutes) wi
 
 If you prefer developing locally (you can preview any changes immediately and without having to commit), follow these steps:
 
-1.  [Install Hugo extended](https://gohugo.io/getting-started/installing/)
-2.  `git clone git@github.com:hackkosice/new-web`
-3.  `hugo server -DF` to start a local server (`-DF` is to include drafts and posts dated in the future) or just `hugo -DF` to build the website (to the `public` directory)
+1.  [Install **Hugo extended**](https://gohugo.io/getting-started/installing/) and [Node.js](https://nodejs.org/en/)
+2.  `git clone git@github.com:hackkosice/new-web && cd new-web`
+3.  `npm install`
+4.  `hugo server -DF` to start a local server (`-DF` is to include drafts and posts dated in the future) or just `hugo -DF` to build the website (to the `public` directory)
 
 If you are developing locally, running `hugo server` will rebuild on any file changes, reflecting updates automatically and immediately.
 
