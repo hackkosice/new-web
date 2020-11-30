@@ -9,7 +9,7 @@ jobs:
   build:
     executor:
       name: hugo/cibuilds
-      tag: '0.73'
+      tag: '0.79'
     parameters:
       html-proofer:
         default: true
@@ -52,7 +52,7 @@ jobs:
         description: Whether or not to test the outputted HTML with HTML Proofer.
         type: boolean
     docker:
-      - image: klakegg/hugo:0.74.3-ext-nodejs
+      - image: hackkosice/hugo:0.79.0
     environment:
       TZ: "Europe/Bratislava"
       NODE_ENV: "development"
