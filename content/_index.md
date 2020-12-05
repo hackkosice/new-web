@@ -47,7 +47,7 @@ homepage_cta:
   button:
     enable: true
     label: Read more
-    link: /opportunities/hk20
+    link: /hk20
 homepage_numbers:
   counterItem:
     - title: "Sponsors"
