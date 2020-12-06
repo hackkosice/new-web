@@ -14,23 +14,41 @@ team1:
   content : "These are the people who stand behind organising Hack Kosice
 and dreamers who want to help others grow."
   teamMember:
-    - id: andrea
+    - id: jakub
+    - id: pridilla
+    - id: jhavrankova
+    - id: mtarca
+    - id: dmatis
     - id: juraj
     - id: pavol
     - id: adam
-    - id: pridilla
     - id: ffabian
     - id: pondus
-    - id: jakub
     - id: svandak
     - id: rajmund
     - id: zoltan
-    - id: dmatis
-    - id: mtarca
     - id: zoli.s
     - id: apasztor
-    - id: jhavrankova
-    - id: martin
+  family:
+    text: "We are also grateful for the contribution of our **former members**, who will always stay part of the Hack Kosice family:"
+    text: "Our **former members** will always stay part of the Hack Kosice family, and we are grateful for each one's unique contribution:"
+    members:
+      - id: lenka
+      - id: andrea
+      - id: martin
+      - id: matus
+      - id: peter
+      - id: katarina
+      - id: mstevko
+      - id: emirdova
+      - id: mdlugosova
+      - id: dhudak
+      - id: asklenarikova
+      - id: mmedvidova
+      - id: odavitko
+      - id: fcermak
+      - id: hostro
+      - id: vnagy
 what_we_do:
   subtitle: Why work with us
   title: What we do
