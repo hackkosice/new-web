@@ -406,6 +406,16 @@
             {{ end }}
             {{ end }}
         </div>
+        {{ with .family }}
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="text-large mt-5">
+                    <p>{{ .text | markdownify }}</p>
+                    <p class="font-italic">{{ delimit (apply (apply (apply .members "dict" "person" "." "ctx" $) "partial" "person.html" ".") "index" "." "name") ", " }}</p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
     </div>
 </section>
 <!-- /team -->

@@ -1,8 +1,19 @@
 people:
+  - id: jakub
+    name: Jakub Žoldák
+    image: images/team/jakub.jpg
+    designation: Project Lead
+    social:
+      - icon: ti-email
+        link: 'mailto:jakub@hackkosice.com'
+      - icon: ti-facebook
+        link: https://www.facebook.com/jakub.zoldak
+      - icon: ti-linkedin
+        link: https://www.linkedin.com/in/jakub-zoldak/
   - id: andrea
     name: Andrea Komová
     image: images/team/andrea.jpg
-    designation: Project Lead, HR
+    designation: Distinguished Member
     social:
       - icon: ti-email
         link: 'mailto:andrea@hackkosice.com'
@@ -35,17 +46,6 @@ people:
     social:
       - icon: ti-email
         link: 'mailto:adam@hackkosice.com'
-  - id: jakub
-    name: Jakub Žoldák
-    image: images/team/jakub.jpg
-    designation: Sponsors
-    social:
-      - icon: ti-email
-        link: 'mailto:jakub@hackkosice.com'
-      - icon: ti-facebook
-        link: https://www.facebook.com/jakub.zoldak
-      - icon: ti-linkedin
-        link: https://www.linkedin.com/in/jakub-zoldak/
   - id: rajmund
     name: Rajmund Hruška
     image: images/team/rajmund.jpg
@@ -121,17 +121,53 @@ people:
   - id: mtarca
     name: Matej Tarča
     image: images/team/mtarca.jpg
-    designation: Marketing
+    designation: Lead - Hacker Service
     social:
       - icon: ti-email
         link: 'mailto:mtarca@hackkosice.com'
   - id: jhavrankova
     name: Janka Havranková
     image: images/team/jhavrankova.jpg
-    designation: Marketing
+    designation: Lead – Marketing
     social:
       - icon: ti-email
         link: 'mailto:jhavrankova@hackkosice.com'
+  - id: hhalasz
+    name: Hugo Halász
+    image: images/team/hhalasz.jpg
+    designation: Sponsors
+    social:
+      - icon: ti-email
+        link: 'mailto:hhalasz@hackkosice.com'
+
+  - id: lenka
+    name: Lenka Mirdová
+  - id: dhudak
+    name: Daniel Hudák
+  - id: matus
+    name: Matúš Makatura
+  - id: peter
+    name: Peter Brecher
+  - id: mdlugosova
+    name: Michaela Dlugošová
+  - id: asklenarikova
+    name: Betka Sklenáriková
+  - id: emirdova
+    name: Ema Mirdová
+  - id: fcermak
+    name: Filip Čermák
+  - id: katarina
+    name: Katarína Šamuová
+  - id: hostro
+    name: Herbert Ostró
+  - id: mstevko
+    name: Martin Števko
+  - id: mmedvidova
+    name: Mária Medviďová
+  - id: odavitko
+    name: Oliver Davitko
+  - id: vnagy
+    name: Viktor Nagy
 
   - id: pavol_sokol
     name: RNDr. JUDr. Pavol Sokol, PhD.
