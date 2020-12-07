@@ -30,12 +30,12 @@ prednasky:
       badges:
         - text: 45 min
           type: info
-    - title: Prežije Čína moderné technológie?
-      content: Moderné informačné technológie prinášajú so sebou množstvo nových challenges pre autoritatívne systémy po celom svete, ktorých mocenský monopol býva mnohokrát výrazne erodovaný. Práve príklad Číny, ako historicky jeden z najviac a najlepšie kontrolovaných systémov, je zaujímave analyzovať v svetle súčasnej doby a COVID-19 krízy. Aký vplyv bude mať dnešná technológia, a najmä sociálne siete, na Čínsky autoritatívny systém?
-      image: images/lectures/chinese-anshun-bridge.jpg
-      badges:
-        - text: 30 min
-          type: info
+    #- title: Prežije Čína moderné technológie?
+    #  content: Moderné informačné technológie prinášajú so sebou množstvo nových challenges pre autoritatívne systémy po celom svete, ktorých mocenský monopol býva mnohokrát výrazne erodovaný. Práve príklad Číny, ako historicky jeden z najviac a najlepšie kontrolovaných systémov, je zaujímave analyzovať v svetle súčasnej doby a COVID-19 krízy. Aký vplyv bude mať dnešná technológia, a najmä sociálne siete, na Čínsky autoritatívny systém?
+    #  image: images/lectures/chinese-anshun-bridge.jpg
+    #  badges:
+    #    - text: 30 min
+    #      type: info
     - title: Grafika v hrách
       content: |
         Čo prispelo k tomu aby sa počítačové hry za pár rokov zmenili z rozpixelovaných 2D plošinoviek na fotorealistické 3D hry na nerozoznanie od fotky alebo filmu?
@@ -70,18 +70,21 @@ prednasky:
         - text: 90 min
           type: info
     - title: Ako sa nestratiť v kóde
-      content: Úvod do magického sveta Gitu a verziovania pri programovaní. Git je neodeliteľná súčasť života každého programátora, ktorý chce pracovať na projektoch v tíme. Budeme sa rozprávať o najpoužívanejšom nástroji pre správu git projektov - Githube a pozrieme sa na to ako sa využíva v praxi. 
+      content: |
+        Úvod do magického sveta Gitu a verziovania pri programovaní. Git je neodeliteľná súčasť života každého programátora, ktorý chce pracovať na projektoch v tíme. Budeme sa rozprávať o najpoužívanejšom nástroji pre správu git projektov - Githube a pozrieme sa na to ako sa využíva v praxi.
+        
+        Najvhodnejšie pre informaticky zamerané skupiny.
       image: images/lectures/github.jpg
       badges:
-        - text: 90 min
+        - text: 60 min
           type: info
     
 prednasajuci:
   title: Prednášajúci
   teamMember:
-    - id: andrea
-      institution: University of Glasgow
-      designation: Politics and Central and Eastern European studies
+    #- id: andrea
+    #  institution: University of Glasgow
+    #  designation: Politics and Central and Eastern European studies
     - id: juraj
       institution: University of Cambridge
       designation: Computer Science
@@ -100,6 +103,9 @@ prednasajuci:
     - id: pridilla
       institution: Gymnázium, Poštová
       designation: Computer Science
+    - id: mtarca
+      institution: Masaryk University
+      designation: Informatics
     - id: pavol_sokol
 counter1:
   counterItem:
@@ -139,10 +145,12 @@ mam_zaujem:
 {{< section class="pb-0" >}}
 # Prednášky v školách
 
-V snahe pomôcť zvýšiť záujem o informačné technológie medzi mladými ľuďmi, ako aj zlepšiť kvalitu neformálneho vzdelávania na školách, sme sa rozhodli spustiť náš pilotný projekt odborných prednášok. Ich cieľom je interaktívne vzdelávať slovenských stredoškolákov, ukázať im koľko možností sa skrýva v oblasti IT, ako aj vzbudiť v nich väčší záujem o hlbšie angažovanie sa v tomto smere.
+Snažíme sa zvýšiť záujem o informačné technológie medzi mladými ľuďmi a zlepšiť kvalitu neformálneho vzdelávania na školách. Preto vzdelávame slovenských stredoškolákov interaktívnou cestou, ukazujeme im možnosti, ktoré sa skrývajú v oblasti IT, a budíme v nich väčší záujem o hlbšie angažovanie sa v tomto smere. Vyskúšajte to!
 
-<div class="alert alert-warning" role="alert">
-  S programom pre školský rok 2020/2021 začneme koncom októbra. Neváhajte <a href="#contact">napísať nám</a> v prípade záujmu.
+<div class="alert alert-info" role="alert">
+
+  Prednášky radi organizujeme **online** aj **osobne**, pre jednotlivé triedy alebo pre ročník.
+
 </div>
 {{< /section >}}
 
