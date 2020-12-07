@@ -29,12 +29,12 @@ and dreamers who want to help others grow."
     - id: zoltan
     - id: zoli.s
     - id: apasztor
+    - id: andrea
   family:
     text: "We are also grateful for the contribution of our **former members**, who will always stay part of the Hack Kosice family:"
     text: "Our **former members** will always stay part of the Hack Kosice family, and we are grateful for each one's unique contribution:"
     members:
       - id: lenka
-      - id: andrea
       - id: martin
       - id: matus
       - id: peter

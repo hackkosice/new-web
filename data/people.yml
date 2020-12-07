@@ -13,7 +13,7 @@ people:
   - id: andrea
     name: Andrea Komová
     image: images/team/andrea.jpg
-    designation: Project Lead, HR
+    designation: Distinguished Member
     social:
       - icon: ti-email
         link: 'mailto:andrea@hackkosice.com'
