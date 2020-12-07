@@ -132,9 +132,9 @@ people:
     social:
       - icon: ti-email
         link: 'mailto:jhavrankova@hackkosice.com'
-   - id: hugo
+  - id: hhalasz
     name: Hugo Halász
-    image: images/team/hugo.jpg
+    image: images/team/hhalasz.jpg
     designation: Sponsors
     social:
       - icon: ti-email
