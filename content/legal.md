@@ -5,7 +5,6 @@ menu:
     name: Legal
     weight: 40
 use_sections: true
-draft: true
 ---
 
 {{< section >}}
@@ -37,7 +36,6 @@ Executive board members:
 : - Juraj Mičko (juraj@hackkosice.com)
   - Pavol Drotár (pavol@hackkosice.com)
   - Ádám Urbán (adam@hackkosice.com)
-  - Jakub Žoldák (jakub@hackkosice.com)
   
   {{< button-abs link="mailto:org@hackkosice.com" label="Contact the Board" style="btn-solid-border" >}}
 {{< /section >}}
