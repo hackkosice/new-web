@@ -199,6 +199,14 @@ If you want an URL to cause a redirect outside of hackkosice.com, modify `fireba
         designation: Hacker Service (temporary)
     ```
 
+### Linking static files (not images)
+
+Upload the file to the `static` directory and, in the markdown text, use `{{< static `path/filename.xyz` >}}` to include the relative link to the file, where `path` is the path within the `static` directory. For example:
+
+```markdown
+[Read the Statutes]({{< static `files/stanovy.pdf` >}})
+```
+
 
 ## Development advice
 
