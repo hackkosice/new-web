@@ -171,6 +171,34 @@ If you want an URL to cause a redirect outside of hackkosice.com, modify `fireba
 
 *Note 2: If you have loaded the page (presumably getting a "Page Not Found" error), you may need to force reload (or delete cache) in your browser after making this change to view the effect.
 
+### Adding a team member
+
+1.  Add a profile picture to the [assets/images/team](assets/images/team) directory. It's good to name the image using the person's `id` (which is equal to the username in the email address, i.e. the email `mtarca@hackkosice.com` corresponds to the id `mtarca`)
+2.  Add the person to the list of all people in [data/people.yml](data/people.yml), following this form:
+    
+    ```yaml
+      - id: juraj
+        name: Juraj Mičko
+        image: images/team/juraj.jpg
+        designation: Founder, Hacker Service
+        social:
+          - icon: ti-email
+            link: 'mailto:juraj@hackkosice.com'
+          - icon: ti-facebook
+            link: https://www.facebook.com/micko.juraj
+          - icon: ti-linkedin
+            link: https://www.linkedin.com/in/juraj-micko
+    ```
+    
+3.  Now you can refer to the person by their `id` and add them to arbitrary list of people on the website. For example, modify [content/about.md](content/about.md) to add the person to the [About us](https://hackkosice.com/about/) page. (Note: you can override any of the properties each time you refer to the person)
+
+    ```yaml
+    teamMember:
+      ...
+      - id: juraj
+        designation: Hacker Service (temporary)
+    ```
+
 ### Linking static files (not images)
 
 Upload the file to the `static` directory and, in the markdown text, use `{{< static `path/filename.xyz` >}}` to include the relative link to the file, where `path` is the path within the `static` directory. For example:
