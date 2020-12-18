@@ -421,7 +421,9 @@ a {
       margin-bottom: 0;
     }
   }
-
+  .alert p:last-child {
+    margin-bottom: 0;
+  }
 
   pre {
     padding: 10px 20px;
