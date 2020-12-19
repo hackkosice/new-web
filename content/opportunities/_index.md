@@ -15,7 +15,7 @@ timeline:
   title: "Events organised"
   content: "Hack Kosice is building a growing community of like-minded people passionate about technology. Here is the list of events Hack Kosice organised for the hackers."
   case:
-    - title: "Localhost online: Program your own language - November 2020"
+    - title: "Localhost Online: Program your own language - November 2020"
       button:
           label: Record
           link: https://www.youtube.com/watch?v=uvbiEqQfm40&t=26s
