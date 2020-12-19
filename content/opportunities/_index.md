@@ -15,11 +15,17 @@ timeline:
   title: "Events organised"
   content: "Hack Kosice is building a growing community of like-minded people passionate about technology. Here is the list of events Hack Kosice organised for the hackers."
   case:
+    - title: "Localhost Online: Program your own language - November 2020"
+      button:
+          label: Record
+          link: https://www.youtube.com/watch?v=uvbiEqQfm40&t=26s
+      image: "images/events/localhost-nov2020.png"
+      content: "Attendes learned how to program their own language in less than an hour. Dominik showed us what a programming language must meet and how can a computer read it. Record is online on our YouTube channel!"
     - title: "Hack Kosice 2020 - September 2020"
       button:
           label: More info
           link: /hk20/
-      image: "images/logo_oneline_purplehdpiresized.jpg"
+      image: "images/events/hk2020.JPG"
       content: "Hack Kosice 2020 took place on 5—6 September 2020 as an online hackathon, where hackers benefited from workshops, mentoring from professionals, sponsors' challenges, and attractive prizes."
     - title: "Localhost Online: Github Workshop - Jun 2020"
       image: "images/githubresized.jpg"
