@@ -210,6 +210,36 @@
 </section>
 <!-- /Clients Slider -->
 
+<!-- Community partners -->
+{{- else if eq $type "clients-community" -}}
+<section class="section awards{{ with .class }} {{ . }}{{ end }}">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="why-content">
+                    <h2 class="mb-4"{{ with .color }} style="color: {{ . }};"{{ end }}>{{ .title | markdownify }}</h2>
+                </div>
+                {{ with .content }}<p class="mb-5">{{ . | markdownify }}</p>{{ end }}
+            </div>
+        </div>
+        <div class="row">
+            {{ $bigger := .bigger }}
+            {{ range .sponsors }}
+            {{ with partial "sponsor.html" (dict "sponsor" . "ctx" $) }}
+            <div class="{{ if $bigger }}col-lg-3 col-md-4 col-6{{ else }}col-lg-2 col-md-3 col-4{{ end }}">
+                <div class="award-img-block">                    
+                    <a href="{{ .url }}" class="award-img">
+                        {{ partial "fit-image.html" (dict "asset" .logo "format" $clients_default_format "alt" .name "title" .name "deferred" "true") }}
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- /Community partners -->
+
 <!-- clients_twocolumns -->
 {{- else if eq $type "clients_twocolumns" -}}
 <section class="section awards{{ with .class }} {{ . }}{{ end }}">
