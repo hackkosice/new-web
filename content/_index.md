@@ -17,14 +17,11 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/hk.advent.png
+  bgImage: images/bg/quiz.png
   subtitle: |
     Hack Kosice is more than a hackathon
-  title: HK Advent Coding
+  title: Funky Quiz With Ajka
   button:
-    label: Advent Coding
-    link: https://xmas.hackkosice.com/
-  button2:
     label: All Events
     link: /opportunities
 
@@ -129,11 +126,11 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### Make your advent even more exciting than usual! {class="mb-4"}
+### Everything but computer science! {class="mb-4"}
 
-From **1st to 24th December**, one **interesting problem** will be prepared for you each day- same principle as an **advent calendar**. The key here is not to compete but to have fun!
+**Funny** and **relaxed quiz** related to everything but computer science. You definitely shouldn´t miss this out!
 
-Come and join us at [xmas.hackkosice.com](https://xmas.hackkosice.com/)
+**Discord, 5 rounds per 5 questions, no teams - no teammates needed, icebreakers with prepared topics.**
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
