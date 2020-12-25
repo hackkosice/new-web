@@ -20,7 +20,7 @@ thank_you_banner:
   bgImage: images/bg/quiz.png
   subtitle: |
     Hack Kosice is more than a hackathon
-  title: Ajka´s Funky Quiz
+  title: Funky Quiz with Ajka
   button:
     label: All Events
     link: /opportunities
