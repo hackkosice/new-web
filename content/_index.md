@@ -20,7 +20,7 @@ thank_you_banner:
   bgImage: images/bg/quiz.png
   subtitle: |
     Hack Kosice is more than a hackathon
-  title: Funky Quiz With Ajka
+  title: Ajka´s Funky Quiz
   button:
     label: All Events
     link: /opportunities
@@ -128,9 +128,9 @@ partners_sponsors:
 {{< section type="banner" config="thank_you_banner" >}}
 ### Everything but computer science! {class="mb-4"}
 
-**Funny** and **relaxed quiz** related to everything but computer science. You definitely shouldn´t miss this out!
+**Funny** and **relaxed quiz** with many interesting topics. Come and join us!
 
-**Discord, 5 rounds per 5 questions, no teams - no teammates needed, icebreakers with prepared topics.**
+**5 rounds per 5 questions, no teams - no teammates needed, icebreakers with prepared topics.**
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
