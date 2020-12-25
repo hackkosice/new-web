@@ -128,9 +128,11 @@ partners_sponsors:
 {{< section type="banner" config="thank_you_banner" >}}
 ### Everything but computer science! {class="mb-4"}
 
-**Funny** and **relaxed quiz** with many interesting topics. Come and join us!
+Funny and relaxed quiz with many interesting topics. Come and join us!
 
-**5 rounds per 5 questions, no teams - no teammates needed, icebreakers with prepared topics.**
+**5 rounds per 5 questions
+no teams - no teammates needed 
+icebreakers with prepared topics**
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
