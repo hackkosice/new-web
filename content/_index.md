@@ -128,7 +128,7 @@ partners_sponsors:
 {{< section type="banner" config="thank_you_banner" >}}
 ### Everything but computer science! {class="mb-4"}
 
-**Funny and relaxed quiz with interesting questions and chilled athmosphere. Come and join us!**
+**Funny quiz with interesting questions and chilled athmosphere. Come and join us!**
 
 • 5 rounds per 5 questions
 
