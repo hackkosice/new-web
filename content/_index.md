@@ -130,9 +130,11 @@ partners_sponsors:
 
 Funny and relaxed quiz with many interesting topics. Come and join us!
 
-**5 rounds per 5 questions
-no teams - no teammates needed 
-icebreakers with prepared topics**
+**5 rounds per 5 questions**
+
+**no teams - no teammates needed** 
+
+**icebreakers with prepared topics**
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
