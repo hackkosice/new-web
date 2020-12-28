@@ -25,8 +25,8 @@ thank_you_banner:
     Hack Kosice is more than a hackathon
   title: Funky Quiz with Ajka
   button:
-    label: All Events
-    link: /opportunities
+    label: Sign In
+    link: https://forms.gle/TAYPUqsMTES5iAZL9
   button2:
     label: HK Discord
     link: https://discord.gg/cfNpxMc5
