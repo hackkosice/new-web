@@ -24,6 +24,9 @@ thank_you_banner:
   button:
     label: All Events
     link: /opportunities
+  button3:
+    label: HK Discord
+    link: https://discord.gg/cfNpxMc5
 
 homepage_features:
   title: "More than a hackathon!"
