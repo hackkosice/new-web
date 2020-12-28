@@ -15,6 +15,9 @@ homepage_banner:
   button2:
     label: Read more
     link: /hk20
+  button3:
+    label: Sign in
+    link: https://forms.gle/TAYPUqsMTES5iAZL9
 
 thank_you_banner:
   bgImage: images/bg/quiz.png
