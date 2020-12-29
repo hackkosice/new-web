@@ -23,7 +23,7 @@ thank_you_banner:
   title: Funky Quiz with Ajka
   button:
     label: Sign In
-    link: https://forms.gle/TAYPUqsMTES5iAZL9
+    link:  https://forms.gle/TAYPUqsMTES5iAZL9
   button2:
     label: HK Discord
     link: https://discord.gg/cfNpxMc5
