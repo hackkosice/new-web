@@ -564,7 +564,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="case-img">
-                        {{ partial "fill-image.html" (dict "asset" .image "format" $casestudy_img_format "alt" .title) }}
+                        {{ $format := $casestudy_img_format }}{{ with .format }}{{ $format = . }}{{ end }}
+                        {{ partial "fill-image.html" (dict "asset" .image "format" $format "alt" .title) }}
                     </div>
                 </div>
                 <div class="col-lg-6">
