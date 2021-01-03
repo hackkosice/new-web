@@ -15,12 +15,19 @@ timeline:
   title: "Events organised"
   content: "Hack Kosice is building a growing community of like-minded people passionate about technology. Here is the list of events Hack Kosice organised for the hackers."
   case:
+    - title: Advent coding challenge
+      button:
+        label: More info
+        link: /opportunities/advent/
+      image: "images/events/advent_coding/advent_coding_screenshot.jpg"
+      format: "original"
+      content: A set of 24 unconventional math and computer science problems were featured in the Advent coding competition 🎄, which ran from 1st until 24th December 2020.
     - title: "Localhost Online: Program your own language - November 2020"
       button:
           label: Record
           link: https://www.youtube.com/watch?v=uvbiEqQfm40&t=26s
       image: "images/events/localhost-nov2020.png"
-      content: "Attendes learned how to program their own language in less than an hour. Dominik showed us what a programming language must meet and how can a computer read it. Record is online on our YouTube channel!"
+      content: "Attendees learned how to program their own language in less than an hour. Dominik showed us what a programming language must meet and how can a computer read it. Record is online on our YouTube channel!"
     - title: "Hack Kosice 2020 - September 2020"
       button:
           label: More info
