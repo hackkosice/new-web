@@ -362,6 +362,12 @@ hello from a basic section with custom `class` and `style` attributes! (note tha
 And *I can* use **markdown**!
 {{< /section >}}
 
+{{< section type="narrow" >}}
+Just a narrower section, nothing more.
+
+We always aspired to give something back to our 'home' community - before, we gave talks at some high schools about international opportunities and helped younger students with their applications to study abroad.
+{{< /section >}}
+
 {{< section type="banner" config="banner1" >}}
 Come and build your wildest ideas in 24 hours, surrounded with great designers, <br/>entrepreneurs, ideators and free food.
 {{< /section >}}

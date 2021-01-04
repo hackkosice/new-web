@@ -28,6 +28,21 @@
     </div>
 </section>
 
+<!-- Narrow -->
+{{- else if eq $type "narrow" -}}
+<section class="section{{ with .class }} {{ . }}{{ end }}" {{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="content">
+                    {{ $.Inner | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Narrow -->
+
 <!-- Slider -->
 {{- else if eq $type "banner" -}}
 {{- $image := partial "get-image.html" .bgimage -}}

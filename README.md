@@ -76,6 +76,7 @@ A more advanced page can be composed of sections of various types. The `basic` t
 The following **page types** are supported:
 
 - `basic`
+- `narrow`
 - `banner`
 - `bannerFeature`
 - `feature`
