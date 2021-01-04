@@ -9,13 +9,15 @@ menu:
 use_sections: true
 
 counter:
-  counterItem :
-    - title: Contestant
-      count: 100
-    - title: Submissions
-      count: 42
+  counterItem:
     - title: Unconventional problems
       count: 24
+    - title: Contestant
+      count: 555
+    - title: Submissions
+      count: 2130
+    #- title: Correct submissions
+    #  count: 303
     - title: Packet of swag
       count: 1
 sideimg:
