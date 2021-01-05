@@ -49,7 +49,7 @@ The challenges their solutions are still available 😉
 {{< /section >}}
 
 {{< section type="narrow" >}}
-## Building a community
+## Building a community {.mb-4}
 
 *One of the most active attendees of our Advent Coding succeed in getting our SWAG as well. Radovan’s attitude was so enthusiastic, he completed every single task, usually early in the morning, and was keeping in touch with us during the whole time.*
 
