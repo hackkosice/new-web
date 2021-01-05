@@ -49,6 +49,8 @@ The challenges their solutions are still available 😉
 {{< /section >}}
 
 {{< section type="narrow" >}}
+## Building a community
+
 *One of the most active attendees of our Advent Coding succeed in getting our SWAG as well. Radovan’s attitude was so enthusiastic, he completed every single task, usually early in the morning, and was keeping in touch with us during the whole time.*
 
 *We are so glad he wasn't the only one and Advent Coding created cute small community of amazing people solving interesting problems on a daily basis. Thank you so much for making this event an intriguing experience for all of us!*
