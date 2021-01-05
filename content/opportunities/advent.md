@@ -24,7 +24,6 @@ sideimg:
   title: Thinking out of the box
   image: images/events/advent_coding/advent_coding_animation.gif
   format: original
-  link: https://xmas.hackkosice.com/
   button:
     enable: true
     label: See the challenges
@@ -47,4 +46,10 @@ The goal of this challenge was to introduce the youth to a set of interesting pr
 Contestants needed to employ their very own creative approach and develop a zest for these unconventional kind of problems. A successful solver picked at random received a packet of full of new Hack Kosice swag!
         
 The challenges their solutions are still available 😉
+{{< /section >}}
+
+{{< section type="narrow" >}}
+*One of the most active attendees of our Advent Coding succeed in getting our SWAG as well. Radovan’s attitude was so enthusiastic, he completed every single task, usually early in the morning, and was keeping in touch with us during the whole time.*
+
+*We are so glad he wasn't the only one and Advent Coding created cute small community of amazing people solving interesting problems on a daily basis. Thank you so much for making this event an intriguing experience for all of us!*
 {{< /section >}}
