@@ -139,6 +139,13 @@ people:
     social:
       - icon: ti-email
         link: 'mailto:hhalasz@hackkosice.com'
+  - id: samrich
+    name: Samuel Amrich
+    image: images/team/samrich.jpg
+    designation: Hacker Service
+    social:
+      - icon: ti-email
+        link: 'mailto:samrich@hackkosice.com'
 
   - id: lenka
     name: Lenka Mirdová
