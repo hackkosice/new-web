@@ -72,30 +72,30 @@ prednasky:
     - title: Ako sa nestratiť v kóde
       content: |
         Úvod do magického sveta Gitu a verziovania pri programovaní. Git je neodeliteľná súčasť života každého programátora, ktorý chce pracovať na projektoch v tíme. Budeme sa rozprávať o najpoužívanejšom nástroji pre správu git projektov - Githube a pozrieme sa na to ako sa využíva v praxi.
-        
-        Najvhodnejšie pre informaticky zamerané skupiny.
       image: images/lectures/github.jpg
       badges:
         - text: 60 min
           type: info
+        - text: Najvhodnejšie pre informaticky zamerané skupiny
+          type: warning
     - title: Machine learning and deep learning. Ako rozmýšľa počítač?
       content: |
-        V súčasnosti sa každý obáva umelej inteligencie strojov. Čo to ale je umelá inteligencia alebo všeobecnejšie machinne learning? To čo to je a ako si vlastnú umelú inteligenciu môžeme naprogramovať do 30 minút sa dozviete práve na tejto prednáške.
-        
-        Najvhodnejšie pre informaticky zamerané skupiny.
+        V súčasnosti sa každý obáva umelej inteligencie strojov. Čo to ale je umelá inteligencia alebo všeobecnejšie machinne learning? To, čo to je, a ako si vlastnú umelú inteligenciu môžeme naprogramovať do 30 minút sa dozviete práve na tejto prednáške.
       image: images/lectures/088_Network4.jpg
       badges:
         - text: 60 min
           type: info
+        - text: Najvhodnejšie pre informaticky zamerané skupiny
+          type: warning
     - title: Naprogramuj si vlastnú simuláciu. Ako využívajú informatiku vedci.
       content: |
-        Áno programovanie je zábava. Ale vie sa takéto programovanie hodiť aj v živote vedca? Určite. Vedci používajú počítače na vytváranie simulácií. Ako si jednoduchú simuláciu produkujúcu nádherné obrázky si vysvetlíme do 45 minút na tejto prednáške.
-        
-        Najvhodnejšie pre informaticky zamerané skupiny.
+        Áno, programovanie je zábava. Ale vie sa programovanie hodiť aj v živote vedca? Určite. Vedci používajú počítače napríklad na vytváranie simulácií. Ako naprogramovať jednoduchú simuláciu produkujúcu nádherné obrázky si vysvetlíme do 45 minút na tejto prednáške.
       image: images/lectures/science.jpg
       badges:
         - text: 45 min
           type: info
+        - text: Najvhodnejšie pre informaticky zamerané skupiny
+          type: warning
 
 prednasajuci:
   title: Prednášajúci
@@ -119,11 +119,14 @@ prednasajuci:
       institution: Technical University of Košice
       designation: Computer Science
     - id: pridilla
-      institution: Gymnázium, Poštová
+      institution: Technical University of Munich
       designation: Computer Science
     - id: mtarca
       institution: Masaryk University
       designation: Informatics
+    - id: samrich
+      institution: Charles University
+      designation: Mathematics and Physics
     - id: pavol_sokol
 counter1:
   counterItem:
