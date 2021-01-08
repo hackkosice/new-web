@@ -78,7 +78,27 @@ prednasky:
       badges:
         - text: 60 min
           type: info
-    
+  
+    - title: Machine learning and deep learning. Ako rozmýšľa počítač?
+      content: |
+        V súčasnosti sa každý obáva umelej inteligencie strojov. Čo to ale je umelá inteligencia alebo všeobecnejšie machinne learning? To čo to je a ako si vlastnú umelú inteligenciu môžeme naprogramovať do 30 minút sa dozviete práve na tejto prednáške.
+        
+        Najvhodnejšie pre informaticky zamerané skupiny.
+      image: images/lectures/088_Network4.jpg
+      badges:
+        - text: 60 min
+          type: info
+      
+  - title: Naprogramuj si vlastnú simuláciu. Ako využívajú informatiku vedci.
+      content: |
+        Áno programovanie je zábava. Ale vie sa takéto programovanie hodiť aj v živote vedca? Určite. Vedci používajú počítače na vytváranie simulácií. Ako si jednoduchú simuláciu produkujúcu nádherné obrázky si vysvetlíme do 45 minút na tejto prednáške.
+        
+        Najvhodnejšie pre informaticky zamerané skupiny.
+      image: images/lectures/science.jpg
+      badges:
+        - text: 45 min
+          type: info
+          
 prednasajuci:
   title: Prednášajúci
   teamMember:
