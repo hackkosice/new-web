@@ -17,16 +17,16 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/quiz.png
+  bgImage: images/bg/hk-team.png
   subtitle: |
-    Hack Kosice is more than a hackathon
-  title: Funky Quiz with Ajka
+    Join us and become a part of something extraordinary
+  title: HK is more than a hackathon!
   button:
-    label: Sign In
-    link:  https://forms.gle/TAYPUqsMTES5iAZL9
+    label: Instagram
+    link:  https://www.instagram.com/hackkosice/?hl=sk
   button2:
-    label: HK Discord
-    link: https://discord.gg/cfNpxMc5
+    label: Facebook
+    link: https://www.facebook.com/hackkosice
 
 homepage_features:
   title: "More than a hackathon!"
@@ -129,15 +129,15 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### Everything but computer science! {class="mb-4"}
+### We are one big community open to anybody new {class="mb-4"}
 
-**Funny quiz with interesting questions and chilled athmosphere. Come and join us!**
+**Besides being the only hackathon in Slovakia, we do a lot more:**
 
-• 5 rounds per 5 questions
+• Workshops, Local Events
 
-• no teams - no teammates needed
+• Lectures in Schools
 
-• icebreakers with prepared topics
+• Podcasts
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
