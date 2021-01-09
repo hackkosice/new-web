@@ -20,7 +20,7 @@ thank_you_banner:
   bgImage: images/bg/hk-team.png
   subtitle: |
     Join us and become a part of something extraordinary
-  title: Kosice is more than a hackathon!
+  title: Hack Kosice is more than a hackathon!
   button:
     label: Instagram
     link:  https://www.instagram.com/hackkosice/?hl=sk
@@ -134,8 +134,11 @@ partners_sponsors:
 **Besides being the only hackathon in Slovakia, we do a lot more:**
 
 • Workshops
+
 • Local Events
+
 • Lectures in Schools
+
 • Podcasts
 {{< /section >}}
 
