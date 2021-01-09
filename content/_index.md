@@ -133,9 +133,7 @@ partners_sponsors:
 
 **Besides being the only hackathon in Slovakia, we do a lot more:**
 
-• Workshops
-
-• Local Events
+• Workshops, Local Events
 
 • Lectures in Schools
 
