@@ -20,7 +20,7 @@ thank_you_banner:
   bgImage: images/bg/hk-team.png
   subtitle: |
     Join us and become a part of something extraordinary
-  title: HK is more than a hackathon!
+  title: More than a hackathon
   button:
     label: Instagram
     link:  https://www.instagram.com/hackkosice/?hl=sk
