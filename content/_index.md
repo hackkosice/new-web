@@ -20,7 +20,7 @@ thank_you_banner:
   bgImage: images/bg/hk-team.png
   subtitle: |
     Join us and become a part of something extraordinary
-  title: More than a hackathon
+  title: HK is more than a hackathon
   button:
     label: Instagram
     link:  https://www.instagram.com/hackkosice/?hl=sk
@@ -129,7 +129,7 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### We create community, educate and motivate students to study IT  {class="mb-4"}
+### Community, motivation and education in an IT field  {class="mb-4"}
 
 **Besides being the most international hackathon in Slovakia, we do a lot more:**
 
