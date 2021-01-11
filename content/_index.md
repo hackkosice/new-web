@@ -129,7 +129,7 @@ partners_sponsors:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### Community, motivation and education in an IT field  {class="mb-4"}
+### Community, motivation and education in IT  {class="mb-4"}
 
 **Besides being the most international hackathon in Slovakia, we do a lot more:**
 
