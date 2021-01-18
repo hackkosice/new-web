@@ -15,6 +15,11 @@
         "source": "/feedback",
         "destination": "https://forms.gle/mKarH1KnVJQyFges7",
         "type": 302
+      },
+      {
+        "source": "/marathonproposal",
+        "destination": "https://drive.google.com/file/d/1rWkW0vuh6jZC1PgWabY33dlcyuj9Rgr9/view?usp=sharing",
+        "type": 302
       }
     ],
     "public": "public",
