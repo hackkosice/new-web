@@ -133,7 +133,7 @@ partners_sponsors:
 
 **How does a computer work?**
 
-This is one of the main questions Samo will answer this Saturday. Besides that, you will learn how to **create your own AI** in less than an hour and spend time among **amazing people with the same passion.**
+This is one of the main questions Samo will answer this. Besides that, you will learn how to **create your own AI** in less than an hour and spend time among **amazing people with the same passion.**
 
 You definitely can´t miss this out!
 {{< /section >}}
