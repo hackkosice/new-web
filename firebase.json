@@ -20,6 +20,11 @@
         "source": "/marathonproposal",
         "destination": "https://drive.google.com/file/d/1rWkW0vuh6jZC1PgWabY33dlcyuj9Rgr9/view?usp=sharing",
         "type": 302
+      },
+      {
+        "source": "/discord",
+        "destination": "https://discord.gg/eAE49z8e",
+        "type": 302
       }
     ],
     "public": "public",
