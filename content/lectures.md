@@ -166,7 +166,7 @@ mam_zaujem:
 {{< section class="pb-0" >}}
 # Prednášky v školách
 
-Snažíme sa zvýšiť záujem o informačné technológie medzi mladými ľuďmi a zlepšiť kvalitu neformálneho vzdelávania na školách. Preto vzdelávame slovenských stredoškolákov interaktívnou cestou, ukazujeme im možnosti, ktoré sa skrývajú v oblasti IT, a budíme v nich väčší záujem o hlbšie angažovanie sa v tomto smere. Vyskúšajte to!
+Snažíme sa zvýšiť záujem o informačné technológie medzi mladými ľuďmi a zlepšiť kvalitu neformálneho vzdelávania na školách. Preto bezplatne vzdelávame slovenských stredoškolákov interaktívnou cestou, ukazujeme im možnosti, ktoré sa skrývajú v oblasti IT, a budíme v nich väčší záujem o hlbšie angažovanie sa v tomto smere. Vyskúšajte to!
 
 <div class="alert alert-info" role="alert">
 
