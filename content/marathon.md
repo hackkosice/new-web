@@ -16,8 +16,15 @@ what_is_it:
     icon: "ti-desktop" # here we use themify icon pack : https://themify.me/themify-icons
   - title: A new **challenge** every two weeks
     icon: "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
-  - title: Public leaderboard -- for each solved task you will earn **kilometers**. Who can run the furthest?
-    icon: "ti-mobile" # here we use themify icon pack : https://themify.me/themify-icons
+
+leaderboard:
+  title: Public leaderboard
+  background: images/bg/background2.png
+  content: "For each solved task you will earn **kilometers**. Who can run the furthest?"
+#    button:
+#      enable: true
+#      label : "Read more"
+#      link : "about"
 
 who_can_join:
   subtitle: This is big
@@ -40,19 +47,31 @@ column-list1:
   columns:
     - title: Closed part
       content: |
-        - algorithmic task that has objectively correct answer
-        - speed matters - how fast from the start of the week you can solve this?
+        - Algorithmic task that has objectively correct answer
+        - Speed matters - how fast from the start of the week you can solve this?
 #      button:
 #        label: See on Google Maps
 #        link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
     - title: Open part
       content: |
-        - more open task that you can interpret yourself
-        - usually requires more time to create some application, AI etc.
+        - More open task that you can interpret yourself
+        - Usually requires more time to create some application, AI etc.
 #      button:
 #        label: See on Google Maps
 #        link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
 
+prizes:
+  title : "More than a hackathon!"
+  featureItem:
+    - icon: "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
+      title: Special HK prizes
+      content: Top 3 people in the leaderboard (with the most kilometers collected)
+    - icon: "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
+      title: Sponsors' prizes
+      content: Awarded to best projects in the open part
+    - icon: "ti-headphone-alt" # here we use themify icon pack : https://themify.me/themify-icons
+      title: Public voting
+      content: Top 5 projects win awesome Hack Kosice swag
 ---
 
 {{< section class="pb-0" >}}
@@ -62,26 +81,20 @@ column-list1:
 
 {{< /section >}}
 
-{{< section type="solutions" config="what_is_it" class="pb-0" >}}
+{{< section type="solutions" config="what_is_it" >}}
 Quos recusandae dolore, consequuntur nemo hic nisi perferendis. Vel praesentium magnam architecto delectus blanditiis doloremque, deleniti aperiam ab adipisci!
 {{< /section >}}
+
+{{< section type="cta" config="leaderboard" / >}}
 
 {{< section type="feature" config="who_can_join" class="pb-0" >}}
 Anyone can join, and students are especially welcome!
 {{< /section >}}
 
-{{< section type="column-list" config="column-list1" / >}}
+{{< section type="column-list" config="column-list1" class="pb-0" / >}}
 
-
-
-
-{{< section >}}
-- What you can win
-  - at the end TOP 3 people in leaderboard → special HK prizes
-    - best highschool student
-    - most points from closed part
-  - after every challenge winner in best project for open part → sponsor prize
-  - top 5 projects are selected, public voting → swag
-
+{{< section class="pb-0" >}}
+## What can you win?
 {{< /section >}}
 
+{{< section type="bannerFeature" config="prizes" / >}}
