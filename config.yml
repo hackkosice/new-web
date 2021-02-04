@@ -1,4 +1,7 @@
 baseURL: 'https://hackkosice.com/'
+urlPrefixes:
+  hackslovakia: 'https://hackslovakia.com/'
+  hackkosice: 'https://hackkosice.com/'
 languageCode: en-us
 title: Hack Kosice
 theme: orbitor-hugo
@@ -89,9 +92,9 @@ params:
       link: 'https://www.facebook.com/hackkosice/'
 menu:
   main:
-    - name: Hackathon 2020
-      identifier: hk20
-      weight: 30
+#    - name: Hackathon 2020
+#      identifier: hk20
+#      weight: 30
     - name: Activities
       identifier: opportunities
       weight: 50

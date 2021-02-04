@@ -14,7 +14,7 @@ homepage_banner:
     link: "https://youtu.be/BIuhS1qvHjs"
   button2:
     label: Read more
-    link: /hk20
+    link: https://hackkosice.com/
 
 thank_you_banner:
   bgImage: images/bg/lh.png
