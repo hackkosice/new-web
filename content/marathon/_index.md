@@ -6,6 +6,7 @@ menu:
     weight: 20
 #draft: true
 use_sections: true
+layout: single
 
 what_is_it:
   title: What is it?
