@@ -124,12 +124,12 @@ partners_sponsors:
     - id: talentum
     - id: notion
     - id: monday
-    - id: menahacks
     - id: challengerocket
 community_partners:
   title: "Community partners"
   color: black
   sponsors:
+    - id: menahacks
     - id: uniza
     - id: hackyeah
 ---
