@@ -22,8 +22,6 @@ and dreamers who want to help others grow."
     - id: juraj
     - id: pavol
     - id: adam
-    - id: ffabian
-    - id: pondus
     - id: rajmund
     - id: zoltan
     - id: hhalasz
@@ -54,6 +52,8 @@ and dreamers who want to help others grow."
       - id: zoli.s
       - id: apasztor
       - id: svandak
+      - id: ffabian
+      - id: pondus
 what_we_do:
   subtitle: Why work with us
   title: What we do
