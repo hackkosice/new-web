@@ -130,12 +130,8 @@ community_partners:
   title: "Community partners"
   color: black
   sponsors:
-    - id: mlh
-    - id: talentum
-    - id: notion
-    - id: monday
-    - id: menahacks
-    - id: challengerocket
+    - id: uniza
+    - id: hackyeah
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
