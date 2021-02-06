@@ -154,3 +154,14 @@ sponsors:
     name: Challenge Rocker
     url: https://bit.ly/HackKosiceLogo
     logo: images/sponsors/challengerocket.png
+  - id: uniza
+    tier: partners
+    name: Žilinská univerzita
+    url: https://www.uniza.sk/
+    logo: images/sponsors/community_partners/uniza.png
+  - id: hackyeah
+    tier: partners
+    name: Hack Yeah
+    url: https://hackyeah.pl/
+    logo: images/sponsors/community_partners/hackyeah.jpg
+

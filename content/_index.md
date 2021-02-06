@@ -124,8 +124,14 @@ partners_sponsors:
     - id: talentum
     - id: notion
     - id: monday
-    - id: menahacks
     - id: challengerocket
+community_partners:
+  title: "Community partners"
+  color: black
+  sponsors:
+    - id: menahacks
+    - id: uniza
+    - id: hackyeah
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
@@ -162,3 +168,5 @@ A hackathon can't happen without sponsors. Currently, these companies Sponsor us
 {{< section type="clients" config="medial_sponsors" / >}}
 
 {{< section type="clients" config="partners_sponsors" / >}}
+
+{{< section type="clients" config="community_partners" / >}}

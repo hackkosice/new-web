@@ -1,8 +1,8 @@
 {{/*
     use the template as follows:
-    {{ partial "client-image.html" (dict "asset" . "format" "370x420 q0 jpg" "alt" "Description of the image" "title" "Title of the image" "class" "mt-4" "deferred" "true") }}
+    {{ partial "fit-image.html" (dict "asset" . "format" "370x420 q0 jpg" "alt" "Description of the image" "title" "Title of the image" "class" "mt-4" "deferred" "true") }}
     ("alt", "title", "class", "deferred" parameters are optional:)
-    {{ partial "client-image.html" (dict "asset" . "format" "370x420 q0 jpg") }}
+    {{ partial "fit-image.html" (dict "asset" . "format" "370x420 q0 jpg") }}
 */}}
 
 {{- $image := partial "get-image.html" .asset -}}
