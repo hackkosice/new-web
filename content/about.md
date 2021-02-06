@@ -32,6 +32,9 @@ and dreamers who want to help others grow."
     - id: hhalasz
     - id: samrich
     - id: andrea
+    - id: mkomova
+    - id: zkrajnakova
+    - id: mgonda
   family:
     text: "We are also grateful for the contribution of our **former members**, who will always stay part of the Hack Kosice family:"
     text: "Our **former members** will always stay part of the Hack Kosice family, and we are grateful for each one's unique contribution:"
