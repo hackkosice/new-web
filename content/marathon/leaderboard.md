@@ -11,12 +11,14 @@ use_sections: true
 scripts:
 - js/marathon-leaderboard.js
 ---
-{{< section >}}
-**Leaderboard**
-{{< /section >}}
 
 {{< section >}}
-<div class="marathon-leaderboard-content">
-    <h1 class="marathon-leaderboard-title">Test</h1>
-</div>
+**Leaderboard**
+<table class="marathon-leaderboard-content">
+<tr>
+  <th></th>
+  <th>Team name</th>
+  <th>Points</th>
+</tr>
+</table>
 {{< /section >}}
