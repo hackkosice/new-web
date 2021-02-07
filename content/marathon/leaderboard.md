@@ -9,10 +9,14 @@ menu:
 use_sections: true
 
 scripts:
-- js/hello.js
+- js/marathon-leaderboard.js
 ---
 {{< section >}}
 **Leaderboard**
 {{< /section >}}
 
-{{< section type="marathon-leaderboard" />}}
+{{< section >}}
+<div class="marathon-leaderboard-content">
+    <h1 class="marathon-leaderboard-title">Test</h1>
+</div>
+{{< /section >}}
