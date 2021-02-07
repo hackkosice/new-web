@@ -12,8 +12,6 @@
     xhttp.open("GET", "http://dev.hackkosice.com:8081/stats", true);
     xhttp.send();
 
-    console.log($)
-
 })(jQuery)
 
 function createTeamRow(team, order) {
