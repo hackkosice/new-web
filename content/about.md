@@ -22,16 +22,14 @@ and dreamers who want to help others grow."
     - id: juraj
     - id: pavol
     - id: adam
-    - id: ffabian
-    - id: pondus
-    - id: svandak
     - id: rajmund
     - id: zoltan
-    - id: zoli.s
-    - id: apasztor
     - id: hhalasz
     - id: samrich
     - id: andrea
+    - id: mkomova
+    - id: zkrajnakova
+    - id: mgonda
   family:
     text: "We are also grateful for the contribution of our **former members**, who will always stay part of the Hack Kosice family:"
     text: "Our **former members** will always stay part of the Hack Kosice family, and we are grateful for each one's unique contribution:"
@@ -51,6 +49,11 @@ and dreamers who want to help others grow."
       - id: fcermak
       - id: hostro
       - id: vnagy
+      - id: zoli.s
+      - id: apasztor
+      - id: svandak
+      - id: ffabian
+      - id: pondus
 what_we_do:
   subtitle: Why work with us
   title: What we do

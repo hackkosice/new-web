@@ -146,6 +146,27 @@ people:
     social:
       - icon: ti-email
         link: 'mailto:samrich@hackkosice.com'
+  - id: mkomova
+    name: Mária Komová
+    image: images/team/mkomova.jpg
+    designation: Marketing
+    social:
+      - icon: ti-email
+        link: 'mailto:mkomova@hackkosice.com'
+  - id: zkrajnakova
+    name: Zuzana Krajňáková
+    image: images/team/zkrajnakova.jpg
+    designation: Marketing
+    social:
+      - icon: ti-email
+        link: 'mailto:zkrajnakova@hackkosice.com'
+  - id: mgonda
+    name: Maroš Gonda
+    image: images/team/mgonda.jpg
+    designation: Sponsors
+    social:
+      - icon: ti-email
+        link: 'mailto:mgonda@hackkosice.com'
 
   - id: lenka
     name: Lenka Mirdová
