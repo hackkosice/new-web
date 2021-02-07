@@ -83,6 +83,18 @@
 <script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
 {{ end }}
 
+
+{{ $scripts := slice }}
+{{ range $.Page.Params.scripts }}
+{{ $scripts = $scripts | append (resources.Get . | js.Build) }}
+{{ end }}
+{{ if gt (len $scripts) 0 }}
+{{ "<!-- JS page-local scripts -->" | safeHTML }}
+{{ with $scripts | resources.Concat "js/bundle_page.js" | minify | fingerprint }}
+<script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{ end }}
+{{ end }}
+
 <!-- cookie -->
 {{ if .Site.Params.cookie }}
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">

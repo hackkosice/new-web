@@ -7,6 +7,9 @@ menu:
     parent: HK Marathon
     weight: 30
 use_sections: true
+
+scripts:
+- js/hello.js
 ---
 {{< section >}}
 **Leaderboard**
