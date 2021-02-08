@@ -52,7 +52,7 @@ jobs:
         description: Whether or not to test the outputted HTML with HTML Proofer.
         type: boolean
     docker:
-      - image: hackkosice/hugo:0.79.0
+      - image: hackkosice/hugo:0.80.0
     environment:
       TZ: "Europe/Bratislava"
       NODE_ENV: "development"
