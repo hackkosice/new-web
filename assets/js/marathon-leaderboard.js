@@ -9,7 +9,7 @@
         });
     }
     };
-    xhttp.open("GET", "http://dev.hackkosice.com:8081/stats", true);
+    xhttp.open("GET", "https://marathon.hackkosice.com/stats", true);
     xhttp.send();
 
 })(jQuery)
