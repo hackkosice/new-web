@@ -17,16 +17,16 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/lh.png
+  bgImage: images/bg/hk-team.png
   subtitle: |
     Join us and become a part of something extraordinary
-  title: New Localhost
+  title: HK is more than a hackathon
   button:
-    label: Zoom Link
-    link:  https://bit.ly/3c43leb
+    label: Instagram
+    link:  https://www.instagram.com/hackkosice/?hl=sk
   button2:
-    label: FB Event
-    link: https://www.facebook.com/events/338350830858881
+    label: Facebook
+    link: https://www.facebook.com/hackkosice
 
 homepage_features:
   title: "More than a hackathon!"
@@ -135,13 +135,15 @@ community_partners:
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### Machine Learning and Deep Learning  {class="mb-4"}
+### Community, motivation and education in IT  {class="mb-4"}
 
-**How does a computer work?**
+**Besides being the most international hackathon in Slovakia, we do a lot more:**
 
-This is one of the main questions Samo will answer. Besides that, you will learn how to **create your own AI** in less than an hour and spend time among **amazing people with the same passion.**
+• Workshops, Local Events
 
-You definitely can´t miss this out!
+• Lectures in Schools
+
+• Podcasts
 {{< /section >}}
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
