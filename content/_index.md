@@ -8,10 +8,10 @@ homepage_banner:
   bgImage: images/bg/background-triangle.png
   subtitle: |
     250 Hackers. 24 Hours. <span class="d-block d-sm-inline" style="margin-bottom: 0;"></span>1 Spirit.
-  title: "Hack Kosice 2020"
+  title: 'Hack Kosice 2020'
   button:
     label: Watch live now!
-    link: "https://youtu.be/BIuhS1qvHjs"
+    link: 'https://youtu.be/BIuhS1qvHjs'
   button2:
     label: Read more
     link: /hk20
@@ -23,26 +23,26 @@ thank_you_banner:
   title: HK is more than a hackathon
   button:
     label: Instagram
-    link:  https://www.instagram.com/hackkosice/?hl=sk
+    link: https://www.instagram.com/hackkosice/?hl=sk
   button2:
     label: Facebook
     link: https://www.facebook.com/hackkosice
 
 homepage_features:
-  title: "More than a hackathon!"
+  title: 'More than a hackathon!'
   class: bg-light
   featureItem:
-    - icon: "ti-light-bulb" # here we use themify icon pack: https://themify.me/themify-icons
-      title: "Lectures in Schools"
-      content: "We teach tech-related topics in high-schools. [Learn more](/lectures)."
-    - icon: "ti-panel" # here we use themify icon pack: https://themify.me/themify-icons
-      title: "Local Events"
-      content: "We host seasonal MLH Localhost hackathons and workshops. [Read more](/opportunities)."
-    - icon: "ti-headphone-alt" # here we use themify icon pack: https://themify.me/themify-icons
-      title: "Podcasts"
-      content: "Listen to the Hack Kosice podcast [on Spotify](https://open.spotify.com/show/5OlocKsS6FFFW7KxKQeK52?si=IpwhjAE4S3uP7Z5K6llIPA). We discuss tech and interview motivating entrepreneurs."
+    - icon: 'ti-light-bulb' # here we use themify icon pack: https://themify.me/themify-icons
+      title: 'Lectures in Schools'
+      content: 'We teach tech-related topics in high-schools. [Learn more](/lectures).'
+    - icon: 'ti-panel' # here we use themify icon pack: https://themify.me/themify-icons
+      title: 'Local Events'
+      content: 'We host seasonal MLH Localhost hackathons and workshops. [Read more](/opportunities).'
+    - icon: 'ti-headphone-alt' # here we use themify icon pack: https://themify.me/themify-icons
+      title: 'Podcasts'
+      content: 'Listen to the Hack Kosice podcast [on Spotify](https://open.spotify.com/show/5OlocKsS6FFFW7KxKQeK52?si=IpwhjAE4S3uP7Z5K6llIPA). We discuss tech and interview motivating entrepreneurs.'
 homepage_cta:
-  title: "What is a hackathon?"
+  title: 'What is a hackathon?'
   background: images/bg/background2.png
   button:
     enable: true
@@ -50,39 +50,39 @@ homepage_cta:
     link: /hk20
 homepage_numbers:
   counterItem:
-    - title: "Sponsors"
-      count: "37"
-      unit: "+"
-    - title: "Events"
-      count: "15"
-      unit: ""
-    - title: "Countries"
-      count: "45"
-      unit: ""
-    - title: "Students"
-      count: "1350"
-      unit: ""
+    - title: 'Sponsors'
+      count: '37'
+      unit: '+'
+    - title: 'Events'
+      count: '15'
+      unit: ''
+    - title: 'Countries'
+      count: '45'
+      unit: ''
+    - title: 'Students'
+      count: '1350'
+      unit: ''
 
 general_sponsors:
   sections:
-    - title: "General Partner"
+    - title: 'General Partner'
       color: black
       bigger: true
       sponsors:
         - id: upjs
-    - title: "Public Partners"
+    - title: 'Public Partners'
       color: black
       bigger: true
       sponsors:
         - id: vucke
         - id: kosice
 platinum_sponsors:
-  title: "Platinum Sponsor"
+  title: 'Platinum Sponsor'
   color: gainsboro
   sponsors:
     - id: vse
 gold_sponsors:
-  title: "Gold Sponsors"
+  title: 'Gold Sponsors'
   color: gold
   bigger: true
   sponsors:
@@ -91,7 +91,7 @@ gold_sponsors:
     - id: visma
     - id: siemens
 silver_sponsors:
-  title: "Silver Sponsors"
+  title: 'Silver Sponsors'
   color: silver
   sponsors:
     - id: telekom
@@ -99,7 +99,7 @@ silver_sponsors:
     - id: global_logic
     - id: vacuum
 bronze_sponsors:
-  title: "Bronze Sponsors"
+  title: 'Bronze Sponsors'
   color: orange
   sponsors:
     - id: 46elks
@@ -107,7 +107,7 @@ bronze_sponsors:
     - id: trama
     - id: sparring
 medial_sponsors:
-  title: "Media Partners"
+  title: 'Media Partners'
   color: black
   sponsors:
     - id: fontech
@@ -117,7 +117,7 @@ medial_sponsors:
     - id: homostudiosus
     - id: robime_it
 partners_sponsors:
-  title: "Partners"
+  title: 'Partners'
   color: black
   sponsors:
     - id: mlh
@@ -126,16 +126,24 @@ partners_sponsors:
     - id: monday
     - id: challengerocket
 community_partners:
-  title: "Community partners"
+  title: 'Community partners'
   color: black
   sponsors:
     - id: menahacks
     - id: uniza
     - id: hackyeah
+discord:
+  title: 'Join our Discord'
+  background: images/bg/discord.jpg
+  button:
+    enable: true
+    label: 'Join here'
+    link: 'https://hackkosice.com/discord'
 ---
 
 {{< section type="banner" config="thank_you_banner" >}}
-### Community, motivation and education in IT  {class="mb-4"}
+
+### Community, motivation and education in IT {class="mb-4"}
 
 **Besides being the most international hackathon in Slovakia, we do a lot more:**
 
@@ -148,6 +156,8 @@ community_partners:
 
 {{< section type="bannerFeature" config="homepage_features" / >}}
 
+{{< section type="cta" config="discord" / >}}
+
 {{< section type="cta" config="homepage_cta" >}}
 A hackathon is a focused 24-hour event where students come together in small teams to share ideas and build something new and exciting, alongside a whole bunch of like-minded people. You learn immensely with the help of mentors, interact with companies and have fun! Hackathons are very beginner friendly!
 {{< /section >}}
@@ -155,7 +165,9 @@ A hackathon is a focused 24-hour event where students come together in small tea
 {{< section type="counter" config="homepage_numbers" / >}}
 
 {{< section type="basic" class="pb-4" >}}
+
 # Our Sponsors
+
 A hackathon can't happen without sponsors. Currently, these companies Sponsor us.
 {{< /section >}}
 
