@@ -133,7 +133,7 @@
 <link rel="preload" as="image" href="{{ $image.RelPermalink }}" />
 <section class="section cta" style="background: url('{{ $image.RelPermalink }}') no-repeat center center; background-size: cover;">
     <div class="container">
-        <div class="row">
+        <div class="row{{ if .mirror }} justify-content-end{{ end }}">
             <div class="col-lg-5">
                 <div class="cta-content bg-white p-5 rounded">
                     <h3 class="mb-4">{{ .title | markdownify }}</h3>

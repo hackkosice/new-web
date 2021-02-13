@@ -44,6 +44,7 @@ homepage_features:
 homepage_cta:
   title: 'What is a hackathon?'
   background: images/bg/background2.png
+  mirror: true
   button:
     enable: true
     label: Read more
