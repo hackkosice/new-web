@@ -109,9 +109,6 @@ prednasajuci:
     - id: pavol
       institution: University of Cambridge
       designation: Computer Science
-    - id: martin
-      institution: Imperial College London
-      designation: Computer Science
     - id: adam
       institution: Imperial College London
       designation: Electronic and Information Engineering
