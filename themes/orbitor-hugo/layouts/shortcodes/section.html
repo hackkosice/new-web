@@ -131,7 +131,7 @@
 {{- $image := partial "get-image.html" .background -}}
 {{- $image = $image.Resize "1920x q85 jpg" -}}
 <link rel="preload" as="image" href="{{ $image.RelPermalink }}" />
-<section class="section cta" style="background: url('{{ $image.RelPermalink }}') no-repeat center center; background-size: 100% auto;">
+<section class="section cta" style="background: url('{{ $image.RelPermalink }}') no-repeat center center; background-size: cover;">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
