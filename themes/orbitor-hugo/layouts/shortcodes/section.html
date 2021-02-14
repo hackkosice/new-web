@@ -783,6 +783,9 @@
             {{ with .title }}
             <div class="col-12"><h2 class="mb-4">{{ . | markdownify }}</h2></div>
             {{ end }}
+            {{ with .text }}
+            <div class="col-12"><p class="mb-4">{{ . | markdownify }}</p></div>
+            {{ end }}
             {{ range .columns}}
             <div class="col-lg-6 align-self-start">
                 <div class="feature-list">
