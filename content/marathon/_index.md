@@ -9,14 +9,24 @@ use_sections: true
 layout: single
 
 what_is_it:
-  title: How far can you run?
+  #title: How far can you run?
   serviceItem:
-  - title: '**Teams** of 1 -- 3 people'
-    icon: "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
+  - title: 'Teams of **1 -- 3 people**'
+    background: "#5e2137"
+    textcolor: white
+    icon: "ti-user" # here we use themify icon pack : https://themify.me/themify-icons
   - title: 'Duration: **12 weeks**'
-    icon: "ti-desktop" # here we use themify icon pack : https://themify.me/themify-icons
-  - title: A new **challenge** every two weeks
+    background: "#5e2137"
+    textcolor: white
+    icon: "ti-timer" # here we use themify icon pack : https://themify.me/themify-icons
+  - title: "**6 engaging challenges**"
+    background: "#5e2137"
+    textcolor: white
     icon: "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
+  - title: "**6 sponsors**"
+    background: "#5e2137"
+    textcolor: white
+    icon: "ti-briefcase" # here we use themify icon pack : https://themify.me/themify-icons
 
 sideimg1:
   title: 'How can I join?'
@@ -46,60 +56,68 @@ who_can_join:
     content: Many challenges can be solved through programming.
   - icon : "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
     title: Designers
-    content: Non-tech people like designers will be a strong support for a team as well.
+    content: Non-tech people like designers will be a strong support for every team.
   - icon : "ti-search" # here we use themify icon pack : https://themify.me/themify-icons
     title: Thinkers, ideators
-    content: "A complete web app solution for business"
+    content: "Creative solutions are needed to succeed in the completion of challenges."
   - icon : "ti-rocket" # here we use themify icon pack : https://themify.me/themify-icons
     title: Team leaders
     content:  An enthusiastic teamleader is a must-have!
 
 column-list1:
   title: What is a challenge?
-  text: "Every **two weeks** there will be a new challenge to solve. Most of the challenges in HK Marathon our provided by our **sponsors**. Each challenge consists of two parts that can award you with *kilometres*. It's completely up to **you** how do you decide to approach the challenge! <br/> **The two parts are:**"
+  text: "Every **two weeks** there will be a new challenge to solve. Most of the challenges in HK Marathon are provided by our **sponsors**. Each challenge consists of two parts that can award you with *kilometres*. It's entirely up to **you** how do you decide to approach the challenge! <br/> **The two parts are:**"
   columns:
     - title: Closed part
       content: |
-        - **Speed** matters, **points** count – how fast from the start can you solve this problem?
+        - **Speed matters, points count** – how fast from the start can you solve this problem?
         - Algorithmic task that has objectively correct answer.
-#      button:
-#        label: See on Google Maps
-#        link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
     - title: Open part
       content: |
         - More open task that you can interpret yourself
         - Usually requires more time and goal is to create some application, design sheet, train AI etc.
         - You can be creative and it's completely up to you what you will come up with!
-#      button:
-#        label: See on Google Maps
-#        link: https://goo.gl/maps/N3JmEi6PoeKtYPgM6
 
 prizes:
   featureItem:
     - icon: "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
       title: Special HK prizes
       content: |
-        - Awarded to top 3 people in the leaderboard at the end of the whole HK Marathon (with the most kilometers collected)
+        - Awarded at the end of the whole HK Marathon 
+        - Top 3 teams in the leaderboard (with the most kilometers collected)
     - icon: "ti-gift" # here we use themify icon pack : https://themify.me/themify-icons
       title: Sponsors' prizes
       content: |
-         - At the end of the sponsored challenge, sponsors judge solutions in open part and choose the top projects
+         - Sponsors choose the best open part project every two weeks (at the end of their challenge)
+         - One (or more) best projects are awarded with a special prize
     - icon: "ti-announcement" # here we use themify icon pack : https://themify.me/themify-icons
       title: Public voting
       content: |
         - People can choose the best project from open part after every two weeks on our social media
         - Top 5 projects win awesome Hack Kosice swag
+smallcta1:
+  title : "Can you run the full Marathon with us?"
+  button:
+    label : "Join"
+    link : "/discord"
 ---
 
 {{< section class="pb-0" >}}
 # Marathon by Hack Kosice
 
-> Marathon is a 12-week hackathon full of inspiring challenges and mentorship organized by sponsors.
+<h5 style="color: black; font-weight: normal;"> Marathon is a 12-week hackathon full of inspiring challenges and mentorship organized by sponsors. </h3>
+
+* Solve a new challenge every two weeks
+* Submit your solutions
+* Get awarded kilometres
+* Get to the top of the leaderboard
+* Win awesome prizes
+
 
 {{< /section >}}
 
-{{< section type="solutions" config="what_is_it" >}}
-Solve our open and closed problems every fortnight, earn points and get on top of the leaderboard. 
+{{< section type="solutions" config="what_is_it" class="pt-0" >}}
+<!--Solve our open and closed problems every fortnight, earn points and get on top of the leaderboard. -->
 {{< /section >}}
 
 {{< section type="feature" config="who_can_join" class="pb-0" >}}
@@ -107,19 +125,21 @@ Anyone can join, and highschool or university students are especially welcome!
 {{< /section >}}
 
 {{< section type="sideimg" config="sideimg1" >}}
-HK Marathon will be fully online event integrated to our own Discord server!
+HK Marathon will be fully online event integrated into our Discord server!
 
 * Join our discord and follow instructions on there to register for the event
 * Through interacting with our custom Marathon bot find all the challenges and provide your solutions.
-* Chat and connect with other hackers!
+* Chat and connect with other hackers and help us make one great community!
 {{< /section >}}
 
-{{< section type="cta" config="leaderboard" / >}}
+{{< section type="column-list" config="column-list1" / >}}
 
-{{< section type="column-list" config="column-list1" class="pb-0" / >}}
+{{< section type="cta" config="leaderboard" / >}}
 
 {{< section class="pb-0" >}}
 ## How can you win?
 {{< /section >}}
 
 {{< section type="bannerFeature" config="prizes" / >}}
+
+{{< section type="smallcta-marathon" config="smallcta1" / >}}
