@@ -3,6 +3,7 @@ title: HK Marathon
 description: A 12-week hackathon full of inspiring challenges and mentorship organized by sponsors
 menu:
   main:
+    parent: hkmarathon
     weight: 20
 #draft: true
 use_sections: true

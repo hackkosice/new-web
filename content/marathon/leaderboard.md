@@ -4,7 +4,7 @@ date: 2020-12-30
 description: 
 menu:
   main:
-    parent: HK Marathon
+    parent: hkmarathon
     weight: 30
 use_sections: true
 
