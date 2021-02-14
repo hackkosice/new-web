@@ -411,7 +411,11 @@
                     </h4>
                     <p class="condensed-text">
                         {{- if .institution -}}
+                        {{- if .designation -}}
                         {{ .institution | safeHTML }} — <i>{{ .designation | safeHTML }}</i>
+                        {{- else -}}
+                        {{ .institution | safeHTML }}
+                        {{- end -}}
                         {{- else -}}
                         {{ .designation | safeHTML }}
                         {{- end -}}

@@ -124,6 +124,9 @@ prednasajuci:
     - id: samrich
       institution: Charles University
       designation: Mathematics and Physics
+    - id: hhalasz
+      institution: Gymnázium, Poštová 9, Košice
+      designation: ~
     - id: pavol_sokol
 counter1:
   counterItem:
