@@ -114,9 +114,11 @@
 	}
 }
 
-.content img, .sideimg-img img, .case-img img {
-	box-shadow: 0 0px 15px 0 rgba(0,0,0,0.15);
-	border-radius: 5px;
+.section:not(.no-img-shadow) {
+	.content img, .sideimg-img img, .case-img img {
+		box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.15);
+		border-radius: 5px;
+	}
 }
 .content img.no-shadow {
 	box-shadow: none;

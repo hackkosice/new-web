@@ -31,9 +31,10 @@ what_is_it:
 
 sideimg1:
   title: 'How can I join?'
-  image: images/kasarne_kulturpark.jpg
-  format: "540x360 q60 jpg"
+  image: images/events/marathon/discord-logo-transparent.png
+  format: original
   link: https://hackkosice.com/discord
+  class: no-img-shadow
   button:
     enable: true
     label: Join discord
@@ -52,18 +53,18 @@ who_can_join:
   subtitle: HK Marathon
   title: Who can join?
   featureItem:
-  - icon : "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
+  - icon : "ti-shortcode" # here we use themify icon pack : https://themify.me/themify-icons
     title: Programmers
     content: Many challenges can be solved through programming.
-  - icon : "ti-panel" # here we use themify icon pack : https://themify.me/themify-icons
+  - icon : "ti-ruler-pencil" # here we use themify icon pack : https://themify.me/themify-icons
     title: Designers
-    content: Non-tech people like designers will be a strong support for every team.
-  - icon : "ti-search" # here we use themify icon pack : https://themify.me/themify-icons
+    content: Non-tech people like designers will be a strong support for every team.
+  - icon : "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
     title: Thinkers, ideators
     content: "Creative solutions are needed to succeed in the completion of challenges."
   - icon : "ti-rocket" # here we use themify icon pack : https://themify.me/themify-icons
     title: Team leaders
-    content:  An enthusiastic teamleader is a must-have!
+    content: An enthusiastic team leader is a must-have!
 
 column-list1:
   title: What is a challenge?
@@ -77,7 +78,7 @@ column-list1:
       content: |
         - More open task that you can interpret yourself
         - Usually requires more time and goal is to create some application, design sheet, train AI etc.
-        - You can be creative and it's completely up to you what you will come up with!
+        - You can be creative, and it's completely up to you what you will come up with!
 
 prizes:
   featureItem:
@@ -106,7 +107,7 @@ smallcta1:
 {{< section class="pb-0" >}}
 # Marathon by Hack Kosice
 
-<h5 style="color: black; font-weight: normal;"> Marathon is a 12-week hackathon full of inspiring challenges and mentorship organized by sponsors. </h3>
+### Marathon is a 12-week hackathon full of inspiring challenges and mentorship organized by sponsors. { .mb-4.text-dark.font-weight-normal }
 
 * Solve a new challenge every two weeks
 * Submit your solutions
@@ -122,7 +123,7 @@ smallcta1:
 {{< /section >}}
 
 {{< section type="feature" config="who_can_join" class="pb-0" >}}
-Anyone can join, and highschool or university students are especially welcome!
+Anyone can join. High school or university students are especially welcome!
 {{< /section >}}
 
 {{< section type="sideimg" config="sideimg1" >}}
