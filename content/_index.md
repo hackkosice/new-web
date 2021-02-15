@@ -19,7 +19,7 @@ homepage_banner:
 thank_you_banner:
   bgImage: images/bg/hk-team.png
   subtitle: |
-    Join us and become a part of something extraordinary
+    Community, motivation and education in 'IT'
   title: HK is more than a hackathon
   button:
     label: Instagram
@@ -144,15 +144,11 @@ discord:
 
 {{< section type="banner" config="thank_you_banner" >}}
 
-### Community, motivation and education in IT {class="mb-4"}
+### Besides being the most international hackathon in Slovakia, we do a lot more. { .mb-4.text-dark.font-weight-normal }
 
-**Besides being the most international hackathon in Slovakia, we do a lot more:**
-
-• Workshops, Local Events
-
-• Lectures in Schools
-
-• Podcasts
+- Workshops, Local Events
+- Lectures in Schools
+- Podcasts
 {{< /section >}}
 
 {{< section type="cta" config="discord" >}}
@@ -162,7 +158,7 @@ Keep in touch with our amazing community and get all the latest news about the u
 {{< section type="bannerFeature" config="homepage_features" / >}}
 
 {{< section type="cta" config="homepage_cta" >}}
-A hackathon is a focused 24-hour event where students come together in small teams to share ideas and build something new and exciting, alongside a whole bunch of like-minded people. You learn immensely with the help of mentors, interact with companies and have fun! Hackathons are very beginner friendly!
+A hackathon is a focused 24-hour event where students come together in small teams to share ideas and build something new and exciting, alongside a bunch of like-minded people. You learn immensely with the help of mentors, interact with companies and have fun! Hackathons are very beginner-friendly!
 {{< /section >}}
 
 {{< section type="counter" config="homepage_numbers" / >}}
