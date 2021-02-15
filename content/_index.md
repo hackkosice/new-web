@@ -182,4 +182,11 @@ A hackathon can't happen without sponsors. Currently, these companies Sponsor us
 
 {{< section type="clients" config="partners_sponsors" / >}}
 
-{{< section type="clients" config="community_partners" / >}}
+{{< section type="clients" config="community_partners" class="last" / >}}
+
+{{< section class="bg-light" >}}
+## Want to stay up to date?
+
+Receive occasional updates whenever Hack Kosice is planning another awesome event.
+{{< subscribe >}}
+{{< /section >}}

@@ -127,7 +127,7 @@
 
 .awards {
 	padding-top: 0px;
-	&:not(:last-of-type) {
+	&:not(:last-of-type):not(.last) {
 		padding-bottom: 0px;
 	}
 	.container {
