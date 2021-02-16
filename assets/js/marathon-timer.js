@@ -296,11 +296,9 @@
         });
     };
 
-    $("#marathon-timer").countdown('2021/03/29', function(event) {
+    $("#marathon-timer").countdown(new Date('2021-03-29T00:00:00.000+01:00'), function(event) {
         $(this).html(event.strftime('%w weeks, %d days, %H:%M:%S'));
-        console.log("printed")
     });
-    console.log("started")
 });
 
 
