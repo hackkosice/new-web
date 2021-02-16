@@ -1,6 +1,6 @@
 {{/*
     use the template as follows:
-    {{ partial "button.html" (dict "link" "http://..." "label" "Read more" "style" "btn-main") }}
+    {{ partial "button.html" (dict "link" "http://..." "label" "Read more" "class" "btn-main") }}
     ("style" parameter is optional:)
     {{ partial "button.html" (dict "link" "http://..." "label" "Read more") }}
 
@@ -8,4 +8,4 @@
       - btn-main
       - btn-solid-border
 */}}
-<a href="{{ .link | relURL }}" class="btn {{ if .style }}{{ .style }}{{ else }}btn-main{{ end }}">{{ .label }}<i class="ti-angle-right ml-2"></i></a>
+<a href="{{ .link | relURL }}" class="btn {{ if .class }}{{ .class }}{{ else }}btn-main{{ end }}">{{ .label }}<i class="ti-angle-right ml-2"></i></a>

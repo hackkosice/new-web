@@ -7,5 +7,5 @@
 
 {{- $image := partial "get-image.html" .asset -}}
 {{ if not (eq .format "original") }}{{- $image = $image.Fill .format -}}{{ end }}
-<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" class="img-fluid{{ with .class }} {{ . }}{{ end }}"{{ with .alt }} alt="{{ . }}"{{ end }}>
+<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" class="img-fluid{{ with .class }} {{ . }}{{ end }}"{{ with .alt }} alt="{{ . }}"{{ end }}{{ with .style }} style="{{ . | safeCSS }}"{{ end }}>
 {{- "" -}}

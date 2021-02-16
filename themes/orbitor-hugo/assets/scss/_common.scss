@@ -167,6 +167,11 @@ input[type="tel"] {
   border-radius: 50px;
 }
 
+.btn-border-white {
+  &, &:hover {
+    border: 2px solid white;
+  }
+}
 
 .btn.active:focus,
 .btn:active:focus,
@@ -207,6 +212,20 @@ input[type="tel"] {
 //  Section Title
 .section {
   padding: 100px 0;
+
+  &.full-width .container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &.section-flamingo {
+    background-color: $primary-color;
+
+    &, h1, h2, h3, h4, h5, h6, h7, .content ul:not(.list-inline) li:before {
+      color: white;
+    }
+  }
 }
 
 .section-sm {

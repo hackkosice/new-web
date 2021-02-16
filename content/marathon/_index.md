@@ -8,6 +8,8 @@ menu:
 #draft: true
 use_sections: true
 layout: single
+scripts:
+- js/marathon-timer.js
 
 what_is_it:
   #title: How far can you run?
@@ -31,19 +33,20 @@ what_is_it:
 
 sideimg1:
   title: 'How can I join?'
-  image: images/events/marathon/discord-logo-transparent.png
+  image: images/events/marathon/discord-logo-white.png
   format: original
   link: https://hackkosice.com/discord
-  class: no-img-shadow
+  class: no-img-shadow section-flamingo
   button:
     enable: true
     label: Join discord
+    class: btn-white btn-border-white
     link: https://hackkosice.com/discord
 
 leaderboard:
   title: Public leaderboard
   background: images/bg/background2.png
-  content: "For each solved task you will earn **kilometers**. The standings in the leaderboard all always **public** and updated *instantly*. You can anlways see them on the **Discord** or our website [here](/marathon/leaderboard). **Who can run the furthest?**"
+  content: "For each solved task you will earn **kilometers**. The standings in the leaderboard all always **public** and updated *instantly*. You can always see them on **[Discord](https://hackkosice.com/discord)** or [our website](/marathon/leaderboard). **Who can run the furthest?**"
 #    button:
 #      enable: true
 #      label : "Read more"
@@ -104,6 +107,10 @@ smallcta1:
     link : "/discord"
 ---
 
+{{< section class="no-img-shadow full-width pb-0 pt-1" >}}
+{{< image asset="images/events/marathon/bg_img.png" format="original" >}}
+{{< /section >}}
+
 {{< section class="pb-0" >}}
 # Marathon by Hack Kosice
 
@@ -114,11 +121,9 @@ smallcta1:
 * Get awarded kilometres
 * Get to the top of the leaderboard
 * Win awesome prizes
-
-
 {{< /section >}}
 
-{{< section type="solutions" config="what_is_it" class="pt-0" >}}
+{{< section type="solutions" config="what_is_it" class="py-0" >}}
 <!--Solve our open and closed problems every fortnight, earn points and get on top of the leaderboard. -->
 {{< /section >}}
 
@@ -144,4 +149,9 @@ HK Marathon will be fully online event integrated into our Discord server!
 
 {{< section type="bannerFeature" config="prizes" / >}}
 
-{{< section type="smallcta-marathon" config="smallcta1" / >}}
+{{< section type="smallcta" config="smallcta1" class="section pb-0" / >}}
+
+{{< section class="pt-0 bg-light" >}}
+<div class="text-center lead">Marathon starting in:</div>
+<div id="marathon-timer" class="text-center display-4"></div>
+{{< /section >}}
