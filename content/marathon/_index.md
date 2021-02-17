@@ -108,7 +108,7 @@ smallcta1:
 ---
 
 {{< section class="no-img-shadow full-width pb-0 pt-1" >}}
-{{< image asset="images/events/marathon/bg_img.png" format="original" >}}
+<img src="{{< static `images/events/marathon/bg_marathon.svg` >}}" class="img-fluid no-shadow" />
 {{< /section >}}
 
 {{< section class="pb-0" >}}
