@@ -170,9 +170,11 @@ Snažíme sa zvýšiť záujem o informačné technológie medzi mladými ľuďm
 
 <div class="alert alert-info" role="alert">
 
-  Prednášky radi organizujeme **online** aj **osobne**, pre jednotlivé triedy alebo pre ročník.
+  Prednášky radi organizujeme **online** (napr. Zoom) aj **osobne**, pre jednotlivé triedy alebo pre ročník.
 
 </div>
+
+Prednášame vždy **naživo**, s možnosťou kladenia otázok alebo prispôsobenia pre danú skupinu.
 {{< /section >}}
 
 {{< section type="services" config="prednasky" / >}}
