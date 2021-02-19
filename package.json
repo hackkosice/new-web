@@ -9,13 +9,14 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^3.0.0",
-    "autoprefixer": "^10.0.2",
+    "@fullhuman/postcss-purgecss": "^4.0.0",
+    "autoprefixer": "^10.2.4",
     "cssnano": "^4.1.10",
-    "postcss": "^8.1.8",
-    "postcss-cli": "^8.3.0",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
     "postcss-csso": "^5.0.0",
-    "postcss-import-url": "^5.1.0"
+    "postcss-focus": "^5.0.1",
+    "postcss-import-url": "^7.0.0"
   },
   "scripts": {
     "postinstall": "(cd functions && npm install)"
