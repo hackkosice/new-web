@@ -51,6 +51,12 @@ prednasky:
       badges:
         - text: 45 min
           type: info
+    - title: Ako počíta počítač
+      content: Zaujímalo ťa niekedy ako to, že kopa železa dokáže počítať? Na tejto prednáške si ukážeme čo sa v skutočnosti deje ak kalkulačku na svojom počítači necháte spočítať 2 čísla a ako zo základných elektrických súčiastok, ktoré poznáme z fyziky, postaviť počítač.
+      image: images/lectures/computer-motherboard.jpg
+      badges:
+        - text: 45 min
+          type: info
     - title: Čo o mne vie Internet?
       content: Internet obsahuje obrovské množstvo dát, z ktorého sa dá zistiť veľa zaujímavých informácií. V prednáške si ukážeme niekoľko verejných zdrojov týchto informácií (nie len Google). Na pár minút z nás budú forenzní analytici a zahĺbime sa do vyhľadania informácií a zistíme či internet o nás nevie viac ako sme si mysleli.
       image: images/lectures/data-security.jpg
