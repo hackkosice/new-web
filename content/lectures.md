@@ -88,7 +88,7 @@ prednasky:
           type: info
         - text: Najvhodnejšie pre informaticky zamerané skupiny
           type: warning
-    - title: Machine learning and deep learning. Ako rozmýšľa počítač?
+    - title: Machine learning a deep learning. Ako rozmýšľa počítač?
       content: |
         V súčasnosti sa každý obáva umelej inteligencie strojov. Čo to ale je umelá inteligencia alebo všeobecnejšie machinne learning? To, čo to je, a ako si vlastnú umelú inteligenciu môžeme naprogramovať do 30 minút sa dozviete práve na tejto prednáške.
       image: images/lectures/088_Network4.jpg
