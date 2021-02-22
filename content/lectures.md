@@ -25,7 +25,7 @@ prednasky:
         - text: 30 min
           type: info
     - title: Ako sú šifrované banky?
-      content: Zaujímalo ťa niekedy ako to banky zaisťujú bezpečnosť všetkých ich transakcii a prečo je to dôležité? Na tejto prednáške si povieme, čo to je šifrovanie, ako funguje a vysvetíme ako banky šifrujú všetku svoju komunikáciu. Tiež si povieme, prečo dochádza k úniku informácii čo môže zanechať komunikáciu nezabezpečenou.
+      content: Zaujímalo ťa niekedy ako banky zaisťujú bezpečnosť všetkých ich transakcii a prečo je to dôležité? Na tejto prednáške si povieme, čo to je šifrovanie, ako funguje a vysvetíme ako banky šifrujú všetku svoju komunikáciu. Tiež si povieme, prečo dochádza k úniku informácii čo môže zanechať komunikáciu nezabezpečenou.
       image: images/lectures/padlock.jpg
       badges:
         - text: 45 min
