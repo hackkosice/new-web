@@ -14,6 +14,7 @@ scripts:
 
 what_is_it:
   #title: How far can you run?
+  narrow: true
   serviceItem:
   - title: 'Teams of **1 -- 3 people**'
     background: "#5e2137"

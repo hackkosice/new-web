@@ -623,6 +623,7 @@
 
 <!-- solutions -->
 {{- else if eq $type "solutions" -}}
+{{ $narrow := .narrow }}
 <section class="section service{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }} {{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
     <div class="container">
         <div class="row">
@@ -634,10 +635,10 @@
                 {{ end }}
             </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row">
             {{ range .serviceitem }}
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item-list content" style= "{{ if .background }}background: {{ .background }};{{ end }} {{ if .textcolor }}color: {{ .textcolor }};{{ end }}" >
+            <div class="{{ if $narrow }}col-lg-3{{ else }}col-lg-4{{ end }} col-md-6 service-item-list-outer">
+                <div class="service-item-list content align-items-center" style= "{{ if .background }}background: {{ .background }};{{ end }} {{ if .textcolor }}color: {{ .textcolor }};{{ end }}" >
                     <i class="{{ .icon }}"></i>
                     <p>{{ .title | markdownify }}</p>
                 </div>

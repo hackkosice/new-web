@@ -1,9 +1,12 @@
+.service-item-list-outer {
+	margin: 0 0 20px;
+}
 .service-item-list{
+	height: 100%;
 	padding: 20px 25px;
 	background: $light;
 	box-shadow: 0 0 15px rgba(0,0,0,.1);
 	border-radius: 5px;
-	margin: 0 0 20px;
 	min-height: (30px+2*20px);
 
 	i{
