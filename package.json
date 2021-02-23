@@ -7,9 +7,8 @@
     "url": "git://github.com/hackkosice/new-web.git"
   },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.0",
+    "@fullhuman/postcss-purgecss": "^4.0.2",
     "autoprefixer": "^10.2.4",
     "cssnano": "^4.1.10",
     "postcss": "^8.2.6",
