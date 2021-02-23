@@ -1,5 +1,6 @@
 ---
 title: HK Marathon
+bgImage: ~
 description: A 10-week hackathon full of inspiring challenges and mentorship organized by sponsors
 menu:
   main:
@@ -107,7 +108,7 @@ smallcta1:
     link : "/discord"
 ---
 
-{{< section class="no-img-shadow full-width pb-0 pt-1" >}}
+{{< section class="no-img-shadow full-width pb-0" >}}
 <img src="{{< static `images/events/marathon/bg_marathon.svg` >}}" class="img-fluid no-shadow" />
 {{< /section >}}
 
