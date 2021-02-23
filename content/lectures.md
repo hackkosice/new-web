@@ -197,8 +197,8 @@ Prednášame vždy **naživo**, s možnosťou kladenia otázok alebo prispôsobe
 
 {{< section type="smallcta" config="mam_zaujem" id="contact" / >}}
 
-{{< section type="testimonial" config="testimonial1" / >}}
+{{< section type="testimonial" config="testimonial1" id="feedback" / >}}
 
 {{< section type="counter" config="counter1" / >}}
 
-{{< section type="team" config="prednasajuci" / >}}
+{{< section type="team" config="prednasajuci" id="presenters" / >}}

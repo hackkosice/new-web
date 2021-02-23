@@ -16,7 +16,7 @@
 {{- with $config -}}
 
 {{- if eq $type "basic" -}}
-<section class="section{{ with .class }} {{ . }}{{ end }}" {{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
+<section class="section{{ with .class }} {{ . }}{{ end }}"{{ with $.Get "style"}} style="{{ . | safeCSS }}"{{ end }}{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -178,7 +178,7 @@
 
 <!-- Counter -->
 {{- else if eq $type "counter" -}}
-<section class="section counter">
+<section class="section counter"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="row">
             {{ range .counteritem }}
@@ -260,7 +260,7 @@
 <!-- testimonial -->
 {{- else if eq $type "testimonial" -}}
 {{- $testimonial_img_format := "70x70 q80 jpg" -}}
-<section class="section testimonial">
+<section class="section testimonial"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -384,7 +384,7 @@
 <!-- team -->
 {{- else if eq $type "team" -}}
 {{- $teammember_img_format := "370x420 q80 jpg" -}}
-<section class="section team">
+<section class="section team"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
