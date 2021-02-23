@@ -1,6 +1,6 @@
 ---
 title: HK Marathon
-description: A 12-week hackathon full of inspiring challenges and mentorship organized by sponsors
+description: A 10-week hackathon full of inspiring challenges and mentorship organized by sponsors
 menu:
   main:
     parent: hkmarathon
@@ -18,15 +18,15 @@ what_is_it:
     background: "#5e2137"
     textcolor: white
     icon: "ti-user" # here we use themify icon pack : https://themify.me/themify-icons
-  - title: 'Duration: **12 weeks**'
+  - title: 'Duration: **10 weeks**'
     background: "#5e2137"
     textcolor: white
     icon: "ti-timer" # here we use themify icon pack : https://themify.me/themify-icons
-  - title: "**6 engaging challenges**"
+  - title: "**5 engaging challenges**"
     background: "#5e2137"
     textcolor: white
     icon: "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
-  - title: "**6 sponsors**"
+  - title: "**3 sponsors**"
     background: "#5e2137"
     textcolor: white
     icon: "ti-briefcase" # here we use themify icon pack : https://themify.me/themify-icons
