@@ -16,17 +16,17 @@ what_is_it:
   #title: How far can you run?
   narrow: true
   serviceItem:
-  - title: 'Teams of **1 -- 3 people**'
+  - title: 'Teams of **1 -- 3**'
     background: "#5e2137"
     textcolor: white
     icon: "ti-user" # here we use themify icon pack : https://themify.me/themify-icons
     link: "#who-can-join"
-  - title: 'Duration: **10 weeks**'
+  - title: '**10 weeks**'
     background: "#5e2137"
     textcolor: white
     icon: "ti-timer" # here we use themify icon pack : https://themify.me/themify-icons
     link: "#discord"
-  - title: '<strong>5 engaging<br class="d-none d-lg-inline"/> challenges</strong>'
+  - title: '**5 challenges**'
     background: "#5e2137"
     textcolor: white
     icon: "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
@@ -52,7 +52,7 @@ sideimg1:
 leaderboard:
   title: Public leaderboard
   background: images/bg/background2.png
-  content: "For each solved task you will earn **kilometers**. The standings in the leaderboard all always **public** and updated *instantly*. You can always see them on **[Discord](https://hackkosice.com/discord)** or [our website](/marathon/leaderboard). **Who can run the furthest?**"
+  content: "For each solved task you will earn **kilometers**. The standings in the leaderboard are always **public** and updated *instantly*. You can always see them on **[Discord](https://hackkosice.com/discord)** or [our website](/marathon/leaderboard). **Who can run the furthest?**"
 #    button:
 #      enable: true
 #      label : "Read more"
@@ -117,13 +117,12 @@ smallcta1:
 <img src="{{< static `images/events/marathon/bg_marathon.svg` >}}" class="img-fluid no-shadow px-0" />
 {{< /section >}}
 
+{{< section type="solutions" config="what_is_it" class="py-0" >}}
+{{< /section >}}
+
 {{< section class="pb-0" >}}
 <div class="text-center lead">Marathon starting in:</div>
 <h3 id="marathon-timer" class="text-center display-4 text-black"></h3>
-{{< /section >}}
-
-{{< section type="solutions" config="what_is_it" class="py-0" >}}
-<!--Solve our open and closed problems every fortnight, earn points and get on top of the leaderboard. -->
 {{< /section >}}
 
 {{< section class="pb-0" >}}
