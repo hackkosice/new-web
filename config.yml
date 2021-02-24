@@ -89,7 +89,7 @@ params:
       link: 'https://www.facebook.com/hackkosice/'
 menu:
   main:
-    - name: Hackathon 2020
+    - name: Hackathon
       identifier: hk20
       weight: 30
     - name: Activities
