@@ -203,3 +203,9 @@ people:
     image: images/team/external/pavol_sokol.jpg
     institution: Univerzita Pavla Jozefa Šafárika v Košiciach
     designation: vedúci Laboratória kybernetickej bezpečnosti a Centra aplikovanej informatiky
+  - id: jan_koscelansky
+    name: Jan Koscelansky
+    external: true
+    image: images/team/external/jan_koscelansky.jpg
+    institution: Sudo Academy
+    designation: CEO

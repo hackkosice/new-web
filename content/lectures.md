@@ -144,6 +144,7 @@ prednasajuci:
       institution: Gymnázium, Poštová 9, Košice
       designation: ~
     - id: pavol_sokol
+    - id: jan_koscelansky
 counter1:
   counterItem:
     - title: Škôl
