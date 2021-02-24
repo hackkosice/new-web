@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ if not .IsHome }}
+{{ if and (not .IsHome) (not (and (isset $.Page.Params "bgimage") (eq $.Page.Params.bgImage nil))) }}
 {{ partial "page-title.html" . }}
 {{ end }}
 

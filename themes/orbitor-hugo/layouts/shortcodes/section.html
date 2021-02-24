@@ -74,7 +74,7 @@
 
 <!-- banner feature -->
 {{- else if eq $type "bannerFeature" -}}
-<section class="section about{{ with .class }} {{ . }}{{ end }}" {{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
+<section class="section about{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}{{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
     <div class="container">
         <div class="row">
             {{ range .featureitem }}
@@ -97,7 +97,7 @@
 
 <!-- feature -->
 {{- else if eq $type "feature" -}}
-<section class="section process">
+<section class="section process{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5">
@@ -352,7 +352,7 @@
 <!-- sideimg -->
 {{- else if eq $type "sideimg" -}}
 {{- $sideimg_default_format := "1080x720 q60 jpg" -}}
-<section class="section bg-light{{ with .class }} {{ . }}{{ end }}">
+<section class="section{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0">
@@ -361,7 +361,7 @@
                     <div class="content">{{ $.Inner | markdownify }}</div>
                     {{- if .button.enable -}}
                     {{- with .button -}}
-                    <a href="{{ .link | relURL }}" class="btn btn-main mt-4">{{ .label }}<i class="ti-angle-right ml-2"></i></a>
+                    <a href="{{ .link | relURL }}" class="btn {{ if .class }}{{ .class }}{{ else }}btn-main{{ end }} mt-4">{{ .label }}<i class="ti-angle-right ml-2"></i></a>
                     {{- end -}}
                     {{- end -}}
                 </div>
@@ -627,7 +627,8 @@
 
 <!-- solutions -->
 {{- else if eq $type "solutions" -}}
-<section class="section service{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}>
+{{ $narrow := .narrow }}
+<section class="section service{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }} {{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mb-5 content">
@@ -638,13 +639,13 @@
                 {{ end }}
             </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row">
             {{ range .serviceitem }}
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item-list content">
+            <div class="{{ if $narrow }}col-lg-3{{ else }}col-lg-4{{ end }} col-md-6 service-item-list-outer">
+                <a class="service-item-list content align-items-center"{{ with .link }} href="{{ . }}"{{ end }} style="{{ with .background }}background: {{ . }};{{ end }} {{ with .textcolor }}color: {{ . }};{{ end }}" >
                     <i class="{{ .icon }}"></i>
                     <p>{{ .title | markdownify }}</p>
-                </div>
+                </a>
             </div>
             {{ end }}
         </div>
@@ -654,7 +655,7 @@
 
 <!-- small cta -->
 {{- else if eq $type "smallcta" -}}
-<section class="cta-2 bg-light{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}>
+<section class="bg-light{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="cta-block py-5">
             <div class="row align-items-center ">
@@ -787,6 +788,9 @@
             {{ with .title }}
             <div class="col-12"><h2 class="mb-4">{{ . | markdownify }}</h2></div>
             {{ end }}
+            {{ with .text }}
+            <div class="col-12"><p class="mb-4">{{ . | markdownify }}</p></div>
+            {{ end }}
             {{ range .columns}}
             <div class="col-lg-6 align-self-start">
                 <div class="feature-list">
@@ -835,7 +839,6 @@
     </div>
 </section>
 <!-- /articles list -->
-
 {{- else -}}
 {{- errorf "Unknown row type %s" $type -}}
 

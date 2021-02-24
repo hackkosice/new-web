@@ -95,6 +95,9 @@ menu:
     - name: Activities
       identifier: opportunities
       weight: 50
+    - name: HK Marathon
+      identifier: hkmarathon
+      weight: 20
   #footer1:
     #- name: Page
     #  URL: page

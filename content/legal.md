@@ -37,5 +37,5 @@ Executive board members:
   - Pavol Drotár (pavol@hackkosice.com)
   - Ádám Urbán (adam@hackkosice.com)
   
-  {{< button-abs link="mailto:org@hackkosice.com" label="Contact the Board" style="btn-solid-border" >}}
+  {{< button-abs link="mailto:org@hackkosice.com" label="Contact the Board" class="btn-solid-border" >}}
 {{< /section >}}

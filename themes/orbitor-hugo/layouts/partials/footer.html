@@ -1,3 +1,4 @@
+{{- $slug := replace (trim (.Permalink | relURL) "/") "/" "-" | anchorize -}}
 <!-- footer Start -->
 <footer class="footer section">
 	<div class="container">
@@ -81,6 +82,18 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ with resources.Get "js/script.js" | minify | fingerprint }}
 <script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{ end }}
+
+
+{{ $scripts := slice }}
+{{ range $.Page.Params.scripts }}
+{{ $scripts = $scripts | append (resources.Get . | js.Build) }}
+{{ end }}
+{{ if gt (len $scripts) 0 }}
+{{ "<!-- JS page-local scripts -->" | safeHTML }}
+{{ with $scripts | resources.Concat (printf "js/bundle_page_%s.js" $slug) | minify | fingerprint }}
+<script type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{ end }}
 {{ end }}
 
 <!-- cookie -->
