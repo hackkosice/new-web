@@ -31,7 +31,7 @@ what_is_it:
     textcolor: white
     icon: "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
     link: "#challenges"
-  - title: "**3 sponsors**"
+  - title: "**4 sponsors**"
     background: "#5e2137"
     textcolor: white
     icon: "ti-briefcase" # here we use themify icon pack : https://themify.me/themify-icons
@@ -128,7 +128,7 @@ smallcta1:
 {{< section class="pb-0" >}}
 # Marathon by Hack Kosice
 
-### Marathon is a 12-week hackathon full of inspiring challenges and mentorship organized by sponsors. { .mb-4.text-dark.font-weight-normal }
+### Marathon is a 10-week hackathon full of inspiring challenges and mentorship organized by sponsors. { .mb-4.text-dark.font-weight-normal }
 
 * Solve a new challenge every two weeks
 * Get to the top of the leaderboard by collecting kilometres
