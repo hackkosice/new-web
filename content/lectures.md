@@ -55,6 +55,8 @@ prednasky:
       content: Zaujímalo ťa niekedy ako to, že kopa železa dokáže počítať? Na tejto prednáške si ukážeme čo sa v skutočnosti deje ak kalkulačku na svojom počítači necháte spočítať 2 čísla a ako zo základných elektrických súčiastok, ktoré poznáme z fyziky, postaviť počítač.
       image: images/lectures/computer-motherboard.jpg
       badges:
+        - text: Novinka
+          type: warning
         - text: 45 min
           type: info
     - title: Čo o mne vie Internet?
@@ -80,6 +82,8 @@ prednasky:
         IT zďaleka nie je len o programovaní! Zistite, ako sa stať Produktovým manažérom, čo je momentálne jedna z najvyhľadávanejších pozícií v IT sektore, a taktiež ako riadia vývoj svojich digitálnych produktov top technologické firmy ako Spotify, Netflix a Google.
       image: images/lectures/product-manager.jpg
       badges:
+        - text: Novinka
+          type: warning
         - text: 45 min
           type: info
         - text: V spolupráci so SudoAcademy
@@ -93,25 +97,29 @@ prednasky:
         - text: 60 min
           type: info
         - text: Najvhodnejšie pre informaticky zamerané skupiny
-          type: warning
+          type: primary
     - title: Machine learning a deep learning. Ako rozmýšľa počítač?
       content: |
         V súčasnosti sa každý obáva umelej inteligencie strojov. Čo to ale je umelá inteligencia alebo všeobecnejšie machinne learning? To, čo to je, a ako si vlastnú umelú inteligenciu môžeme naprogramovať do 30 minút sa dozviete práve na tejto prednáške.
       image: images/lectures/088_Network4.jpg
       badges:
+        - text: Novinka
+          type: warning
         - text: 60 min
           type: info
         - text: Najvhodnejšie pre informaticky zamerané skupiny
-          type: warning
+          type: primary
     - title: Naprogramuj si vlastnú simuláciu. Ako využívajú informatiku vedci.
       content: |
         Áno, programovanie je zábava. Ale vie sa programovanie hodiť aj v živote vedca? Určite. Vedci používajú počítače napríklad na vytváranie simulácií. Ako naprogramovať jednoduchú simuláciu produkujúcu nádherné obrázky si vysvetlíme do 45 minút na tejto prednáške.
       image: images/lectures/science.jpg
       badges:
+        - text: Novinka
+          type: warning
         - text: 45 min
           type: info
         - text: Najvhodnejšie pre informaticky zamerané skupiny
-          type: warning
+          type: primary
 
 prednasajuci:
   title: Prednášajúci
