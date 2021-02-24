@@ -20,18 +20,22 @@ what_is_it:
     background: "#5e2137"
     textcolor: white
     icon: "ti-user" # here we use themify icon pack : https://themify.me/themify-icons
+    link: "#who-can-join"
   - title: 'Duration: **10 weeks**'
     background: "#5e2137"
     textcolor: white
     icon: "ti-timer" # here we use themify icon pack : https://themify.me/themify-icons
-  - title: "**5 engaging challenges**"
+    link: "#discord"
+  - title: '<strong>5 engaging<br class="d-none d-lg-inline"/> challenges</strong>'
     background: "#5e2137"
     textcolor: white
     icon: "ti-light-bulb" # here we use themify icon pack : https://themify.me/themify-icons
+    link: "#challenges"
   - title: "**3 sponsors**"
     background: "#5e2137"
     textcolor: white
     icon: "ti-briefcase" # here we use themify icon pack : https://themify.me/themify-icons
+    link: "#prizes"
 
 sideimg1:
   title: 'How can I join?'
@@ -109,8 +113,17 @@ smallcta1:
     link : "/discord"
 ---
 
-{{< section class="no-img-shadow full-width pb-0" >}}
-<img src="{{< static `images/events/marathon/bg_marathon.svg` >}}" class="img-fluid no-shadow" />
+{{< section class="no-img-shadow full-width pb-0" style="padding-top: 110px" >}}
+<img src="{{< static `images/events/marathon/bg_marathon.svg` >}}" class="img-fluid no-shadow px-0" />
+{{< /section >}}
+
+{{< section class="pb-0" >}}
+<div class="text-center lead">Marathon starting in:</div>
+<h3 id="marathon-timer" class="text-center display-4 text-black"></h3>
+{{< /section >}}
+
+{{< section type="solutions" config="what_is_it" class="py-0" >}}
+<!--Solve our open and closed problems every fortnight, earn points and get on top of the leaderboard. -->
 {{< /section >}}
 
 {{< section class="pb-0" >}}
@@ -119,21 +132,15 @@ smallcta1:
 ### Marathon is a 12-week hackathon full of inspiring challenges and mentorship organized by sponsors. { .mb-4.text-dark.font-weight-normal }
 
 * Solve a new challenge every two weeks
-* Submit your solutions
-* Get awarded kilometres
-* Get to the top of the leaderboard
+* Get to the top of the leaderboard by collecting kilometres
 * Win awesome prizes
 {{< /section >}}
 
-{{< section type="solutions" config="what_is_it" class="py-0" >}}
-<!--Solve our open and closed problems every fortnight, earn points and get on top of the leaderboard. -->
-{{< /section >}}
-
-{{< section type="feature" config="who_can_join" class="pb-0" >}}
+{{< section type="feature" config="who_can_join" id="who-can-join" >}}
 Anyone can join. High school or university students are especially welcome!
 {{< /section >}}
 
-{{< section type="sideimg" config="sideimg1" >}}
+{{< section type="sideimg" config="sideimg1" id="discord" >}}
 HK Marathon will be fully online event integrated into our Discord server!
 
 * Join our discord and follow instructions on there to register for the event
@@ -141,7 +148,7 @@ HK Marathon will be fully online event integrated into our Discord server!
 * Chat and connect with other hackers and help us make one great community!
 {{< /section >}}
 
-{{< section type="column-list" config="column-list1" / >}}
+{{< section type="column-list" config="column-list1" id="challenges" / >}}
 
 {{< section type="cta" config="leaderboard" / >}}
 
@@ -149,11 +156,6 @@ HK Marathon will be fully online event integrated into our Discord server!
 ## How can you win?
 {{< /section >}}
 
-{{< section type="bannerFeature" config="prizes" / >}}
+{{< section type="bannerFeature" config="prizes" id="prizes" / >}}
 
 {{< section type="smallcta" config="smallcta1" class="section pb-0" / >}}
-
-{{< section class="pt-0 bg-light" >}}
-<div class="text-center lead">Marathon starting in:</div>
-<div id="marathon-timer" class="text-center display-4"></div>
-{{< /section >}}

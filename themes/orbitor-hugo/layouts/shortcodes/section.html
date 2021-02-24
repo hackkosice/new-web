@@ -74,7 +74,7 @@
 
 <!-- banner feature -->
 {{- else if eq $type "bannerFeature" -}}
-<section class="section about{{ with .class }} {{ . }}{{ end }}" {{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
+<section class="section about{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}{{ with $.Get "style"}} style="{{ . | safeCSS }}" {{ end }}>
     <div class="container">
         <div class="row">
             {{ range .featureitem }}
@@ -97,7 +97,7 @@
 
 <!-- feature -->
 {{- else if eq $type "feature" -}}
-<section class="section process">
+<section class="section process{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5">
@@ -352,7 +352,7 @@
 <!-- sideimg -->
 {{- else if eq $type "sideimg" -}}
 {{- $sideimg_default_format := "1080x720 q60 jpg" -}}
-<section class="section{{ with .class }} {{ . }}{{ end }}">
+<section class="section{{ with .class }} {{ . }}{{ end }}"{{ with .id }} id="{{ . }}"{{ end }}>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0">
@@ -638,10 +638,10 @@
         <div class="row">
             {{ range .serviceitem }}
             <div class="{{ if $narrow }}col-lg-3{{ else }}col-lg-4{{ end }} col-md-6 service-item-list-outer">
-                <div class="service-item-list content align-items-center" style= "{{ if .background }}background: {{ .background }};{{ end }} {{ if .textcolor }}color: {{ .textcolor }};{{ end }}" >
+                <a class="service-item-list content align-items-center"{{ with .link }} href="{{ . }}"{{ end }} style="{{ with .background }}background: {{ . }};{{ end }} {{ with .textcolor }}color: {{ . }};{{ end }}" >
                     <i class="{{ .icon }}"></i>
                     <p>{{ .title | markdownify }}</p>
-                </div>
+                </a>
             </div>
             {{ end }}
         </div>

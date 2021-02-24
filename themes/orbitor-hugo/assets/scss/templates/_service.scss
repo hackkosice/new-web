@@ -8,17 +8,21 @@
 	box-shadow: 0 0 15px rgba(0,0,0,.1);
 	border-radius: 5px;
 	min-height: (30px+2*20px);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 
+	* {
+		margin-bottom: 0px;
+	}
 	i{
 		font-size: 30px;
 		margin-right: 20px;
-		float: left;
 		color: $primary-color;
 	}
 	p{
-		padding-left: 50px;
 		line-height: 1.6;
-		margin-bottom: 0px;
 	}
 }
 
