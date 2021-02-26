@@ -144,9 +144,9 @@ discord:
 
 {{< section type="banner" config="thank_you_banner" >}}
 
-### 10-week hackathon full of inspiring challenges and mentorship provided by our sponsors. { .mb-4.text-dark.font-weight-normal }
+### 10-week hackathon full of inspiring challenges and mentorship provided by our sponsors { .mb-4.text-dark.font-weight-normal }
 
-*STARTING ON 29TH MARCH*
+STARTING ON 29TH MARCH
 
 - 5 challenges
 - 4 sponsors
