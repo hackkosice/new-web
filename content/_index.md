@@ -17,16 +17,16 @@ homepage_banner:
     link: /hk20
 
 thank_you_banner:
-  bgImage: images/bg/hk-team.png
+  bgImage: images/bg/marathon.png
   subtitle: |
-    Community, motivation and education in 'IT'
-  title: HK is more than a hackathon
+    NEW WEEK, NEW CHALLENGE
+  title: Hack Kosice Marathon
   button:
-    label: Instagram
-    link: https://www.instagram.com/hackkosice/?hl=sk
+    label: Join our Discord
+    link: https://www.hackkosice.com/discord
   button2:
-    label: Facebook
-    link: https://www.facebook.com/hackkosice
+    label: More Information
+    link: https://www.hackkosice.com/marathon
 
 homepage_features:
   title: 'More than a hackathon!'
@@ -144,11 +144,14 @@ discord:
 
 {{< section type="banner" config="thank_you_banner" >}}
 
-### Besides being the most international hackathon in Slovakia, we do a lot more. { .mb-4.text-dark.font-weight-normal }
+### 10-week hackathon full of inspiring challenges and mentorship provided by our sponsors { .mb-4.text-dark.font-weight-normal }
 
-- Workshops, Local Events
-- Lectures in Schools
-- Podcasts
+STARTING ON 29TH MARCH
+
+- 5 challenges
+- 4 sponsors
+- Many amazing prizes
+- Integration on our Discord server
 {{< /section >}}
 
 {{< section type="cta" config="discord" >}}
