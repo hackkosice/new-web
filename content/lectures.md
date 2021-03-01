@@ -144,13 +144,16 @@ prednasajuci:
       designation: Computer Science
     - id: mtarca
       institution: Masaryk University
-      designation: Informatics
+      designation: Computer Science
     - id: samrich
       institution: Charles University
       designation: Mathematics and Physics
     - id: hhalasz
       institution: Gymnázium, Poštová 9, Košice
       designation: ~
+    - id: mstevko
+      institution: Charles University
+      designation: Computer Science
     - id: pavol_sokol
     - id: jan_koscelansky
 counter1:

@@ -168,6 +168,9 @@ people:
       - icon: ti-email
         link: 'mailto:mgonda@hackkosice.com'
 
+  - id: mstevko
+    name: Martin Števko
+    image: images/team/mstevko.jpg
   - id: lenka
     name: Lenka Mirdová
   - id: dhudak
@@ -188,8 +191,6 @@ people:
     name: Katarína Šamuová
   - id: hostro
     name: Herbert Ostró
-  - id: mstevko
-    name: Martin Števko
   - id: mmedvidova
     name: Mária Medviďová
   - id: odavitko
