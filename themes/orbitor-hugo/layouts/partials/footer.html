@@ -55,7 +55,7 @@
 		<div class="footer-btm mb-4 mt-lg-5">
 			<div class="row">
 				<div class="col-lg-6 mb-2 mb-lg-0">
-					<div class="copyright">{{ .Site.Params.copyright | markdownify }}.</a>
+					<div class="copyright">{{ .Site.Params.copyright | markdownify }} {{ now.Format "2006" }}</a>
 					</div>
 				</div>
 				<div class="col-lg-6">

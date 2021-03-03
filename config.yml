@@ -52,7 +52,7 @@ params:
   mapLongitude: '-0.1622023'
   mapMarker: images/marker.png
   googleAnalitycsID: G-ZGVQV42MKT
-  copyright: '&copy; Copyright Hack Kosice 2020'
+  copyright: '&copy; Copyright Hack Kosice'
   preloader:
     enable: true
   theme_color: '#5e2137'
