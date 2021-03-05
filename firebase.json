@@ -1,72 +1,92 @@
 {
-  "hosting": {
-    "redirects": [
-      {
-        "source": "/apply",
-        "destination": "https://apply.hackkosice.com",
-        "type": 302
-      },
-      {
-        "source": "/lh-2020/zoom",
-        "destination": "https://zoom.us/j/96637836216",
-        "type": 302
-      },
-      {
-        "source": "/feedback",
-        "destination": "https://forms.gle/DYycQvnrxJXBLu7w6",
-        "type": 302
-      },
-      {
-        "source": "/marathonproposal",
-        "destination": "https://drive.google.com/file/d/1rWkW0vuh6jZC1PgWabY33dlcyuj9Rgr9/view?usp=sharing",
-        "type": 302
-      },
-      {
-        "source": "/discord",
-        "destination": "https://discord.gg/jQ859jjEGr",
-        "type": 302
-      }
-    ],
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "headers": [
-      {
-        "source": "**/*.@(jpg|jpeg|gif|png|svg)",
-        "headers": [
-          {
-            "key": "Content-Encoding",
-            "value": "gzip"
-          },
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=86400"
-          }
-        ]
-      },
-      {
-        "source": "**/*_hu*.@(jpg|jpeg|gif|png|svg)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=31536000"
-          }
-        ]
-      },
-      {
-        "source": "**/*.@(js|css|woff|woff2)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=31536000"
-          }
-        ]
-      }
-    ]
-  },
+  "hosting": [
+    {
+      "target": "hackkosice",
+      "redirects": [
+        {
+          "source": "/apply",
+          "destination": "https://apply.hackkosice.com",
+          "type": 302
+        },
+        {
+          "source": "/lh-2020/zoom",
+          "destination": "https://zoom.us/j/96637836216",
+          "type": 302
+        },
+        {
+          "source": "/feedback",
+          "destination": "https://forms.gle/DYycQvnrxJXBLu7w6",
+          "type": 302
+        },
+        {
+          "source": "/marathonproposal",
+          "destination": "https://drive.google.com/file/d/1rWkW0vuh6jZC1PgWabY33dlcyuj9Rgr9/view?usp=sharing",
+          "type": 302
+        },
+        {
+          "source": "/discord",
+          "destination": "https://discord.gg/jQ859jjEGr",
+          "type": 302
+        }
+      ],
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "headers": [
+        {
+          "source": "**/*.@(jpg|jpeg|gif|png|svg)",
+          "headers": [
+            {
+              "key": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=86400"
+            }
+          ]
+        },
+        {
+          "source": "**/*_hu*.@(jpg|jpeg|gif|png|svg)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(js|css|woff|woff2)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "public, max-age=31536000"
+            }
+          ]
+        }
+      ]
+    }, {
+      "target": "hackslovakia",
+      "public": ".empty",
+      "redirects": [
+        {
+          "source": "/",
+          "destination": "https://hackkosice.com/",
+          "type": 302
+        },
+        {
+          "source": "/:path*",
+          "destination": "https://hackkosice.com/:path",
+          "type": 302
+        }
+      ],
+      "predeploy": "mkdir .empty",
+      "postdeploy": "rm -r .empty"
+    }
+  ],
   "functions": {
     "predeploy": [
       "npm --prefix \"$RESOURCE_DIR\" run lint"

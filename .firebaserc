@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "hack-kosice-14834"
+  },
+  "targets": {
+    "hack-kosice-14834": {
+      "hosting": {
+        "hackslovakia": [
+          "hack-slovakia"
+        ],
+        "hackkosice": [
+          "hack-kosice-14834"
+        ]
+      }
+    }
   }
 }
