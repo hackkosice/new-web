@@ -96,3 +96,17 @@ workflows:
           filters:
             branches:
               only: << pipeline.parameters.deploy-branch >>
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 4 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - deploy_firebase:
+          baseurl: 'https://hackkosice.com/'
+          filters:
+            branches:
+              only: << pipeline.parameters.deploy-branch >>

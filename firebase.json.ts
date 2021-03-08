@@ -20,4 +20,5 @@ async function generateFirebaseJson() {
     console.log("Generated firebase.json")
 }
 
+// TODO: the script should fail if the returned promise fails
 generateFirebaseJson()
