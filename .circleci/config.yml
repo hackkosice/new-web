@@ -80,6 +80,10 @@ jobs:
             - hugo/html-proofer:
                 path: ./public
       - run:
+          name: Generate firebase.json
+          command: |
+            npm run generate-firebase-json
+      - run:
           name: Deploy to Firebase
           command: |
             npm install --prefix=./firebase-deploy firebase-tools
