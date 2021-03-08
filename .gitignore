@@ -114,3 +114,4 @@ modules.xml
 .DS_Store
 *.cache
 .env
+firebase.json
