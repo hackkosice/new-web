@@ -1,4 +1,4 @@
-{{ range .badges }}
+{{ range . }}
 {{ if .url }}
 <a href="{{ .url }}" class="badge{{ with .type }} badge-{{ . }}{{ end }}">{{ .text }}</a>
 {{ else }}

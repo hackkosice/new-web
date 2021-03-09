@@ -27,6 +27,11 @@
           "source": "/discord",
           "destination": "https://discord.gg/jQ859jjEGr",
           "type": 302
+        },
+        {
+          "source": "/lectures/request",
+          "destination": "https://hackslovakia.typeform.com/to/tLOviLF0",
+          "type": 302
         }
       ],
       "public": "public",
