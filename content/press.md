@@ -13,6 +13,13 @@ use_sections: true
 articles-list1:
   title: 'Stories about Hack Kosice in press'
   articles:
+    - date: 2021-03-09
+      title: 'Trúfate si na 10-týždňový Hack Kosice Marathon?'
+      subtitle: 'IndexMag'
+      image: images/press/articles/hk index.jpg
+      button: 
+        label: Read
+        link: https://indexmag.sk/2021/03/09/10-tyzdnovy-hackathon-mozete-zazit-aj-v-kosiciach-hack-kosice/
     - date: 2020-10-08
       title: '5 študentských projektov, ktoré pomáhajú meniť veci okolo nás k lepšiemu'
       subtitle: 'RedBull'
