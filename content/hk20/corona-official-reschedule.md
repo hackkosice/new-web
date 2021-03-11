@@ -9,6 +9,7 @@ menu:
     name: Coronavirus statement
     parent: hk20
     weight: 50
+draft: true
 ---
 
 # Official statement regarding Coronavirus
