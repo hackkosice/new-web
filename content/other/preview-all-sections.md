@@ -18,7 +18,7 @@ banner1:
     link: "https://apply.hackkosice.com/"
   button2:
     label: Read more
-    link: /opportunities/hk20
+    link: /hackathon
 bannerFeature1:
   title : "More than a hackathon!"
   featureItem:

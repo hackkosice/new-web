@@ -8,7 +8,7 @@ aliases:
 menu:
   main:
     name: Startup track
-    parent: hk20
+    parent: hackathon
     weight: 10
 ---
 

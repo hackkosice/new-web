@@ -5,11 +5,12 @@ date: 2020-09-17
 description: Hack Kosice 2020 took place on 5—6 September 2020 as an online hackathon, where hackers benefited from workshops, mentoring from professionals, sponsors’ challenges, and attractive prizes.
 aliases:
   - /hk20/winners/
+  - /hk20
 menu:
   main:
     weight: 10
     name: Hack Kosice 2020
-    parent: hk20
+    parent: hackathon
 use_sections: true
 layout: single
 
@@ -45,7 +46,7 @@ cta:
   button:
     enable: true
     label: I am interested
-    link: /hk20/startup-track/
+    link: /hackathon/startup-track/
 online_platform:
   title: Online platform
   serviceItem:
@@ -278,7 +279,7 @@ Hack Kosice 2020 took place on 5—6 September 2020 as an **online hackathon**, 
 {{< /section >}}
 
 {{< section class="bg-light pt-0" >}}
-This year was slightly different than the previous year. Due to the coronavirus pandemic we decided to [postpone]({{< ref `/hk20/corona-official-reschedule` >}}) the hackathon from March to September and after profound consideration chose to host the hackathon [online]({{< ref `/hk20/going-online` >}}). We hosted a non-stop **32-hour live stream** on Youtube which included the opening ceremony, workshops by our sponsors, fun with Hack Kosice activities such as evening poetry, Kosice tour or cooking a midnight pizza. Additionally, we used [Swapcard](https://www.swapcard.com/virtual-events/) to connect hackers with mentors, recruiters and organisers, and bring everyone the best possible experience. The [best projects](#winners) were awarded prizes.
+This year was slightly different than the previous year. Due to the coronavirus pandemic we decided to [postpone]({{< ref `/hackathon/corona-official-reschedule` >}}) the hackathon from March to September and after profound consideration chose to host the hackathon [online]({{< ref `/hackathon/going-online` >}}). We hosted a non-stop **32-hour live stream** on Youtube which included the opening ceremony, workshops by our sponsors, fun with Hack Kosice activities such as evening poetry, Kosice tour or cooking a midnight pizza. Additionally, we used [Swapcard](https://www.swapcard.com/virtual-events/) to connect hackers with mentors, recruiters and organisers, and bring everyone the best possible experience. The [best projects](#winners) were awarded prizes.
 
 Watch the keynote & opening ceremony by Katka and Pavol below. More videos from the stream coming soon. Hope to see you at Hack Kosice 2021!
 

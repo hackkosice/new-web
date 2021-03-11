@@ -4,10 +4,11 @@ date: 2020-03-12T11:46:13+00:00
 description: Official statement regarding Coronavirus. Due to Covid-19, Hack Kosice 2020 is rescheduled to 5–6 September 2020.
 aliases:
   - /corona/
+  - /hk20/corona-official-reschedule/
 menu:
   main:
     name: Coronavirus statement
-    parent: hk20
+    parent: hackathon
     weight: 50
 draft: true
 ---

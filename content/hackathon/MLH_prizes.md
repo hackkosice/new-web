@@ -2,10 +2,13 @@
 title: MLH Prizes
 date: 2020-08-15T11:46:13+00:00
 description: Prizes for Hackers available by MLH
+url: mlh-prizes
+aliases:
+  - /hk20/mlh_prizes
 menu:
   main:
     name: MLH Prizes
-    parent: hk20
+    parent: hackathon
     weight: 15
 use_sections: true
 

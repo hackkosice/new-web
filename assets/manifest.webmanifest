@@ -24,7 +24,7 @@
       "name": "Hack Kosice 2020",
       "short_name": "Hack Kosice 2020",
       "description": "A hackathon is a focused 24-hour event where students come together in small teams to share ideas and build something new and exciting, alongside a whole bunch of like-minded people.",
-      "url": "{{ `/hk20/` | relURL }}"
+      "url": "{{ `/hackathon/` | relURL }}"
     }
   ]
 }

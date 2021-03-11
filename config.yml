@@ -90,7 +90,7 @@ params:
 menu:
   main:
     - name: Hackathon
-      identifier: hk20
+      identifier: hackathon
       weight: 30
     - name: Activities
       identifier: opportunities

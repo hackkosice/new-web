@@ -31,7 +31,7 @@ timeline:
     - title: "Hack Kosice 2020 - September 2020"
       button:
           label: More info
-          link: /hk20/
+          link: /hackathon/
       image: "images/events/hk2020.JPG"
       content: "Hack Kosice 2020 took place on 5—6 September 2020 as an online hackathon, where hackers benefited from workshops, mentoring from professionals, sponsors' challenges, and attractive prizes."
     - title: "Localhost Online: Github Workshop - Jun 2020"

@@ -14,7 +14,7 @@ homepage_banner:
     link: 'https://youtu.be/BIuhS1qvHjs'
   button2:
     label: Read more
-    link: /hk20
+    link: /hackathon
 
 thank_you_banner:
   bgImage: images/bg/marathon.png
@@ -48,7 +48,7 @@ homepage_cta:
   button:
     enable: true
     label: Read more
-    link: /hk20
+    link: /hackathon
 homepage_numbers:
   counterItem:
     - title: 'Sponsors'

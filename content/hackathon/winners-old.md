@@ -5,7 +5,7 @@ description: Winners of HK20
 menu:
   main:
     name: Winners
-    parent: hk20
+    parent: hackathon
     weight: 19
 use_sections: true
 draft: true

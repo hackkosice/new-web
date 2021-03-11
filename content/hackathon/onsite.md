@@ -1,10 +1,12 @@
 ---
 title: On-site Hackers
 date: 2020-07-06T11:46:13+00:00
+aliases:
+  - /hk20/onsite/
 menu:
   main:
     weight: 30
-    parent: hk20
+    parent: hackathon
 use_sections: true
 draft: true
 
