@@ -6,6 +6,7 @@ menu:
   main:
     name: Press
     weight: 60
+    parent: about
   footer1:
     weight: 30
 use_sections: true

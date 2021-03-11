@@ -89,15 +89,18 @@ params:
       link: 'https://www.facebook.com/hackkosice/'
 menu:
   main:
+    - name: HK Marathon
+      identifier: hkmarathon
+      weight: 20
     - name: Hackathon
       identifier: hackathon
       weight: 30
     - name: Activities
       identifier: opportunities
       weight: 50
-    - name: HK Marathon
-      identifier: hkmarathon
-      weight: 20
+    - name: About
+      identifier: about
+      weight: 70
   #footer1:
     #- name: Page
     #  URL: page
