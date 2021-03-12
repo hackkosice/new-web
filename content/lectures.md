@@ -159,16 +159,16 @@ prednasajuci:
 counter1:
   counterItem:
     - title: Škôl
-      count: "5"
+      count: "10"
       unit: ""
     - title: IT komunít
       count: "6"
       unit: ""
     - title: Prednášok
-      count: "31"
+      count: "60"
       unit: ""
     - title: Účasť študentov
-      count: "1880"
+      count: "2800"
       unit: "+"
 testimonial1:
   title: Čo o nás hovoria?
