@@ -481,7 +481,7 @@
 <!-- /pricing -->
 
 <!-- services -->
-{{- else if eq $type "services" -}}
+{{- else if or (eq $type "services") (eq $type "lectures") -}}
 {{- $services_img_format := "640x360 q60 jpg" -}}
 {{- $numbering := or (not (isset . "numbering")) (.numbering) -}}
 <section class="section"{{ with .id }} id="{{ . }}"{{ end }}>
@@ -503,11 +503,15 @@
                     {{ if $numbering }}
                     <span class="text-color font-weight-bold">{{if lt $index 9}}0{{end}}{{$.Scratch.Get `counter`}}</span>&nbsp;
                     {{ end }}
-                    {{ partial "badges.html" $element }}
+                    {{ partial "badges.html" $element.badges }}
                     <h3 class="text-md mb-4 mt-2">{{ .title | markdownify }}</h3>
                     <div class="content">{{ .content | markdownify }}</div>
                     {{ with .button }}
                     <a href="{{ .link | relURL }}" class="btn btn-solid-border mt-2">{{ .label }} <i class="ti-angle-right ml-2"></i></a>
+                    {{ end }}
+                    {{ if eq $type "lectures" }}
+                    {{ $url := printf "https://hackslovakia.typeform.com/to/tLOviLF0#topic=%s&skip_topic=1" (.title | safeURL) }}
+                    <a href="{{ $url }}" data-mode="popup" data-size="80" class="btn btn-solid-border typeform-share button mt-4">Mám záujem <i class="ti-angle-right ml-2"></i></a>
                     {{ end }}
                 </div>
             </div>
@@ -544,7 +548,7 @@
                     {{ if $numbering }}
                     <span class="text-color font-weight-bold">{{if lt $index 9}}0{{end}}{{$.Scratch.Get `counter`}}</span>&nbsp;
                     {{ end }}
-                    {{ partial "badges.html" $element }}
+                    {{ partial "badges.html" $element.badges }}
                     {{ if isset . "link" }}
                     <a href="{{ .link }}"><h3 class="text-md mb-4 mt-2">{{ .title | markdownify }}</h3></a>
                     {{ else }}
@@ -665,7 +669,7 @@
                 </div>
                 {{ with .button }}
                 <div class="col-lg-4">
-                    <a href="{{ if hasPrefix .link `mailto:` }}{{ .link }}{{ else }}{{ .link | relURL }}{{ end }}" class="btn btn-main btn-round-full float-lg-right">{{ .label }}</a>
+                    <a href="{{ if hasPrefix .link `mailto:` }}{{ .link }}{{ else }}{{ .link | relURL }}{{ end }}" class="btn btn-main btn-round-full float-lg-right{{ with .class }} {{ . }}{{ end }}"{{ with .attrs }} {{ . | safeHTMLAttr }}{{ end }}>{{ .label }}</a>
                 </div>
                 {{ end }}
             </div>

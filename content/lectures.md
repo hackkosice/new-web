@@ -184,11 +184,13 @@ testimonial1:
         content: Od študentov pre študentov? Hack Košice dáva stredoškolským študentom prístupným spôsobom možnosť nahliadnuť do zákulisia počítačových hier, do sveta počítačovej grafiky prepojeného s matematikou a modelovaním. Naši študenti sa dozvedeli viac nielen o svetle a tieni vo svojích obľúbených rolových hrách, ale i o ďalších problémoch riešených v informatike. Príležitosť klásť otázky, dostať zrozumiteľné odpovede a motivovať (sa) k informatike. Odporúčam!
 mam_zaujem:
   subtitle: Máte záujem o prednášku pre Vašich študentov?
-  title: Napíšte nám Vaše preferencie — sme flexibilní!
+  title: Dajte nám vedieť Vaše preferencie — sme flexibilní!
   button:
     enable: true
     label: Mám záujem
-    link: "mailto:lectures@hackslovakia.com?subject=Z%C3%A1ujem%20o%20predn%C3%A1%C5%A1ku&body=Dobr%C3%BD%20de%C5%88%2C%0D%0A%0D%0AM%C3%A1m%20z%C3%A1ujem%20o%20predn%C3%A1%C5%A1ku%20...%20pre%20%C5%BEiakov%20mojej%20triedy.%20Vyhovoval%20by%20v%C3%A1m%20term%C3%ADn%20...%3F"
+    class: typeform-share button
+    attrs: 'data-mode="popup" data-size="80"'
+    link: https://form.typeform.com/to/tLOviLF0?typeform-medium=embed-snippet
 ---
 
 {{< section class="pb-0" >}}
@@ -205,9 +207,11 @@ Snažíme sa zvýšiť záujem o informačné technológie medzi mladými ľuďm
 Prednášame vždy **naživo**, s možnosťou kladenia otázok alebo prispôsobenia pre danú skupinu.
 {{< /section >}}
 
-{{< section type="services" config="prednasky" / >}}
+{{< section type="lectures" config="prednasky" / >}}
 
 {{< section type="smallcta" config="mam_zaujem" id="contact" / >}}
+
+<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 {{< section type="testimonial" config="testimonial1" id="feedback" / >}}
 
