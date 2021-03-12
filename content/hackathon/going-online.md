@@ -3,12 +3,6 @@ title: "Hack Kosice: Official statement regarding the organisation of HK20"
 description: "The Hack Kosice organising team has opted for changing the way in which the event is going to be held, and thus to **cancel all on-site participation** in the premises provided by the organiser."
 aliases:
   - /hk20/going-online/
-menu:
-  main:
-    parent: hackathon
-    name: Going online
-    weight: 16
-draft: true
 ---
 # Hack Kosice: Official statement regarding the organisation of HK20
 

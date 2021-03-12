@@ -5,12 +5,6 @@ description: Official statement regarding Coronavirus. Due to Covid-19, Hack Kos
 aliases:
   - /corona/
   - /hk20/corona-official-reschedule/
-menu:
-  main:
-    name: Coronavirus statement
-    parent: hackathon
-    weight: 50
-draft: true
 ---
 
 # Official statement regarding Coronavirus
