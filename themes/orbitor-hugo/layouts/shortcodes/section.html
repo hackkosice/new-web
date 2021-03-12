@@ -511,7 +511,7 @@
                     {{ end }}
                     {{ if eq $type "lectures" }}
                     {{ $url := printf "https://hackslovakia.typeform.com/to/tLOviLF0#topic=%s&skip_topic=1" (.title | safeURL) }}
-                    <a href="{{ $url }}" data-mode="popup" data-size="80" class="btn btn-solid-border typeform-share button mt-2">Mám záujem <i class="ti-angle-right ml-2"></i></a>
+                    <a href="{{ $url }}" data-mode="popup" data-size="80" class="btn btn-solid-border typeform-share button mt-4">Mám záujem <i class="ti-angle-right ml-2"></i></a>
                     {{ end }}
                 </div>
             </div>

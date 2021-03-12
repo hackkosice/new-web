@@ -184,7 +184,7 @@ testimonial1:
         content: Od študentov pre študentov? Hack Košice dáva stredoškolským študentom prístupným spôsobom možnosť nahliadnuť do zákulisia počítačových hier, do sveta počítačovej grafiky prepojeného s matematikou a modelovaním. Naši študenti sa dozvedeli viac nielen o svetle a tieni vo svojích obľúbených rolových hrách, ale i o ďalších problémoch riešených v informatike. Príležitosť klásť otázky, dostať zrozumiteľné odpovede a motivovať (sa) k informatike. Odporúčam!
 mam_zaujem:
   subtitle: Máte záujem o prednášku pre Vašich študentov?
-  title: Napíšte nám Vaše preferencie — sme flexibilní!
+  title: Dajte nám vedieť Vaše preferencie — sme flexibilní!
   button:
     enable: true
     label: Mám záujem
